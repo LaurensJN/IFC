@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCableCarrierFittingType" Name="IfcCableCarrierFittingType" UniqueId="fd9b5bec-e42a-4c5e-bc8a-bd72ae76b43a" BaseDefinition="IfcFlowFittingType" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCableCarrierFittingType" Name="IfcCableCarrierFittingType" UniqueId="fd9b5bec-e42a-4c5e-bc8a-bd72ae76b43a" DiagramNumber="0" BaseDefinition="IfcFlowFittingType" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Kabelträger Passstück - Typ" />
-		<DocLocalization Locale="en" Name="Cable Carrier Fitting Type" />
-		<DocLocalization Locale="fr" Name="Type de raccord de chemin de cable" />
+		<DocLocalization Name="Kabelträger Passstück - Typ" Locale="de" />
+		<DocLocalization Name="Cable Carrier Fitting Type" Locale="en" />
+		<DocLocalization Name="Type de raccord de chemin de cable" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="8608a724-6294-4993-ac2b-b30f39f1853a" DefinedType="IfcCableCarrierFittingTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="8608a724-6294-4993-ac2b-b30f39f1853a" DefinedType="IfcCableCarrierFittingTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of cable carrier fitting from which the type required may be set.</Documentation>
 		</DocAttribute>
 	</Attributes>

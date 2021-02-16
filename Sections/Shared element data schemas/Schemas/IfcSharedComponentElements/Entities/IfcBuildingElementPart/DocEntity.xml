@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcBuildingElementPart" Name="IfcBuildingElementPart" UniqueId="a8383055-66b2-4dac-abe1-98562ba38cad" BaseDefinition="IfcElementComponent" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcBuildingElementPart" Name="IfcBuildingElementPart" UniqueId="a8383055-66b2-4dac-abe1-98562ba38cad" DiagramNumber="0" BaseDefinition="IfcElementComponent" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Teil eines Bauelements" />
-		<DocLocalization Locale="en" Name="Building Element Part" />
-		<DocLocalization Locale="fr" Name="Partie d&apos;élément de construction" />
+		<DocLocalization Name="Teil eines Bauelements" Locale="de" />
+		<DocLocalization Name="Building Element Part" Locale="en" />
+		<DocLocalization Name="Partie d&apos;élément de construction" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="0da05a86-fc94-4001-9141-3943065bd488" DefinedType="IfcBuildingElementPartTypeEnum" AttributeFlags="1">
+		<DocAttribute Name="PredefinedType" UniqueId="0da05a86-fc94-4001-9141-3943065bd488" DefinedType="IfcBuildingElementPartTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Subtype of building element part</Documentation>
 		</DocAttribute>
 	</Attributes>

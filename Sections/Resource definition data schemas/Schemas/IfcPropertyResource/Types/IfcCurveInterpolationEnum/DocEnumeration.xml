@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCurveInterpolationEnum" UniqueId="82eff39a-1dbe-47cb-8a8e-e93780baede4">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCurveInterpolationEnum" UniqueId="82eff39a-1dbe-47cb-8a8e-e93780baede4" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Curve Interpolation Enum" />
+		<DocLocalization Name="Curve Interpolation Enum" Locale="en" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="LINEAR_2GSx_kvJPBLwTwHPo1YBQA" />

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCrewResourceType" UniqueId="7036c849-da9d-45cc-b0e7-a07e7e66f2c5" BaseDefinition="IfcConstructionResourceType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCrewResourceType" UniqueId="7036c849-da9d-45cc-b0e7-a07e7e66f2c5" DiagramNumber="0" BaseDefinition="IfcConstructionResourceType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Mannschaft - Ressource -Typ" />
-		<DocLocalization Locale="en" Name="Crew Resource Type" />
-		<DocLocalization Locale="fr" Name="Équipe type" />
+		<DocLocalization Name="Mannschaft - Ressource -Typ" Locale="de" />
+		<DocLocalization Name="Crew Resource Type" Locale="en" />
+		<DocLocalization Name="Équipe type" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="f9939f7c-0af4-4687-a908-5b65c54becdd" DefinedType="IfcCrewResourceTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="f9939f7c-0af4-4687-a908-5b65c54becdd" DefinedType="IfcCrewResourceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines types of crew resources.</Documentation>
 		</DocAttribute>
 	</Attributes>

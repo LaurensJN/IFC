@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcArbitraryClosedProfileDef" Name="IfcArbitraryClosedProfileDef" UniqueId="b6ccca8d-998a-47ed-beac-ef1b44ee5681" BaseDefinition="IfcProfileDef" EntityFlags="109">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcArbitraryClosedProfileDef" Name="IfcArbitraryClosedProfileDef" UniqueId="b6ccca8d-998a-47ed-beac-ef1b44ee5681" DiagramNumber="0" BaseDefinition="IfcProfileDef" EntityFlags="109">
 	<Localization>
-		<DocLocalization Locale="de" Name="Beliebiges geschlossenes Profil" />
-		<DocLocalization Locale="en" Name="Arbitrary Closed Profile Def" />
+		<DocLocalization Name="Beliebiges geschlossenes Profil" Locale="de" />
+		<DocLocalization Name="Arbitrary Closed Profile Def" Locale="en" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="e1f99bb3-d228-419d-bcce-0238b78e97b3" DefinedType="IfcArbitraryProfileDefWithVoids" />
 	</Subtypes>
 	<Attributes>
-		<DocAttribute Name="OuterCurve" UniqueId="e5eb7078-ed29-401a-9e78-e38beec339ff" DefinedType="IfcCurve" XsdFormat="attribute">
+		<DocAttribute Name="OuterCurve" UniqueId="e5eb7078-ed29-401a-9e78-e38beec339ff" DefinedType="IfcCurve" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Bounded curve, defining the outer boundaries of the arbitrary profile.</Documentation>
 		</DocAttribute>
 	</Attributes>

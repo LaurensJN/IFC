@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPropertySetTemplateTypeEnum" UniqueId="5b947aef-6aa0-4445-9aa5-684518845381">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPropertySetTemplateTypeEnum" UniqueId="5b947aef-6aa0-4445-9aa5-684518845381" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Property Set Template Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types de modèles d&apos;ensemble de propriétés" />
+		<DocLocalization Name="Property Set Template Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types de modèles d&apos;ensemble de propriétés" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="PSET_TYPEDRIVENONLY_1zwRY5KoT0sPJbI3j7VXoP" />

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcTank" Name="IfcTank" UniqueId="a051ae7f-8748-40a4-a7d2-2cd6a659406f" BaseDefinition="IfcFlowStorageDevice" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcTank" Name="IfcTank" UniqueId="a051ae7f-8748-40a4-a7d2-2cd6a659406f" DiagramNumber="0" BaseDefinition="IfcFlowStorageDevice" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Tank" />
-		<DocLocalization Locale="en" Name="Tank" />
-		<DocLocalization Locale="fr" Name="Réservoir" />
+		<DocLocalization Name="Tank" Locale="de" />
+		<DocLocalization Name="Tank" Locale="en" />
+		<DocLocalization Name="Réservoir" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="f72593a9-0a21-4bed-8743-9c8717769b22" DefinedType="IfcTankTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="f72593a9-0a21-4bed-8743-9c8717769b22" DefinedType="IfcTankTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="d851363d-3820-45d7-8ae2-5c7957c21159">

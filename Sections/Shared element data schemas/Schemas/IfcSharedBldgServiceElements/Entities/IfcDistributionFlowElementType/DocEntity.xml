@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcDistributionFlowElementType" Name="IfcDistributionFlowElementType" UniqueId="958382a6-f56d-4656-9abf-92cc96713ddf" BaseDefinition="IfcDistributionElementType" EntityFlags="197">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcDistributionFlowElementType" Name="IfcDistributionFlowElementType" UniqueId="958382a6-f56d-4656-9abf-92cc96713ddf" DiagramNumber="0" BaseDefinition="IfcDistributionElementType" EntityFlags="197">
 	<Localization>
-		<DocLocalization Locale="de" Name="Komponente der TGA (allgemein) - Typ" />
-		<DocLocalization Locale="en" Name="Distribution Flow Element Type" />
-		<DocLocalization Locale="fr" Name="Type d&apos;élément de distribution de fluide" />
+		<DocLocalization Name="Komponente der TGA (allgemein) - Typ" Locale="de" />
+		<DocLocalization Name="Distribution Flow Element Type" Locale="en" />
+		<DocLocalization Name="Type d&apos;élément de distribution de fluide" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="3226a59d-400b-4723-976e-39b5ace2aeea" DefinedType="IfcEnergyConversionDeviceType" />

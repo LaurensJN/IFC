@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBuildingElementProxyTypeEnum" UniqueId="285d2b07-b180-4d18-ba6a-69a51dd78d58">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBuildingElementProxyTypeEnum" UniqueId="285d2b07-b180-4d18-ba6a-69a51dd78d58" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Building Element Proxy Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types d&apos;éléments de construction non définis" />
+		<DocLocalization Name="Building Element Proxy Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types d&apos;éléments de construction non définis" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="COMPLEX_3anFklXRj86BhMEVsDqIdj" />

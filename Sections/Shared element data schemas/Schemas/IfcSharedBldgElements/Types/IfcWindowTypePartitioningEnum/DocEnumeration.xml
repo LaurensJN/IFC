@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcWindowTypePartitioningEnum" UniqueId="b6cac0a6-762e-4fab-8754-0e2d41c57ca8">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcWindowTypePartitioningEnum" UniqueId="b6cac0a6-762e-4fab-8754-0e2d41c57ca8" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Window Type Partitioning Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types de partitionnement de fenêtre" />
+		<DocLocalization Name="Window Type Partitioning Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types de partitionnement de fenêtre" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="SINGLE_PANEL_2neZ3k6XBeRXcPFURz_MD" />

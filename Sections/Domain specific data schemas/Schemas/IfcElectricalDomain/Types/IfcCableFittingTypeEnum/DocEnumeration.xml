@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCableFittingTypeEnum" UniqueId="97196d0d-007c-4660-a750-9cda011dc5f4">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCableFittingTypeEnum" UniqueId="97196d0d-007c-4660-a750-9cda011dc5f4" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Cable Fitting Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types de raccord de câble" />
+		<DocLocalization Name="Cable Fitting Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types de raccord de câble" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="CONNECTOR_3Sf3TXu416Sxe54l14mYnY" />

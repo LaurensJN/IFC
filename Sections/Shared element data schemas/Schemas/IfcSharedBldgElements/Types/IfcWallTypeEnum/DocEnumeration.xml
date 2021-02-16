@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcWallTypeEnum" UniqueId="b384b8f0-f9c1-4eb0-a556-e484db5ea995">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcWallTypeEnum" UniqueId="b384b8f0-f9c1-4eb0-a556-e484db5ea995" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Wall Type Enum" />
-		<DocLocalization Locale="fr" Name="Énumération des types de mur" />
+		<DocLocalization Name="Wall Type Enum" Locale="en" />
+		<DocLocalization Name="Énumération des types de mur" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="MOVABLE_0m9Nefemf3BPYNDeOvslGr" />

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDefinitionSelect" UniqueId="23a0d31c-8eba-40f5-a016-ec1962b3e7b5">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDefinitionSelect" UniqueId="23a0d31c-8eba-40f5-a016-ec1962b3e7b5" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Definition Select" />
-		<DocLocalization Locale="fr" Name="Sélection de définition" />
+		<DocLocalization Name="Definition Select" Locale="en" />
+		<DocLocalization Name="Sélection de définition" Locale="fr" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcObjectDefinition" UniqueId="18fd1a64-b372-4f17-8456-503b9c666c4e" />

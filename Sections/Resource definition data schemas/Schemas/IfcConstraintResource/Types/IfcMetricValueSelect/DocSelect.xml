@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMetricValueSelect" UniqueId="811ac9ba-e590-4255-9d68-1c9b72181e07">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMetricValueSelect" UniqueId="811ac9ba-e590-4255-9d68-1c9b72181e07" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Metric Value Select" />
-		<DocLocalization Locale="fr" Name="Sélection du type de valeur associé à une métrique" />
+		<DocLocalization Name="Metric Value Select" Locale="en" />
+		<DocLocalization Name="Sélection du type de valeur associé à une métrique" Locale="fr" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcMeasureWithUnit" UniqueId="99f1194a-05cc-4feb-b96c-7d15823dab12" />

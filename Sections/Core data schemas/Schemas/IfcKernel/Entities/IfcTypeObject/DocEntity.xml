@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcTypeObject" Name="IfcTypeObject" UniqueId="1d05673d-0b58-4733-862e-d6626abd1efb" BaseDefinition="IfcObjectDefinition" EntityFlags="237">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcTypeObject" Name="IfcTypeObject" UniqueId="1d05673d-0b58-4733-862e-d6626abd1efb" DiagramNumber="0" BaseDefinition="IfcObjectDefinition" EntityFlags="237">
 	<Localization>
-		<DocLocalization Locale="de" Name="Objekt (allgemein) - Typ" />
-		<DocLocalization Locale="en" Name="Type Object" />
-		<DocLocalization Locale="fr" Name="Définition d&apos;un type d&apos;objet type" />
+		<DocLocalization Name="Objekt (allgemein) - Typ" Locale="de" />
+		<DocLocalization Name="Type Object" Locale="en" />
+		<DocLocalization Name="Définition d&apos;un type d&apos;objet type" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="eb311362-23a8-451e-975a-d7313d037638" DefinedType="IfcTypeProduct" />
@@ -11,7 +11,7 @@
 		<DocSubtype UniqueId="41661549-d007-43f8-b89f-a67c030c428e" DefinedType="IfcTypeResource" />
 	</Subtypes>
 	<Attributes>
-		<DocAttribute Name="ApplicableOccurrence" UniqueId="e324aef5-b4aa-4e62-86f1-0c332beee624" DefinedType="IfcIdentifier" AttributeFlags="1">
+		<DocAttribute Name="ApplicableOccurrence" UniqueId="e324aef5-b4aa-4e62-86f1-0c332beee624" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The attribute optionally defines the data type of the occurrence object, to which the assigned type object can relate. If not present, no instruction is given to which occurrence object the type object is applicable. The following conventions are used:
 * The IFC entity name of the applicable occurrence using the IFC naming convention, CamelCase with IFC prefix
 * It can be optionally followed by the predefined type after the separator &quot;/&quot; (forward slash), using uppercase
@@ -19,12 +19,12 @@
 
 &gt; EXAMPLE Refering to a furniture as applicable occurrence entity would be expressed as &apos;IfcFurnishingElement&apos;, refering to a brace as applicable entity would be expressed as &apos;IfcMember/BRACE&apos;, refering to a wall and wall standard case would be expressed as &apos;IfcWall, IfcWallStandardCase&apos;.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="HasPropertySets" UniqueId="2513ab6d-af8f-4320-b951-1ce016a15208" DefinedType="IfcPropertySetDefinition" AttributeFlags="1" AggregationType="3" AggregationLower="1" AggregationUpper="0">
+		<DocAttribute Name="HasPropertySets" UniqueId="2513ab6d-af8f-4320-b951-1ce016a15208" DefinedType="IfcPropertySetDefinition" AttributeFlags="1" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>Set ~~list~~ of unique property sets, that are associated with the object type and are common to all object occurrences referring to this object type.
 { .change-ifc2x3}
 &gt; IFC2x3 CHANGE&amp;nbsp; The attribute aggregate type has been changed from LIST to SET.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="Types" UniqueId="b9f6a3c9-d5d6-4a7a-8d44-116f467fda32" DefinedType="IfcRelDefinesByType" AggregationType="3" AggregationLower="0" AggregationUpper="1" Inverse="RelatingType">
+		<DocAttribute Name="Types" UniqueId="b9f6a3c9-d5d6-4a7a-8d44-116f467fda32" DefinedType="IfcRelDefinesByType" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatingType">
 			<Documentation>Reference to the relationship IfcRelDefinedByType and thus to those occurrence objects, which are defined by this type.</Documentation>
 		</DocAttribute>
 	</Attributes>

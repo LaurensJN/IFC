@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBuildingSystemTypeEnum" UniqueId="8a8555b2-d8ec-4f31-bb13-c7e62d7326b9">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBuildingSystemTypeEnum" UniqueId="8a8555b2-d8ec-4f31-bb13-c7e62d7326b9" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Building System Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types de système" />
+		<DocLocalization Name="Building System Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types de système" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="FENESTRATION_2QETJRZ6P0G8P7HGcRHULe" />

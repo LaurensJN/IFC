@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSpaceBoundarySelect" UniqueId="cc318ddc-0c27-4935-a4ec-906d800385ba">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSpaceBoundarySelect" UniqueId="cc318ddc-0c27-4935-a4ec-906d800385ba" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Space Boundary Select" />
-		<DocLocalization Locale="fr" Name="Sélection de type de limite d&apos;espace" />
+		<DocLocalization Name="Space Boundary Select" Locale="en" />
+		<DocLocalization Name="Sélection de type de limite d&apos;espace" Locale="fr" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcSpace" UniqueId="d7ebf8c6-7be6-49a6-9425-ca35d560a0df" />

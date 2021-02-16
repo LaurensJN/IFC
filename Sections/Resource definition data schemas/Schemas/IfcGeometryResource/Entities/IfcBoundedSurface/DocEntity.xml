@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBoundedSurface" UniqueId="909fff33-8f74-4be4-83bc-536e4ed2404f" BaseDefinition="IfcSurface" EntityFlags="77">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBoundedSurface" UniqueId="909fff33-8f74-4be4-83bc-536e4ed2404f" DiagramNumber="0" BaseDefinition="IfcSurface" EntityFlags="77">
 	<Localization>
-		<DocLocalization Locale="de" Name="Begrenzte Oberfläche" />
-		<DocLocalization Locale="en" Name="Bounded Surface" />
-		<DocLocalization Locale="fr" Name="Surface englobée" />
+		<DocLocalization Name="Begrenzte Oberfläche" Locale="de" />
+		<DocLocalization Name="Bounded Surface" Locale="en" />
+		<DocLocalization Name="Surface englobée" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="55ea29ff-1a01-4254-859b-5418302953d2" DefinedType="IfcCurveBoundedPlane" />

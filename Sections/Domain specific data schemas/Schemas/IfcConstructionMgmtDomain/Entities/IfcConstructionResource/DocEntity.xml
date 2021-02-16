@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcConstructionResource" Name="IfcConstructionResource" UniqueId="8d7d96c2-5987-41a0-aa66-ab3c2f3443bf" BaseDefinition="IfcResource" EntityFlags="197">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcConstructionResource" Name="IfcConstructionResource" UniqueId="8d7d96c2-5987-41a0-aa66-ab3c2f3443bf" DiagramNumber="0" BaseDefinition="IfcResource" EntityFlags="197">
 	<Localization>
-		<DocLocalization Locale="de" Name="Konstruktion - Ressource" />
-		<DocLocalization Locale="en" Name="Construction Resource" />
-		<DocLocalization Locale="fr" Name="Ressource de construction" />
+		<DocLocalization Name="Konstruktion - Ressource" Locale="de" />
+		<DocLocalization Name="Construction Resource" Locale="en" />
+		<DocLocalization Name="Ressource de construction" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="f154a2f3-27e1-4dd1-bb1d-1a86812b3789" DefinedType="IfcConstructionEquipmentResource" />
@@ -14,19 +14,19 @@
 		<DocSubtype UniqueId="1a49d58f-f445-4289-9ce8-34bbc0dbefe6" DefinedType="IfcConstructionMaterialResource" />
 	</Subtypes>
 	<Attributes>
-		<DocAttribute Name="Usage" UniqueId="a310105d-c221-4f71-b051-9391d731cec8" DefinedType="IfcResourceTime" AttributeFlags="1" XsdFormat="attribute">
+		<DocAttribute Name="Usage" UniqueId="a310105d-c221-4f71-b051-9391d731cec8" DefinedType="IfcResourceTime" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Indicates the work, usage, and times scheduled and completed.  Some attributes on this object may have associated constraints or time series; see documentation of _IfcResourceTime_ for specific usage.  If the resource is nested, then certain values may be calculated based on the component resources as indicated at _IfcResourceTime_.
 
 { .change-ifc2x4}
 &gt; IFC4 CHANGE&amp;nbsp; New attribute.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="BaseCosts" UniqueId="c897428f-689a-4abb-9fb4-b5dffaf945e6" DefinedType="IfcAppliedValue" AttributeFlags="1" AggregationType="1" AggregationLower="1" AggregationUpper="0">
+		<DocAttribute Name="BaseCosts" UniqueId="c897428f-689a-4abb-9fb4-b5dffaf945e6" DefinedType="IfcAppliedValue" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>Indicates the unit costs for which accrued amounts should be calculated.  Such unit costs may be split into _Name_ designations (for example, &apos;Standard&apos;, &apos;Overtime&apos;), and may contain a hierarchy of cost values that apply at different dates (using _IfcCostValue.ApplicableDate_ and _IfcCostValue.FixedUntilDate_).
 
 { .change-ifc2x4}
 &gt; IFC4 CHANGE&amp;nbsp; New attribute.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="BaseQuantity" UniqueId="4da46f38-bb04-4ce9-88fb-8b7ca2c524a7" DefinedType="IfcPhysicalQuantity" AttributeFlags="1" XsdFormat="attribute">
+		<DocAttribute Name="BaseQuantity" UniqueId="4da46f38-bb04-4ce9-88fb-8b7ca2c524a7" DefinedType="IfcPhysicalQuantity" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Identifies the base quantity consumed of the resource relative to assignments.  
 
 For crew, labour, subcontract, and equipment resources, this refers to _IfcQuantityTime_.

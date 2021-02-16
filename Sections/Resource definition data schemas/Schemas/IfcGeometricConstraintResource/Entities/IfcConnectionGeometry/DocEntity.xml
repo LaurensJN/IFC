@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcConnectionGeometry" Name="IfcConnectionGeometry" UniqueId="bbccdc9f-9360-4171-b9a9-3e552ea7289a" EntityFlags="197">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcConnectionGeometry" Name="IfcConnectionGeometry" UniqueId="bbccdc9f-9360-4171-b9a9-3e552ea7289a" DiagramNumber="0" EntityFlags="197">
 	<Localization>
-		<DocLocalization Locale="de" Name="Verbindung - Geometrie" />
-		<DocLocalization Locale="en" Name="Connection Geometry" />
-		<DocLocalization Locale="fr" Name="Connexion géométrique" />
+		<DocLocalization Name="Verbindung - Geometrie" Locale="de" />
+		<DocLocalization Name="Connection Geometry" Locale="en" />
+		<DocLocalization Name="Connexion géométrique" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="ee7782a3-c614-4629-b90c-6965d7fbe418" DefinedType="IfcConnectionPointGeometry" />

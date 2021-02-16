@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProjectedCRS" UniqueId="03421a5b-09f0-4284-a397-06d83f4f7684" BaseDefinition="IfcCoordinateReferenceSystem" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProjectedCRS" UniqueId="03421a5b-09f0-4284-a397-06d83f4f7684" DiagramNumber="0" BaseDefinition="IfcCoordinateReferenceSystem" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Projiziertes Koordinatenreferenzsystem" />
-		<DocLocalization Locale="en" Name="Projected CRS" />
+		<DocLocalization Name="Projiziertes Koordinatenreferenzsystem" Locale="de" />
+		<DocLocalization Name="Projected CRS" Locale="en" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="MapProjection" UniqueId="9e324f9a-8d48-45d4-8936-f526297f87af" DefinedType="IfcIdentifier" AttributeFlags="1">
+		<DocAttribute Name="MapProjection" UniqueId="9e324f9a-8d48-45d4-8936-f526297f87af" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Name by which the map projection is identified.
 
 { .examples}
@@ -13,7 +13,7 @@
 &gt; * UTM
 &gt; * Gaus-Krueger</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="MapZone" UniqueId="599648d5-3488-4334-b78f-7d9a11dfccc4" DefinedType="IfcIdentifier" AttributeFlags="1">
+		<DocAttribute Name="MapZone" UniqueId="599648d5-3488-4334-b78f-7d9a11dfccc4" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Name by which the map zone, relating to the _MapProjection_, is identified. 
 
 { .examples}
@@ -21,7 +21,7 @@
 &gt; * for UTM, the zone number, like 32 for UTM32
 &gt; * for Gaus-Krueger, the zones of longitudinal width, like 3&apos;</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="MapUnit" UniqueId="410d199b-4a2e-4c82-ac10-3f9869d7da99" DefinedType="IfcNamedUnit" AttributeFlags="1" XsdFormat="attribute">
+		<DocAttribute Name="MapUnit" UniqueId="410d199b-4a2e-4c82-ac10-3f9869d7da99" DefinedType="IfcNamedUnit" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Unit of the coordinate axes composing the map coordinate system.
 &gt; NOTE&amp;nbsp; Only length measures are in scope and all two or three axes of the map coordinate system shall have the same length unit.</Documentation>
 		</DocAttribute>

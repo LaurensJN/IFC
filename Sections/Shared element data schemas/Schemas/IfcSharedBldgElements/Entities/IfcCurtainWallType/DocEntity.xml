@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCurtainWallType" Name="IfcCurtainWallType" UniqueId="668a688f-c24c-4c94-8950-a3a03b3a8bfc" BaseDefinition="IfcBuildingElementType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCurtainWallType" Name="IfcCurtainWallType" UniqueId="668a688f-c24c-4c94-8950-a3a03b3a8bfc" DiagramNumber="0" BaseDefinition="IfcBuildingElementType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Vorhangfassade - Typ" />
-		<DocLocalization Locale="en" Name="Curtain Wall Type" />
-		<DocLocalization Locale="fr" Name="Type de mur rideau" />
+		<DocLocalization Name="Vorhangfassade - Typ" Locale="de" />
+		<DocLocalization Name="Curtain Wall Type" Locale="en" />
+		<DocLocalization Name="Type de mur rideau" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="db5825ed-e082-45c7-b97b-65c1a5dc462e" DefinedType="IfcCurtainWallTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="db5825ed-e082-45c7-b97b-65c1a5dc462e" DefinedType="IfcCurtainWallTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a curtain wall element from which the type required may be set.</Documentation>
 		</DocAttribute>
 	</Attributes>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcWorkPlan" Name="IfcWorkPlan" UniqueId="1802d7e1-8d28-4916-80dd-a5f0a21f588b" BaseDefinition="IfcWorkControl" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcWorkPlan" Name="IfcWorkPlan" UniqueId="1802d7e1-8d28-4916-80dd-a5f0a21f588b" DiagramNumber="0" BaseDefinition="IfcWorkControl" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Arbeitsplan" />
-		<DocLocalization Locale="en" Name="Work Plan" />
-		<DocLocalization Locale="fr" Name="Planning de travail" />
+		<DocLocalization Name="Arbeitsplan" Locale="de" />
+		<DocLocalization Name="Work Plan" Locale="en" />
+		<DocLocalization Name="Planning de travail" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="d78ca6cb-0dfb-4ca5-acbb-8dd5ea6f5a0e" DefinedType="IfcWorkPlanTypeEnum" AttributeFlags="1">
+		<DocAttribute Name="PredefinedType" UniqueId="d78ca6cb-0dfb-4ca5-acbb-8dd5ea6f5a0e" DefinedType="IfcWorkPlanTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a work plan from which 
     the type required may be set.</Documentation>
 		</DocAttribute>

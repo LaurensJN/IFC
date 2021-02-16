@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcUnitaryControlElementType" UniqueId="60a3dc52-6b9a-4ad6-9d45-9ba50c6958e3" BaseDefinition="IfcDistributionControlElementType" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcUnitaryControlElementType" UniqueId="60a3dc52-6b9a-4ad6-9d45-9ba50c6958e3" DiagramNumber="0" BaseDefinition="IfcDistributionControlElementType" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Einheitsregler - Typ" />
-		<DocLocalization Locale="en" Name="Unitary Control Element Type" />
-		<DocLocalization Locale="fr" Name="Type d&apos;élément de contrôle unitaire" />
+		<DocLocalization Name="Einheitsregler - Typ" Locale="de" />
+		<DocLocalization Name="Unitary Control Element Type" Locale="en" />
+		<DocLocalization Name="Type d&apos;élément de contrôle unitaire" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="2f4bb150-03fc-4936-95e8-bab9df94e95c" DefinedType="IfcUnitaryControlElementTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="2f4bb150-03fc-4936-95e8-bab9df94e95c" DefinedType="IfcUnitaryControlElementTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of unitary control element from which the type required may be set.</Documentation>
 		</DocAttribute>
 	</Attributes>

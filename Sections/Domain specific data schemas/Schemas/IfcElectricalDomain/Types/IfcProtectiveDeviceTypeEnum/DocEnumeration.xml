@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProtectiveDeviceTypeEnum" UniqueId="e5e76080-c2b4-461b-80bc-d38dd823c6d6">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProtectiveDeviceTypeEnum" UniqueId="e5e76080-c2b4-461b-80bc-d38dd823c6d6" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Protective Device Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types d&apos;équipement de protection" />
+		<DocLocalization Name="Protective Device Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types d&apos;équipement de protection" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="CIRCUITBREAKER_0OH6cQcJn3CQa6GRZD8_Y" />

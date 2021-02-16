@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLinearStiffnessMeasure" UniqueId="60d0fa03-7b5a-48f1-80a8-a62b1cb46ae0" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLinearStiffnessMeasure" UniqueId="60d0fa03-7b5a-48f1-80a8-a62b1cb46ae0" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Linear Stiffness Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de rigidité linéaire" />
+		<DocLocalization Name="Linear Stiffness Measure" Locale="en" />
+		<DocLocalization Name="Mesure de rigidité linéaire" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

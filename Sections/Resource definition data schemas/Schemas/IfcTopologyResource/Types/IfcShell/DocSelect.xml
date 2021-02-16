@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcShell" UniqueId="1dbd79d8-8fe0-477d-a0a7-0459fddb841f">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcShell" UniqueId="1dbd79d8-8fe0-477d-a0a7-0459fddb841f" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="de" Name="Hülle" />
-		<DocLocalization Locale="en" Name="Shell" />
-		<DocLocalization Locale="fr" Name="Enveloppe" />
+		<DocLocalization Name="Hülle" Locale="de" />
+		<DocLocalization Name="Shell" Locale="en" />
+		<DocLocalization Name="Enveloppe" Locale="fr" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcClosedShell" UniqueId="1d4d9576-535d-40fd-9f7e-ac1c331febe2" />

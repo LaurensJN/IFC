@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcKnotType" UniqueId="2b6e31b8-b4bc-4e65-bed5-9cda3690f754">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcKnotType" UniqueId="2b6e31b8-b4bc-4e65-bed5-9cda3690f754" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Knot Type" />
-		<DocLocalization Locale="fr" Name="Type de nœud" />
+		<DocLocalization Name="Knot Type" Locale="en" />
+		<DocLocalization Name="Type de nœud" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="UNIFORM_KNOTS_06DG3GqJj7beaKu_m42mZM" />

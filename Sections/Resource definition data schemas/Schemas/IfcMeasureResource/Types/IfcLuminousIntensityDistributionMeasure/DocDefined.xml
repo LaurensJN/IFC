@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLuminousIntensityDistributionMeasure" UniqueId="558b8c36-b267-49ff-8168-369ba3ce9a42" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLuminousIntensityDistributionMeasure" UniqueId="558b8c36-b267-49ff-8168-369ba3ce9a42" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Luminous Intensity Distribution Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de la distribution de l&apos;intensité lumineuse" />
+		<DocLocalization Name="Luminous Intensity Distribution Measure" Locale="en" />
+		<DocLocalization Name="Mesure de la distribution de l&apos;intensité lumineuse" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

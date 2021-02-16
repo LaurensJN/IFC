@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcTendonAnchor" Name="IfcTendonAnchor" UniqueId="55cbca4f-814f-47b4-890b-000cd85993b7" BaseDefinition="IfcReinforcingElement" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcTendonAnchor" Name="IfcTendonAnchor" UniqueId="55cbca4f-814f-47b4-890b-000cd85993b7" DiagramNumber="0" BaseDefinition="IfcReinforcingElement" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Spanngliedanker" />
-		<DocLocalization Locale="en" Name="Tendon Anchor" />
-		<DocLocalization Locale="fr" Name="Ancrage" />
+		<DocLocalization Name="Spanngliedanker" Locale="de" />
+		<DocLocalization Name="Tendon Anchor" Locale="en" />
+		<DocLocalization Name="Ancrage" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="a8c7ef8a-9db8-4a89-9908-adcec769bb8f" DefinedType="IfcTendonAnchorTypeEnum" AttributeFlags="1">
+		<DocAttribute Name="PredefinedType" UniqueId="a8c7ef8a-9db8-4a89-9908-adcec769bb8f" DefinedType="IfcTendonAnchorTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Kind of tendon anchor.</Documentation>
 		</DocAttribute>
 	</Attributes>

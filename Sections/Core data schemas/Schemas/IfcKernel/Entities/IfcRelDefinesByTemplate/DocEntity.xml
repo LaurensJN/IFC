@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelDefinesByTemplate" UniqueId="8ee8ef7b-68ac-46bb-8c28-b6f508eeb0ab" BaseDefinition="IfcRelDefines" EntityFlags="237">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelDefinesByTemplate" UniqueId="8ee8ef7b-68ac-46bb-8c28-b6f508eeb0ab" DiagramNumber="0" BaseDefinition="IfcRelDefines" EntityFlags="237">
 	<Localization>
-		<DocLocalization Locale="de" Name="Definiert durch Vorlage - Relation">
+		<DocLocalization Name="Definiert durch Vorlage - Relation" Locale="de">
 			<Documentation>Relation zwischen einem Merkmal und dessen Definition / Schablone</Documentation>
 		</DocLocalization>
-		<DocLocalization Locale="en" Name="Rel Defines By Template" />
-		<DocLocalization Locale="fr" Name="Définition par modèle" />
+		<DocLocalization Name="Rel Defines By Template" Locale="en" />
+		<DocLocalization Name="Définition par modèle" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="RelatedPropertySets" UniqueId="9ab9894d-523d-414b-a825-be21439de42f" DefinedType="IfcPropertySetDefinition" AggregationType="3" AggregationLower="1" AggregationUpper="0">
+		<DocAttribute Name="RelatedPropertySets" UniqueId="9ab9894d-523d-414b-a825-be21439de42f" DefinedType="IfcPropertySetDefinition" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>One or many property sets or quantity sets that obtain their definitions from the single property set template.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="RelatingTemplate" UniqueId="56b4d519-a460-4476-b354-d80dcfeaed64" DefinedType="IfcPropertySetTemplate" XsdFormat="attribute">
+		<DocAttribute Name="RelatingTemplate" UniqueId="56b4d519-a460-4476-b354-d80dcfeaed64" DefinedType="IfcPropertySetTemplate" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Property set template that provides the common definition of related property sets.</Documentation>
 		</DocAttribute>
 	</Attributes>

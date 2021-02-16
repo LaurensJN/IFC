@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcTopologicalRepresentationItem" Name="IfcTopologicalRepresentationItem" UniqueId="b462c716-83fc-438a-b8ad-e04082530bab" BaseDefinition="IfcRepresentationItem" EntityFlags="69">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcTopologicalRepresentationItem" Name="IfcTopologicalRepresentationItem" UniqueId="b462c716-83fc-438a-b8ad-e04082530bab" DiagramNumber="0" BaseDefinition="IfcRepresentationItem" EntityFlags="69">
 	<Localization>
-		<DocLocalization Locale="de" Name="Topologische Repräsentation - Element" />
-		<DocLocalization Locale="en" Name="Topological Representation Item" />
-		<DocLocalization Locale="fr" Name="Item de représentation topologique" />
+		<DocLocalization Name="Topologische Repräsentation - Element" Locale="de" />
+		<DocLocalization Name="Topological Representation Item" Locale="en" />
+		<DocLocalization Name="Item de représentation topologique" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="92766244-758a-4dc8-813b-c0c8ed29527f" DefinedType="IfcConnectedFaceSet" />

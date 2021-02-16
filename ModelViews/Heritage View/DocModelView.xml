@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocModelView xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Heritage View" UniqueId="ade5c4e8-8d88-4fa5-80b9-ae522ca31e77">
+	<Exchanges>
+		<DocExchangeDefinition Name="Conservation Plan Exchange" UniqueId="f0435a27-f9ba-47f7-961c-95390f4e9680" />
+	</Exchanges>
+</DocModelView>
+

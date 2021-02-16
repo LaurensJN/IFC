@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProcedureType" UniqueId="a91157ae-e871-49c4-bbff-a0b9224d6a3a" Status="H" BaseDefinition="IfcTypeProcess" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProcedureType" UniqueId="a91157ae-e871-49c4-bbff-a0b9224d6a3a" Status="H" DiagramNumber="0" BaseDefinition="IfcTypeProcess" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Vorgehen - Typ" />
-		<DocLocalization Locale="en" Name="Procedure Type" />
-		<DocLocalization Locale="fr" Name="Type de procédure" />
+		<DocLocalization Name="Vorgehen - Typ" Locale="de" />
+		<DocLocalization Name="Procedure Type" Locale="en" />
+		<DocLocalization Name="Type de procédure" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="d373b84f-93fb-46fc-be52-d46907ae3f8b" DefinedType="IfcProcedureTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="d373b84f-93fb-46fc-be52-d46907ae3f8b" DefinedType="IfcProcedureTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a procedure from which 
     the type required may be set.</Documentation>
 		</DocAttribute>

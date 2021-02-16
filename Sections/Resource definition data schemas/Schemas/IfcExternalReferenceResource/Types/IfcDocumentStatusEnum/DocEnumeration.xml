@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDocumentStatusEnum" UniqueId="5da7ac6c-0494-4c97-9373-49698ac9372f">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDocumentStatusEnum" UniqueId="5da7ac6c-0494-4c97-9373-49698ac9372f" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Document Status Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des statuts de document" />
+		<DocLocalization Name="Document Status Enum" Locale="en" />
+		<DocLocalization Name="Enumération des statuts de document" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="DRAFT_3o5Mtfw1CEAE9QX4iEP54" />

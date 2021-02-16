@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSchedulingTime" UniqueId="b80d3213-eccf-4e8a-84a3-21c1381ff3cc" EntityFlags="197">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSchedulingTime" UniqueId="b80d3213-eccf-4e8a-84a3-21c1381ff3cc" DiagramNumber="0" EntityFlags="197">
 	<Localization>
-		<DocLocalization Locale="de" Name="Festgelegte Zeit" />
-		<DocLocalization Locale="en" Name="Scheduling Time" />
+		<DocLocalization Name="Festgelegte Zeit" Locale="de" />
+		<DocLocalization Name="Scheduling Time" Locale="en" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="55e767bc-024e-41b0-8023-bc93c8ae1295" DefinedType="IfcLagTime" />
@@ -12,14 +12,14 @@
 		<DocSubtype UniqueId="88f4971f-b850-4396-ba89-da94fb2b9a93" DefinedType="IfcWorkTime" />
 	</Subtypes>
 	<Attributes>
-		<DocAttribute Name="Name" UniqueId="9ce7ee5d-0c3d-4394-9ba0-4cd0ff38d925" DefinedType="IfcLabel" AttributeFlags="1">
+		<DocAttribute Name="Name" UniqueId="9ce7ee5d-0c3d-4394-9ba0-4cd0ff38d925" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Optional name for the time definition.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="DataOrigin" UniqueId="a82843cd-7cb9-4fac-b255-c3bf8dfcfcc1" DefinedType="IfcDataOriginEnum" AttributeFlags="1">
+		<DocAttribute Name="DataOrigin" UniqueId="a82843cd-7cb9-4fac-b255-c3bf8dfcfcc1" DefinedType="IfcDataOriginEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Specifies the origin of the scheduling time entity. It currently
     differentiates between predicted, simulated, measured, and user defined values.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="UserDefinedDataOrigin" UniqueId="9619b2c7-3037-4380-8c25-83f4ded0ab84" DefinedType="IfcLabel" AttributeFlags="1">
+		<DocAttribute Name="UserDefinedDataOrigin" UniqueId="9619b2c7-3037-4380-8c25-83f4ded0ab84" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Value of the data origin if DataOrigin attribute is USERDEFINED.</Documentation>
 		</DocAttribute>
 	</Attributes>

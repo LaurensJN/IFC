@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFurnishingElementType" Name="IfcFurnishingElementType" UniqueId="e90e5d98-6bfd-4367-a672-781c00f9651b" BaseDefinition="IfcElementType" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFurnishingElementType" Name="IfcFurnishingElementType" UniqueId="e90e5d98-6bfd-4367-a672-781c00f9651b" DiagramNumber="0" BaseDefinition="IfcElementType" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Ausstattung / Möbel - Typ" />
-		<DocLocalization Locale="en" Name="Furnishing Element Type" />
-		<DocLocalization Locale="fr" Name="Type d&apos;élément de mobilier" />
+		<DocLocalization Name="Ausstattung / Möbel - Typ" Locale="de" />
+		<DocLocalization Name="Furnishing Element Type" Locale="en" />
+		<DocLocalization Name="Type d&apos;élément de mobilier" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="0218fe69-2784-428d-a388-da732b468e09" DefinedType="IfcFurnitureType" />

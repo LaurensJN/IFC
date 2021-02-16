@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcConversionBasedUnitWithOffset" UniqueId="cadb7794-f1ab-4438-a35f-0ba4b280d962" BaseDefinition="IfcConversionBasedUnit" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcConversionBasedUnitWithOffset" UniqueId="cadb7794-f1ab-4438-a35f-0ba4b280d962" DiagramNumber="0" BaseDefinition="IfcConversionBasedUnit" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Auf Umrechnung basierte Einheit mit Abzug" />
-		<DocLocalization Locale="en" Name="Conversion Based Unit With Offset" />
-		<DocLocalization Locale="fr" Name="Unité basée sur une mesure avec unité et avec décalage" />
+		<DocLocalization Name="Auf Umrechnung basierte Einheit mit Abzug" Locale="de" />
+		<DocLocalization Name="Conversion Based Unit With Offset" Locale="en" />
+		<DocLocalization Name="Unité basée sur une mesure avec unité et avec décalage" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="ConversionOffset" UniqueId="ca7d00b4-28a4-4681-9281-b88a0635d93c" DefinedType="IfcReal">
+		<DocAttribute Name="ConversionOffset" UniqueId="ca7d00b4-28a4-4681-9281-b88a0635d93c" DefinedType="IfcReal" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>A positive or negative offset to add after the inherited _ConversionFactor_ was applied.</Documentation>
 		</DocAttribute>
 	</Attributes>

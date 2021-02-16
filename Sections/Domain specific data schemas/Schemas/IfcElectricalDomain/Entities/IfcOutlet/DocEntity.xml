@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcOutlet" Name="IfcOutlet" UniqueId="323a5119-6f96-4712-87e3-abaf2ac04b6f" BaseDefinition="IfcFlowTerminal" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcOutlet" Name="IfcOutlet" UniqueId="323a5119-6f96-4712-87e3-abaf2ac04b6f" DiagramNumber="0" BaseDefinition="IfcFlowTerminal" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Dose / Steckdose" />
-		<DocLocalization Locale="en" Name="Outlet" />
-		<DocLocalization Locale="fr" Name="Prise" />
+		<DocLocalization Name="Dose / Steckdose" Locale="de" />
+		<DocLocalization Name="Outlet" Locale="en" />
+		<DocLocalization Name="Prise" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="2cebd4c7-66f7-413f-9775-7bd96039018c" DefinedType="IfcOutletTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="2cebd4c7-66f7-413f-9775-7bd96039018c" DefinedType="IfcOutletTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="c3f8b907-b0d4-424b-b85b-cad4570671df">

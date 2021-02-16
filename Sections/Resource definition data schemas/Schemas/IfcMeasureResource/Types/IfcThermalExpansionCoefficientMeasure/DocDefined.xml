@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcThermalExpansionCoefficientMeasure" UniqueId="c575618b-fda7-4225-b4f3-a4f09588b208" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcThermalExpansionCoefficientMeasure" UniqueId="c575618b-fda7-4225-b4f3-a4f09588b208" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Thermal Expansion Coefficient Measure" />
-		<DocLocalization Locale="fr" Name="Mesure du cefficient de dilatation thermique" />
+		<DocLocalization Name="Thermal Expansion Coefficient Measure" Locale="en" />
+		<DocLocalization Name="Mesure du cefficient de dilatation thermique" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

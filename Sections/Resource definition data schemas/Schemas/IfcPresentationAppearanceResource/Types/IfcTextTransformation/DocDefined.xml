@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextTransformation" UniqueId="fa000009-bbfe-4524-a950-af6866dcecb9" DefinedType="STRING">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextTransformation" UniqueId="fa000009-bbfe-4524-a950-af6866dcecb9" DiagramNumber="0" DefinedType="STRING" Length="0">
 	<Localization>
-		<DocLocalization Locale="de" Name="Texttransformation" />
-		<DocLocalization Locale="en" Name="Text Transformation" />
-		<DocLocalization Locale="fr" Name="Transformation de texte" />
+		<DocLocalization Name="Texttransformation" Locale="de" />
+		<DocLocalization Name="Text Transformation" Locale="en" />
+		<DocLocalization Name="Transformation de texte" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_3ynilg4C96p9BjwFj6UaHw" />
 	<WhereRules>

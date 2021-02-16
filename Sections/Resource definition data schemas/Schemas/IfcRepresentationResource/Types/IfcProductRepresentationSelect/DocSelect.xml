@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProductRepresentationSelect" UniqueId="e5bcd5ae-717f-4573-a891-2aef251798c3">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProductRepresentationSelect" UniqueId="e5bcd5ae-717f-4573-a891-2aef251798c3" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Product Representation Select" />
-		<DocLocalization Locale="fr" Name="Sélection de la représentation du produit" />
+		<DocLocalization Name="Product Representation Select" Locale="en" />
+		<DocLocalization Name="Sélection de la représentation du produit" Locale="fr" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcProductDefinitionShape" UniqueId="60d1bd91-b0b4-4855-bfdb-df538718924c" />

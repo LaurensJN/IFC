@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPermeableCoveringOperationEnum" UniqueId="9ba90fa0-a44e-4cad-aa35-3e34cd35f1da">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPermeableCoveringOperationEnum" UniqueId="9ba90fa0-a44e-4cad-aa35-3e34cd35f1da" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Permeable Covering Operation Enum" />
+		<DocLocalization Name="Permeable Covering Operation Enum" Locale="en" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="GRILL_0oxj9piD94MPkQLdJp7OIg" />

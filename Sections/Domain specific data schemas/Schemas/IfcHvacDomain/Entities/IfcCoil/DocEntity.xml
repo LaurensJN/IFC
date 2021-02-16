@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCoil" Name="IfcCoil" UniqueId="e4ba657e-5119-477a-adcc-96b3366a3658" BaseDefinition="IfcEnergyConversionDevice" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCoil" Name="IfcCoil" UniqueId="e4ba657e-5119-477a-adcc-96b3366a3658" DiagramNumber="0" BaseDefinition="IfcEnergyConversionDevice" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Heiz-Kühlelemente" />
-		<DocLocalization Locale="en" Name="Coil" />
-		<DocLocalization Locale="fr" Name="Bobine" />
+		<DocLocalization Name="Heiz-Kühlelemente" Locale="de" />
+		<DocLocalization Name="Coil" Locale="en" />
+		<DocLocalization Name="Bobine" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="4dc322cc-b46e-4816-bd8c-e6ef53a51ed6" DefinedType="IfcCoilTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="4dc322cc-b46e-4816-bd8c-e6ef53a51ed6" DefinedType="IfcCoilTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="b1feac7f-1553-45a3-be60-731f2df7b303">

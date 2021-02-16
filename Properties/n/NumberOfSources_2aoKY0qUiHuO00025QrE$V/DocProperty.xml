@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="NumberOfSources_2aoKY0qUiHuO00025QrEV" Name="NumberOfSources" UniqueId="2aoKY0qUiHuO00025QrE$V" PrimaryDataType="IfcInteger">
 	<Localization>
-		<DocLocalization Locale="en" Name="Number Of Sources" />
-		<DocLocalization Locale="ja-JP" Name="電球数">
+		<DocLocalization Name="Number Of Sources" Locale="en" />
+		<DocLocalization Name="電球数" Locale="ja-JP">
 			<Documentation>電球数。</Documentation>
 		</DocLocalization>
-		<DocLocalization Locale="ko-KR" Name="전구수">
+		<DocLocalization Name="전구수" Locale="ko-KR">
 			<Documentation>전구수</Documentation>
 		</DocLocalization>
 	</Localization>

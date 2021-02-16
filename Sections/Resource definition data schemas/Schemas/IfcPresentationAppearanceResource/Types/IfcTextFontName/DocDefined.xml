@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextFontName" UniqueId="35803e05-3697-4be5-ac82-04eda1b4f43b" DefinedType="STRING">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextFontName" UniqueId="35803e05-3697-4be5-ac82-04eda1b4f43b" DiagramNumber="0" DefinedType="STRING" Length="0">
 	<Localization>
-		<DocLocalization Locale="de" Name="Schriftensatz - Bezeichnung" />
-		<DocLocalization Locale="en" Name="Text Font Name" />
-		<DocLocalization Locale="fr" Name="Nom de police de caractères" />
+		<DocLocalization Name="Schriftensatz - Bezeichnung" Locale="de" />
+		<DocLocalization Name="Text Font Name" Locale="en" />
+		<DocLocalization Name="Nom de police de caractères" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_3ynilg4C96p9BjwFj6UaHw" />
 </DocDefined>

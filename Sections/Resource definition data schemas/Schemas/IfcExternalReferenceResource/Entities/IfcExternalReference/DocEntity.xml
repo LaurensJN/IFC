@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcExternalReference" Name="IfcExternalReference" UniqueId="89de2ef7-7bc1-4682-ac3b-f058ab404fad" EntityFlags="205">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcExternalReference" Name="IfcExternalReference" UniqueId="89de2ef7-7bc1-4682-ac3b-f058ab404fad" DiagramNumber="0" EntityFlags="205">
 	<Localization>
-		<DocLocalization Locale="de" Name="Externer Bezug" />
-		<DocLocalization Locale="en" Name="External Reference" />
-		<DocLocalization Locale="fr" Name="Référence externe" />
+		<DocLocalization Name="Externer Bezug" Locale="de" />
+		<DocLocalization Name="External Reference" Locale="en" />
+		<DocLocalization Name="Référence externe" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="407b8c7f-d121-422f-9629-d4b05c133814" DefinedType="IfcLibraryReference" />
@@ -11,13 +11,13 @@
 		<DocSubtype UniqueId="23cfc837-f2be-48cc-b05d-540c1f352b82" DefinedType="IfcDocumentReference" />
 	</Subtypes>
 	<Attributes>
-		<DocAttribute Name="Location" UniqueId="d4dad48f-1dac-4cbb-99d0-7819c93da6c2" DefinedType="IfcURIReference" AttributeFlags="1">
+		<DocAttribute Name="Location" UniqueId="d4dad48f-1dac-4cbb-99d0-7819c93da6c2" DefinedType="IfcURIReference" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Location, where the external source (classification, document or library) can be accessed by electronic means. The electronic location is provided as an URI, and would normally be given as an URL location string.
 { .change-ifc2x4}
 &gt; IFC4 CHANGE&amp;nbsp; The data type has been changed from _IfcLabel_ to _IfcURIReference_  
 &gt; .</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="Identification" UniqueId="09ae4612-f2b3-4ae7-af75-4b0061f86545" DefinedType="IfcIdentifier" AttributeFlags="1">
+		<DocAttribute Name="Identification" UniqueId="09ae4612-f2b3-4ae7-af75-4b0061f86545" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The _Identification_ provides a unique identifier of the referenced item within the external source (classification, document or library). It may be provided as 
 * a key, e.g. a classification notation, like NF2.3
 * a handle
@@ -29,10 +29,10 @@ It may be human readable (such as a key) or not (such as a handle or uuid) depen
 &gt; IFC4 CHANGE Attribute renamed from _ItemReference_ for consistency.  
 &gt;</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="Name" UniqueId="7a104ce3-e53d-4544-bffa-c17f3be9adc3" DefinedType="IfcLabel" AttributeFlags="1">
+		<DocAttribute Name="Name" UniqueId="7a104ce3-e53d-4544-bffa-c17f3be9adc3" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Optional name to further specify the reference. It can provide a human readable identifier (which does not necessarily need to have a counterpart in the internal structure of the document).</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="ExternalReferenceForResources" UniqueId="52adb1da-05bd-4f8b-bd47-3c140643a153" DefinedType="IfcExternalReferenceRelationship" AggregationType="3" AggregationLower="0" AggregationUpper="0" Inverse="RelatingReference">
+		<DocAttribute Name="ExternalReferenceForResources" UniqueId="52adb1da-05bd-4f8b-bd47-3c140643a153" DefinedType="IfcExternalReferenceRelationship" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingReference">
 			<Documentation>Reference to all associations between this external reference and objects within the _IfcResourceObjectSelect_ that are tagged by the external reference.
 
 { .change-ifc2x4}

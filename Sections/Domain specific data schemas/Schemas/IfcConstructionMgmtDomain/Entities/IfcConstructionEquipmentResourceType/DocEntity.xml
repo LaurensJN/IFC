@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcConstructionEquipmentResourceType" UniqueId="0183b4f6-26f5-49bc-be00-a887d350340e" BaseDefinition="IfcConstructionResourceType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcConstructionEquipmentResourceType" UniqueId="0183b4f6-26f5-49bc-be00-a887d350340e" DiagramNumber="0" BaseDefinition="IfcConstructionResourceType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Baugerät - Ressource -Typ" />
-		<DocLocalization Locale="en" Name="Construction Equipment Resource Type" />
-		<DocLocalization Locale="fr" Name="Équipement type utilisé pour la construction" />
+		<DocLocalization Name="Baugerät - Ressource -Typ" Locale="de" />
+		<DocLocalization Name="Construction Equipment Resource Type" Locale="en" />
+		<DocLocalization Name="Équipement type utilisé pour la construction" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="99d4b03f-35f6-42c2-92ff-4620180871f2" DefinedType="IfcConstructionEquipmentResourceTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="99d4b03f-35f6-42c2-92ff-4620180871f2" DefinedType="IfcConstructionEquipmentResourceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines types of construction equipment resources.</Documentation>
 		</DocAttribute>
 	</Attributes>

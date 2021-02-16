@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcWindowStyleOperationEnum" UniqueId="a1d59ae5-c0a1-41f8-bba7-1fc78ba81d82">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcWindowStyleOperationEnum" UniqueId="a1d59ae5-c0a1-41f8-bba7-1fc78ba81d82" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Window Style Operation Enum" />
-		<DocLocalization Locale="fr" Name="Énumération du fonctionnement du style de fenêtre" />
+		<DocLocalization Name="Window Style Operation Enum" Locale="en" />
+		<DocLocalization Name="Énumération du fonctionnement du style de fenêtre" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="SINGLE_PANEL_2e4j3kC2r8z8vbsWKFSD6u" />

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcProtectiveDevice" Name="IfcProtectiveDevice" UniqueId="a1202643-3e89-4bf3-9677-82067cb12ecb" BaseDefinition="IfcFlowController" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcProtectiveDevice" Name="IfcProtectiveDevice" UniqueId="a1202643-3e89-4bf3-9677-82067cb12ecb" DiagramNumber="0" BaseDefinition="IfcFlowController" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Sicherung" />
-		<DocLocalization Locale="en" Name="Protective Device" />
-		<DocLocalization Locale="fr" Name="Équipement de protection" />
+		<DocLocalization Name="Sicherung" Locale="de" />
+		<DocLocalization Name="Protective Device" Locale="en" />
+		<DocLocalization Name="Équipement de protection" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="87de95f6-9b74-4313-b83f-99116ef9ec61" DefinedType="IfcProtectiveDeviceTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="87de95f6-9b74-4313-b83f-99116ef9ec61" DefinedType="IfcProtectiveDeviceTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="564506ef-4d69-44e2-9a76-9205635fdd8a">

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcEventTriggerTypeEnum" UniqueId="124151ad-f32d-49c7-a2d4-857740425699">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcEventTriggerTypeEnum" UniqueId="124151ad-f32d-49c7-a2d4-857740425699" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Event Trigger Type Enum" />
+		<DocLocalization Name="Event Trigger Type Enum" Locale="en" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="EVENTRULE_1LgpI9gzLDz8JfQNBsyNuJ" />

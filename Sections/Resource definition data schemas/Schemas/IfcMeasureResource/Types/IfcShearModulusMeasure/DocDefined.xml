@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcShearModulusMeasure" UniqueId="b50739ec-d20d-479a-b64c-f3a303b12749" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcShearModulusMeasure" UniqueId="b50739ec-d20d-479a-b64c-f3a303b12749" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Shear Modulus Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de module de rigidité" />
+		<DocLocalization Name="Shear Modulus Measure" Locale="en" />
+		<DocLocalization Name="Mesure de module de rigidité" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

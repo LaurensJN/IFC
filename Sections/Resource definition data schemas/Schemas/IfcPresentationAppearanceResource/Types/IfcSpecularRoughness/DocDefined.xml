@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSpecularRoughness" UniqueId="d719fcc3-76f8-4af4-8967-dfa4ab9c8ce9" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSpecularRoughness" UniqueId="d719fcc3-76f8-4af4-8967-dfa4ab9c8ce9" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Specular Roughness" />
-		<DocLocalization Locale="fr" Name="Rugosité pour le spéculaire" />
+		<DocLocalization Name="Specular Roughness" Locale="en" />
+		<DocLocalization Name="Rugosité pour le spéculaire" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 	<WhereRules>

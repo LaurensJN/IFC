@@ -4,7 +4,7 @@
 		<DocLocalization Locale="de-DE">
 			<Documentation>Basismengen für Öffnungen</Documentation>
 		</DocLocalization>
-		<DocLocalization Locale="en" Name="Projection Element Base Quantities" />
+		<DocLocalization Name="Projection Element Base Quantities" Locale="en" />
 	</Localization>
 	<Quantities>
 		<DocQuantity xsi:nil="true" href="Area_3oeSf80G93jhmlrcvCmdP" />

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTendonTypeEnum" UniqueId="a2a1bae2-820c-42dc-87ce-63af87f8b6a0">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTendonTypeEnum" UniqueId="a2a1bae2-820c-42dc-87ce-63af87f8b6a0" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Tendon Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types de cable" />
+		<DocLocalization Name="Tendon Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types de cable" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="BAR_2zxBlxM5T1jQkeH_WKg_j" />

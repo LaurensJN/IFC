@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMaterialSelect" UniqueId="a93907b4-ef59-4f01-b47a-6ca30ea1b3df">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMaterialSelect" UniqueId="a93907b4-ef59-4f01-b47a-6ca30ea1b3df" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Material Select" />
-		<DocLocalization Locale="fr" Name="Sélection de matériau" />
+		<DocLocalization Name="Material Select" Locale="en" />
+		<DocLocalization Name="Sélection de matériau" Locale="fr" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcMaterialUsageDefinition" UniqueId="21a9b8f6-0f76-4155-99db-aa5aa98159b4" />

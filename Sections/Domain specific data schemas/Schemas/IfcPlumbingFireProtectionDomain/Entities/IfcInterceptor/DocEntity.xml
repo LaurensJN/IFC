@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcInterceptor" Name="IfcInterceptor" UniqueId="e3d3bfe0-c86d-4073-9f99-8d5705ca829c" BaseDefinition="IfcFlowTreatmentDevice" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcInterceptor" Name="IfcInterceptor" UniqueId="e3d3bfe0-c86d-4073-9f99-8d5705ca829c" DiagramNumber="0" BaseDefinition="IfcFlowTreatmentDevice" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Abscheider" />
-		<DocLocalization Locale="en" Name="Interceptor" />
-		<DocLocalization Locale="fr" Name="Filtre" />
+		<DocLocalization Name="Abscheider" Locale="de" />
+		<DocLocalization Name="Interceptor" Locale="en" />
+		<DocLocalization Name="Filtre" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="56e98bc5-d9b1-41ef-ac13-f9517c351b31" DefinedType="IfcInterceptorTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="56e98bc5-d9b1-41ef-ac13-f9517c351b31" DefinedType="IfcInterceptorTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="d724b68f-145a-42aa-a230-759bc985d6dd">

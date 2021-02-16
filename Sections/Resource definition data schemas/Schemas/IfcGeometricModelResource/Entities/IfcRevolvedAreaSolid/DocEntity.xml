@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcRevolvedAreaSolid" Name="IfcRevolvedAreaSolid" UniqueId="81970f2f-c63e-4133-adaf-c74d522cb449" BaseDefinition="IfcSweptAreaSolid" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcRevolvedAreaSolid" Name="IfcRevolvedAreaSolid" UniqueId="81970f2f-c63e-4133-adaf-c74d522cb449" DiagramNumber="0" BaseDefinition="IfcSweptAreaSolid" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Festkörper - durch Rotation" />
-		<DocLocalization Locale="en" Name="Revolved Area Solid" />
-		<DocLocalization Locale="fr" Name="Solide de révolution surfacique" />
+		<DocLocalization Name="Festkörper - durch Rotation" Locale="de" />
+		<DocLocalization Name="Revolved Area Solid" Locale="en" />
+		<DocLocalization Name="Solide de révolution surfacique" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="9cebadad-f05d-4215-b76a-71d2fbc35c20" DefinedType="IfcRevolvedAreaSolidTapered" />
 	</Subtypes>
 	<Attributes>
-		<DocAttribute Name="Axis" UniqueId="7d721792-8d9e-4a49-84d2-65251bbed28a" DefinedType="IfcAxis1Placement" XsdFormat="attribute">
+		<DocAttribute Name="Axis" UniqueId="7d721792-8d9e-4a49-84d2-65251bbed28a" DefinedType="IfcAxis1Placement" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Axis about which revolution will take place.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="Angle" UniqueId="1119b572-18c2-4c9a-b4cf-e146b2426614" DefinedType="IfcPlaneAngleMeasure">
+		<DocAttribute Name="Angle" UniqueId="1119b572-18c2-4c9a-b4cf-e146b2426614" DefinedType="IfcPlaneAngleMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The angle through which the sweep will be made. This angle is measured from the plane of the swept area provided by the XY plane of the position coordinate system.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="AxisLine" UniqueId="c8f87731-68ac-44bc-a63b-6104dd6c713e" DefinedType="IfcLine">
+		<DocAttribute Name="AxisLine" UniqueId="c8f87731-68ac-44bc-a63b-6104dd6c713e" DefinedType="IfcLine" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The line of the axis of revolution.</Documentation>
 			<Derived>IfcRepresentationItem() || IfcGeometricRepresentationItem () || IfcCurve() || IfcLine(Axis.Location, 
   IfcRepresentationItem() || IfcGeometricRepresentationItem () || IfcVector(Axis.Z,1.0))</Derived>

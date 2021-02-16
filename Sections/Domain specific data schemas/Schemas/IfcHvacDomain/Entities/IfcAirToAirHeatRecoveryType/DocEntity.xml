@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcAirToAirHeatRecoveryType" Name="IfcAirToAirHeatRecoveryType" UniqueId="85f459a0-3831-4b34-b397-56bb368682cd" BaseDefinition="IfcEnergyConversionDeviceType" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcAirToAirHeatRecoveryType" Name="IfcAirToAirHeatRecoveryType" UniqueId="85f459a0-3831-4b34-b397-56bb368682cd" DiagramNumber="0" BaseDefinition="IfcEnergyConversionDeviceType" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Wärmerückgewinner - Typ" />
-		<DocLocalization Locale="en" Name="Air To Air Heat Recovery Type" />
-		<DocLocalization Locale="fr" Name="Type d&apos;échangeur air-air" />
+		<DocLocalization Name="Wärmerückgewinner - Typ" Locale="de" />
+		<DocLocalization Name="Air To Air Heat Recovery Type" Locale="en" />
+		<DocLocalization Name="Type d&apos;échangeur air-air" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="c4ddd349-e565-4ef2-94a5-74133269b028" DefinedType="IfcAirToAirHeatRecoveryTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="c4ddd349-e565-4ef2-94a5-74133269b028" DefinedType="IfcAirToAirHeatRecoveryTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines the type of air to air heat recovery device.</Documentation>
 		</DocAttribute>
 	</Attributes>

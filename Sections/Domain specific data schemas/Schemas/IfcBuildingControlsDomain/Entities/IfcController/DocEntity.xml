@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcController" Name="IfcController" UniqueId="7afb752b-f1c9-4813-83a7-ed6599f5cfa0" Status="H" BaseDefinition="IfcDistributionControlElement" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcController" Name="IfcController" UniqueId="7afb752b-f1c9-4813-83a7-ed6599f5cfa0" Status="H" DiagramNumber="0" BaseDefinition="IfcDistributionControlElement" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Regler" />
-		<DocLocalization Locale="en" Name="Controller" />
-		<DocLocalization Locale="fr" Name="Organe de contrôle" />
+		<DocLocalization Name="Regler" Locale="de" />
+		<DocLocalization Name="Controller" Locale="en" />
+		<DocLocalization Name="Organe de contrôle" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="08d1cfc4-3698-4d47-bf23-c6df04a69ff9" DefinedType="IfcControllerTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="08d1cfc4-3698-4d47-bf23-c6df04a69ff9" DefinedType="IfcControllerTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="08589cb0-43ff-4e6a-9d7e-cb449a00f20c">

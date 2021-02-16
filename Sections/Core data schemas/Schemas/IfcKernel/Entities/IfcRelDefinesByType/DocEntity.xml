@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcRelDefinesByType" Name="IfcRelDefinesByType" UniqueId="92a2c20b-4c2f-4ed2-a2f1-5d0591fa26b2" BaseDefinition="IfcRelDefines" EntityFlags="237">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcRelDefinesByType" Name="IfcRelDefinesByType" UniqueId="92a2c20b-4c2f-4ed2-a2f1-5d0591fa26b2" DiagramNumber="0" BaseDefinition="IfcRelDefines" EntityFlags="237">
 	<Localization>
-		<DocLocalization Locale="de" Name="Definiert durch Typ - Relation">
+		<DocLocalization Name="Definiert durch Typ - Relation" Locale="de">
 			<Documentation>Relation zwischen einem Objekt und dessen Typ</Documentation>
 		</DocLocalization>
-		<DocLocalization Locale="en" Name="Rel Defines By Type" />
-		<DocLocalization Locale="fr" Name="Définition par type" />
+		<DocLocalization Name="Rel Defines By Type" Locale="en" />
+		<DocLocalization Name="Définition par type" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="RelatedObjects" UniqueId="afa4df1e-7a6e-4b91-9f0a-ce4a0fcf0a0a" DefinedType="IfcObject" AggregationType="3" AggregationLower="1" AggregationUpper="0" XsdFormat="hidden" />
-		<DocAttribute Name="RelatingType" UniqueId="4e3abe9a-b836-4453-bf32-432fd0f9e654" DefinedType="IfcTypeObject" XsdFormat="attribute">
+		<DocAttribute Name="RelatedObjects" UniqueId="afa4df1e-7a6e-4b91-9f0a-ce4a0fcf0a0a" DefinedType="IfcObject" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0" XsdFormat="hidden" />
+		<DocAttribute Name="RelatingType" UniqueId="4e3abe9a-b836-4453-bf32-432fd0f9e654" DefinedType="IfcTypeObject" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Reference to the type (or style) information for that object or set of objects.</Documentation>
 		</DocAttribute>
 	</Attributes>

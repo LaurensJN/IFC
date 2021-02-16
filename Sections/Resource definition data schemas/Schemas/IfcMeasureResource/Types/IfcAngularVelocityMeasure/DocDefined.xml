@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAngularVelocityMeasure" UniqueId="4554a189-ce8f-40dc-8177-186939e12db3" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAngularVelocityMeasure" UniqueId="4554a189-ce8f-40dc-8177-186939e12db3" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Angular Velocity Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de vélocité angulaire" />
+		<DocLocalization Name="Angular Velocity Measure" Locale="en" />
+		<DocLocalization Name="Mesure de vélocité angulaire" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

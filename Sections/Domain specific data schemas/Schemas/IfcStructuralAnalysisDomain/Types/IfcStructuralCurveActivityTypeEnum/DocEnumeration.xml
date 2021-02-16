@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralCurveActivityTypeEnum" UniqueId="2e08e9d6-c90f-49ea-8c0c-2fd435941832">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralCurveActivityTypeEnum" UniqueId="2e08e9d6-c90f-49ea-8c0c-2fd435941832" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Structural Curve Activity Type Enum" />
+		<DocLocalization Name="Structural Curve Activity Type Enum" Locale="en" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="CONST_3SXqOSbDn0QvuiqM5I4_l7" />

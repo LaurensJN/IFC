@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCivilElement" Name="IfcCivilElement" UniqueId="1433bc68-c214-473e-929c-697c73a3f3d8" BaseDefinition="IfcElement" EntityFlags="109">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCivilElement" Name="IfcCivilElement" UniqueId="1433bc68-c214-473e-929c-697c73a3f3d8" DiagramNumber="0" BaseDefinition="IfcElement" EntityFlags="109">
 	<Localization>
-		<DocLocalization Locale="de" Name="Tiefbau Element" />
-		<DocLocalization Locale="en" Name="Civil Element" />
+		<DocLocalization Name="Tiefbau Element" Locale="de" />
+		<DocLocalization Name="Civil Element" Locale="en" />
 	</Localization>
 </DocEntity>
 

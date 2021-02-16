@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMechanicalFastenerTypeEnum" UniqueId="15120c0d-6705-415b-b32e-adbe5d93f99a">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMechanicalFastenerTypeEnum" UniqueId="15120c0d-6705-415b-b32e-adbe5d93f99a" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Mechanical Fastener Type Enum" />
+		<DocLocalization Name="Mechanical Fastener Type Enum" Locale="en" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="ANCHORBOLT_1WhEEw56L1pPhGiSWYEk1o" />

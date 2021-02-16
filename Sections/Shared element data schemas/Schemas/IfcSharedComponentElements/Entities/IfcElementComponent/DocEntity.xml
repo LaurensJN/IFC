@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcElementComponent" Name="IfcElementComponent" UniqueId="5267cce3-e20a-4af6-8fb5-5a1ac1bc92ed" BaseDefinition="IfcElement" EntityFlags="197">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcElementComponent" Name="IfcElementComponent" UniqueId="5267cce3-e20a-4af6-8fb5-5a1ac1bc92ed" DiagramNumber="0" BaseDefinition="IfcElement" EntityFlags="197">
 	<Localization>
-		<DocLocalization Locale="de" Name="Elementenbestandteil" />
-		<DocLocalization Locale="en" Name="Element Component" />
-		<DocLocalization Locale="fr" Name="Composant d&apos;élément" />
+		<DocLocalization Name="Elementenbestandteil" Locale="de" />
+		<DocLocalization Name="Element Component" Locale="en" />
+		<DocLocalization Name="Composant d&apos;élément" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="421f611c-afed-406e-bbff-320fb493bc28" DefinedType="IfcFastener" />

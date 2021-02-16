@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcParameterizedProfileDef" Name="IfcParameterizedProfileDef" UniqueId="eddbf896-fef4-49ba-b5c8-5315a44af82c" BaseDefinition="IfcProfileDef" EntityFlags="197">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcParameterizedProfileDef" Name="IfcParameterizedProfileDef" UniqueId="eddbf896-fef4-49ba-b5c8-5315a44af82c" DiagramNumber="0" BaseDefinition="IfcProfileDef" EntityFlags="197">
 	<Localization>
-		<DocLocalization Locale="de" Name="Profil - parametrische Definition" />
-		<DocLocalization Locale="en" Name="Parameterized Profile Def" />
+		<DocLocalization Name="Profil - parametrische Definition" Locale="de" />
+		<DocLocalization Name="Parameterized Profile Def" Locale="en" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="19a7e5d3-4d49-4fdf-a952-a8f1074b3e10" DefinedType="IfcIShapeProfileDef" />
@@ -18,7 +18,7 @@
 		<DocSubtype UniqueId="db841ee3-eca3-4a42-acee-b9b5f7b04211" DefinedType="IfcAsymmetricIShapeProfileDef" />
 	</Subtypes>
 	<Attributes>
-		<DocAttribute Name="Position" UniqueId="b7f101fa-76d8-4290-ac63-aa0b786f3592" DefinedType="IfcAxis2Placement2D" AttributeFlags="1" XsdFormat="attribute">
+		<DocAttribute Name="Position" UniqueId="b7f101fa-76d8-4290-ac63-aa0b786f3592" DefinedType="IfcAxis2Placement2D" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Position coordinate system of the parameterized profile definition. If unspecified, no translation and no rotation is applied.</Documentation>
 		</DocAttribute>
 	</Attributes>

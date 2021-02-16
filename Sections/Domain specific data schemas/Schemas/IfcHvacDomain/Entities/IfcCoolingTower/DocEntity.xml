@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCoolingTower" Name="IfcCoolingTower" UniqueId="2cb72f5c-1054-4ad5-a372-d1da32049541" BaseDefinition="IfcEnergyConversionDevice" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCoolingTower" Name="IfcCoolingTower" UniqueId="2cb72f5c-1054-4ad5-a372-d1da32049541" DiagramNumber="0" BaseDefinition="IfcEnergyConversionDevice" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Kühlturm" />
-		<DocLocalization Locale="en" Name="Cooling Tower" />
-		<DocLocalization Locale="fr" Name="Tour de refroidissement" />
+		<DocLocalization Name="Kühlturm" Locale="de" />
+		<DocLocalization Name="Cooling Tower" Locale="en" />
+		<DocLocalization Name="Tour de refroidissement" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="a3c48294-1abd-4020-9155-50f2821b225a" DefinedType="IfcCoolingTowerTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="a3c48294-1abd-4020-9155-50f2821b225a" DefinedType="IfcCoolingTowerTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="ed7dd862-7ca2-49f4-ba7a-bf3573f7000b">

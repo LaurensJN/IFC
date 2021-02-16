@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDraughtingPreDefinedColour" UniqueId="03e6248c-2c4c-4b92-aa0e-2d3861296a9e" BaseDefinition="IfcPreDefinedColour" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDraughtingPreDefinedColour" UniqueId="03e6248c-2c4c-4b92-aa0e-2d3861296a9e" DiagramNumber="0" BaseDefinition="IfcPreDefinedColour" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Vordefinierte Zeichnungsfarbe" />
-		<DocLocalization Locale="en" Name="Draughting Pre Defined Colour" />
+		<DocLocalization Name="Vordefinierte Zeichnungsfarbe" Locale="de" />
+		<DocLocalization Name="Draughting Pre Defined Colour" Locale="en" />
 	</Localization>
 	<WhereRules>
 		<DocWhereRule Name="PreDefinedColourNames" UniqueId="91b587b9-f4cc-47fc-bb97-620a0a1afe4a">

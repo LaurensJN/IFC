@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcDuctSegmentType" Name="IfcDuctSegmentType" UniqueId="01ccdf98-70c1-44aa-a133-0a4bbf9ff7d5" BaseDefinition="IfcFlowSegmentType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcDuctSegmentType" Name="IfcDuctSegmentType" UniqueId="01ccdf98-70c1-44aa-a133-0a4bbf9ff7d5" DiagramNumber="0" BaseDefinition="IfcFlowSegmentType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Kanal - Typ" />
-		<DocLocalization Locale="en" Name="Duct Segment Type" />
-		<DocLocalization Locale="fr" Name="Type de tronçon de gaine" />
+		<DocLocalization Name="Kanal - Typ" Locale="de" />
+		<DocLocalization Name="Duct Segment Type" Locale="en" />
+		<DocLocalization Name="Type de tronçon de gaine" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="83db28de-1f7c-4123-bbb4-88e0f6421773" DefinedType="IfcDuctSegmentTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="83db28de-1f7c-4123-bbb4-88e0f6421773" DefinedType="IfcDuctSegmentTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The type of duct segment.</Documentation>
 		</DocAttribute>
 	</Attributes>

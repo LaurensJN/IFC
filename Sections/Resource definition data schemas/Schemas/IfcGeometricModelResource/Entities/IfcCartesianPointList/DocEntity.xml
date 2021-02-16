@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCartesianPointList" UniqueId="300d59f2-14b1-4472-b5a4-8cf798c02341" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="77">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCartesianPointList" UniqueId="300d59f2-14b1-4472-b5a4-8cf798c02341" DiagramNumber="0" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="77">
 	<Localization>
-		<DocLocalization Locale="de" Name="Liste von Kartesischen Punkten" />
-		<DocLocalization Locale="en" Name="Cartesian Point List" />
-		<DocLocalization Locale="fr" Name="Liste de points cartésiens" />
+		<DocLocalization Name="Liste von Kartesischen Punkten" Locale="de" />
+		<DocLocalization Name="Cartesian Point List" Locale="en" />
+		<DocLocalization Name="Liste de points cartésiens" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="bf6b09ee-3450-4f25-bc10-23bc525c2bd9" DefinedType="IfcCartesianPointList3D" />
@@ -11,7 +11,7 @@
 		<DocSubtype UniqueId="bf6b09ee-3450-4f25-bc10-23bc525c2bd9" DefinedType="IfcCartesianPointList3D" />
 	</Subtypes>
 	<Attributes>
-		<DocAttribute Name="Dim" UniqueId="0d99431c-6c21-461a-b68d-f13d146d8595" DefinedType="IfcDimensionCount">
+		<DocAttribute Name="Dim" UniqueId="0d99431c-6c21-461a-b68d-f13d146d8595" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The space dimensionality of this class, either 2 or 3, depending on the sub type.</Documentation>
 			<Derived>IfcPointListDim(SELF)</Derived>
 		</DocAttribute>

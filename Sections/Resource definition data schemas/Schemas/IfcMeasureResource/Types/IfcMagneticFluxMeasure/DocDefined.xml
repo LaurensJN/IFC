@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMagneticFluxMeasure" UniqueId="d5e0b30d-397c-403f-8f2b-6f12d00713d7" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMagneticFluxMeasure" UniqueId="d5e0b30d-397c-403f-8f2b-6f12d00713d7" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Magnetic Flux Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de flux magnétique" />
+		<DocLocalization Name="Magnetic Flux Measure" Locale="en" />
+		<DocLocalization Name="Mesure de flux magnétique" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

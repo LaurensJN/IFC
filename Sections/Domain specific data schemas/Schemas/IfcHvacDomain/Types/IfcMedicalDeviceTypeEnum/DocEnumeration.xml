@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMedicalDeviceTypeEnum" UniqueId="a9e20aad-c981-4f18-8810-c93f4aa51bc3">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMedicalDeviceTypeEnum" UniqueId="a9e20aad-c981-4f18-8810-c93f4aa51bc3" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Medical Device Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types d&apos;équipement médical" />
+		<DocLocalization Name="Medical Device Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types d&apos;équipement médical" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="AIRSTATION_38KpZZzGL10OR1wBbhwh1A" />

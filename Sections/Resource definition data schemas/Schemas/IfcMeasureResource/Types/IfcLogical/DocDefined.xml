@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLogical" UniqueId="2a191086-1f02-4f9e-afa0-d0ab049914e7" DefinedType="LOGICAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLogical" UniqueId="2a191086-1f02-4f9e-afa0-d0ab049914e7" DiagramNumber="0" DefinedType="LOGICAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Logical" />
-		<DocLocalization Locale="fr" Name="Logique" />
+		<DocLocalization Name="Logical" Locale="en" />
+		<DocLocalization Name="Logique" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="LOGICAL_1Jo8N3hHv0cR5L5W6QCsyf" />
 </DocDefined>

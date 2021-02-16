@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcGeographicElementTypeEnum" UniqueId="4c172bda-b681-4e3d-8d54-2aa6bdc2dd2e">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcGeographicElementTypeEnum" UniqueId="4c172bda-b681-4e3d-8d54-2aa6bdc2dd2e" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Geographic Element Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types d&apos;élément géographique" />
+		<DocLocalization Name="Geographic Element Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types d&apos;élément géographique" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="TERRAIN_2TKelKxjbDPOIgGNYWWXi" />

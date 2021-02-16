@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcNormalisedRatioMeasure" UniqueId="3bb00789-25bf-4fc4-a8fa-d4282e28b0bc" DefinedType="IfcRatioMeasure">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcNormalisedRatioMeasure" UniqueId="3bb00789-25bf-4fc4-a8fa-d4282e28b0bc" DiagramNumber="0" DefinedType="IfcRatioMeasure" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Normalised Ratio Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de ratio normé" />
+		<DocLocalization Name="Normalised Ratio Measure" Locale="en" />
+		<DocLocalization Name="Mesure de ratio normé" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocDefined" xsi:nil="true" href="IfcRatioMeasure" />
 	<WhereRules>

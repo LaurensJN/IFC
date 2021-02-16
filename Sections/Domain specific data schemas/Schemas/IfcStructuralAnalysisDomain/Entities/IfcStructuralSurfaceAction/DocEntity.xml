@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcStructuralSurfaceAction" Name="IfcStructuralSurfaceAction" UniqueId="0f341f47-3c39-4147-931a-6c01a7e6d767" BaseDefinition="IfcStructuralAction" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcStructuralSurfaceAction" Name="IfcStructuralSurfaceAction" UniqueId="0f341f47-3c39-4147-931a-6c01a7e6d767" DiagramNumber="0" BaseDefinition="IfcStructuralAction" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="gleichmäßige / veränderliche Flächenlast" />
-		<DocLocalization Locale="en" Name="Structural Surface Action" />
+		<DocLocalization Name="gleichmäßige / veränderliche Flächenlast" Locale="de" />
+		<DocLocalization Name="Structural Surface Action" Locale="en" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="8c035ad7-c41a-43fe-9758-c54864df56d5" DefinedType="IfcStructuralPlanarAction" />
 		<DocSubtype UniqueId="8c035ad7-c41a-43fe-9758-c54864df56d5" DefinedType="IfcStructuralPlanarAction" />
 	</Subtypes>
 	<Attributes>
-		<DocAttribute Name="ProjectedOrTrue" UniqueId="2cd91061-4164-40c9-9628-113db3c9b6a0" DefinedType="IfcProjectedOrTrueLengthEnum" AttributeFlags="1">
+		<DocAttribute Name="ProjectedOrTrue" UniqueId="2cd91061-4164-40c9-9628-113db3c9b6a0" DefinedType="IfcProjectedOrTrueLengthEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines whether load values are given per true lengths of the surface on which they act, or per lengths of the projection of the surface in load direction.  The latter is only applicable to loads which act in global coordinate directions.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="PredefinedType" UniqueId="be3cd5a8-4ac3-41e2-ba09-caf52cea75aa" DefinedType="IfcStructuralSurfaceActivityTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="be3cd5a8-4ac3-41e2-ba09-caf52cea75aa" DefinedType="IfcStructuralSurfaceActivityTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Type of action according to its distribution of load values.</Documentation>
 		</DocAttribute>
 	</Attributes>

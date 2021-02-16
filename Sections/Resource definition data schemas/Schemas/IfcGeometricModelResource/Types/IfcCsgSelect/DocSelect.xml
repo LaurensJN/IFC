@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCsgSelect" UniqueId="32b1bcf4-3c3f-404e-a6f6-9cff7d3aa503">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCsgSelect" UniqueId="32b1bcf4-3c3f-404e-a6f6-9cff7d3aa503" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="de" Name="CSG - Auswahl" />
-		<DocLocalization Locale="en" Name="Csg Select" />
-		<DocLocalization Locale="fr" Name="Sélection Csg" />
+		<DocLocalization Name="CSG - Auswahl" Locale="de" />
+		<DocLocalization Name="Csg Select" Locale="en" />
+		<DocLocalization Name="Sélection Csg" Locale="fr" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcBooleanResult" UniqueId="0c6d7c35-8ae1-4e1c-b864-af220e153b7b" />

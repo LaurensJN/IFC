@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcJunctionBox" Name="IfcJunctionBox" UniqueId="15740639-43f5-4ce5-88d8-fe78d6a98f3c" BaseDefinition="IfcFlowFitting" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcJunctionBox" Name="IfcJunctionBox" UniqueId="15740639-43f5-4ce5-88d8-fe78d6a98f3c" DiagramNumber="0" BaseDefinition="IfcFlowFitting" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Verbindungsdose" />
-		<DocLocalization Locale="en" Name="Junction Box" />
-		<DocLocalization Locale="fr" Name="Boite de jonction" />
+		<DocLocalization Name="Verbindungsdose" Locale="de" />
+		<DocLocalization Name="Junction Box" Locale="en" />
+		<DocLocalization Name="Boite de jonction" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="8b9b6ddd-65f0-4293-b930-a9a80d0d7606" DefinedType="IfcJunctionBoxTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="8b9b6ddd-65f0-4293-b930-a9a80d0d7606" DefinedType="IfcJunctionBoxTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="3a9e2603-873f-41bb-91f3-5e7f90ecd73e">

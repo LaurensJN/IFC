@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurfaceOrFaceSurface" UniqueId="ffffd83f-8f15-441c-a96e-3757e927a482">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurfaceOrFaceSurface" UniqueId="ffffd83f-8f15-441c-a96e-3757e927a482" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Surface Or Face Surface" />
+		<DocLocalization Name="Surface Or Face Surface" Locale="en" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcSurface" UniqueId="6413561a-fd5a-41ad-bfc0-852010c691d9" />

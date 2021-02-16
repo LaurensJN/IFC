@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcRepresentationItem" Name="IfcRepresentationItem" UniqueId="e783d84d-d19b-4cf7-a863-f851642523f8" EntityFlags="197">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcRepresentationItem" Name="IfcRepresentationItem" UniqueId="e783d84d-d19b-4cf7-a863-f851642523f8" DiagramNumber="0" EntityFlags="197">
 	<Localization>
-		<DocLocalization Locale="de" Name="Repräsentationselement" />
-		<DocLocalization Locale="en" Name="Representation Item" />
-		<DocLocalization Locale="fr" Name="Item de représentation" />
+		<DocLocalization Name="Repräsentationselement" Locale="de" />
+		<DocLocalization Name="Representation Item" Locale="en" />
+		<DocLocalization Name="Item de représentation" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="d8b1cb11-f38b-4b2b-b863-347735987f55" DefinedType="IfcTopologicalRepresentationItem" />
@@ -12,7 +12,7 @@
 		<DocSubtype UniqueId="98af54d7-0473-4442-ae40-9676f51af881" DefinedType="IfcStyledItem" />
 	</Subtypes>
 	<Attributes>
-		<DocAttribute Name="LayerAssignment" UniqueId="dfe686aa-bc7f-4a2e-a98a-a1bff75b1212" DefinedType="IfcPresentationLayerAssignment" AttributeFlags="32" AggregationType="3" AggregationLower="0" AggregationUpper="1" Inverse="AssignedItems">
+		<DocAttribute Name="LayerAssignment" UniqueId="dfe686aa-bc7f-4a2e-a98a-a1bff75b1212" DefinedType="IfcPresentationLayerAssignment" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="AssignedItems">
 			<Documentation>Assignment of the representation item to a single or multiple layer(s). The _LayerAssignments_ can override a _LayerAssignments_ of the _IfcRepresentation_ it is used  within the list of _Items_.
 { .change-ifc2x3}
 &gt; IFC2x3 CHANGE&amp;nbsp; The inverse attribute _LayerAssignments_ has been added.
@@ -20,7 +20,7 @@
 { .change-ifc2x4}
 &gt; IFC4 CHANGE&amp;nbsp; The inverse attribute _LayerAssignment_ has been restricted to max 1. Upward compatibility for file based exchange is guaranteed.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="StyledByItem" UniqueId="77b7e734-9703-41d6-82ec-f7dcfb179cba" DefinedType="IfcStyledItem" AttributeFlags="32" AggregationType="3" AggregationLower="0" AggregationUpper="1" Inverse="Item" XsdFormat="attribute">
+		<DocAttribute Name="StyledByItem" UniqueId="77b7e734-9703-41d6-82ec-f7dcfb179cba" DefinedType="IfcStyledItem" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="Item" XsdFormat="attribute">
 			<Documentation>Reference to the _IfcStyledItem_ that provides presentation information to the representation, e.g. a curve style, including colour and thickness to a geometric curve.
   
 { .change-ifc2x3}

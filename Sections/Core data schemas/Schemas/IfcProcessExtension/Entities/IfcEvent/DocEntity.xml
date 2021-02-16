@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcEvent" Name="IfcEvent" UniqueId="2d5e432b-e7f0-4c0d-8a56-abea523cfc61" Status="H" BaseDefinition="IfcProcess" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcEvent" Name="IfcEvent" UniqueId="2d5e432b-e7f0-4c0d-8a56-abea523cfc61" Status="H" DiagramNumber="0" BaseDefinition="IfcProcess" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Ereignis" />
-		<DocLocalization Locale="en" Name="Event" />
-		<DocLocalization Locale="fr" Name="Evènement" />
+		<DocLocalization Name="Ereignis" Locale="de" />
+		<DocLocalization Name="Event" Locale="en" />
+		<DocLocalization Name="Evènement" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="d38ae629-7960-4a14-beb5-e6d1a11097d4" DefinedType="IfcEventTypeEnum" AttributeFlags="1">
+		<DocAttribute Name="PredefinedType" UniqueId="d38ae629-7960-4a14-beb5-e6d1a11097d4" DefinedType="IfcEventTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of an event from which 
     the type required may be set.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="EventTriggerType" UniqueId="a6bffe9c-b7a3-46d8-a8a9-f5a4e77906dc" DefinedType="IfcEventTriggerTypeEnum" AttributeFlags="1">
+		<DocAttribute Name="EventTriggerType" UniqueId="a6bffe9c-b7a3-46d8-a8a9-f5a4e77906dc" DefinedType="IfcEventTriggerTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of event trigger from which 
     the type required may be set.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="UserDefinedEventTriggerType" UniqueId="d670c1b3-96ee-4dbc-af96-eb6097871532" DefinedType="IfcLabel" AttributeFlags="1">
+		<DocAttribute Name="UserDefinedEventTriggerType" UniqueId="d670c1b3-96ee-4dbc-af96-eb6097871532" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>A user defined event trigger type, the value of which is 
     asserted when the value of an event trigger type is declared 
     as USERDEFINED.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="EventOccurenceTime" UniqueId="ba8ea655-c837-44ec-b7ce-e7e45f796e64" DefinedType="IfcEventTime" AttributeFlags="1" XsdFormat="attribute">
+		<DocAttribute Name="EventOccurenceTime" UniqueId="ba8ea655-c837-44ec-b7ce-e7e45f796e64" DefinedType="IfcEventTime" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The date and/or time at which an event occurs.</Documentation>
 		</DocAttribute>
 	</Attributes>

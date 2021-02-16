@@ -1,14 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ElectricCookerType_3BWO80qTyHuO00025QrEV" Name="ElectricCookerType" UniqueId="3BWO80qTyHuO00025QrE$V" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
 	<Localization>
-		<DocLocalization Locale="en" Name="Electric Cooker Type" />
-		<DocLocalization Locale="ja-JP" Name="電気調理器のタイプ">
+		<DocLocalization Name="Electric Cooker Type" Locale="en" />
+		<DocLocalization Name="電気調理器のタイプ" Locale="ja-JP">
 			<Documentation>電気調理器のタイプ。</Documentation>
 		</DocLocalization>
-		<DocLocalization Locale="ko-KR" Name="전기 밥솥의 종류">
+		<DocLocalization Name="전기 밥솥의 종류" Locale="ko-KR">
 			<Documentation>전자 조리기의 유형.</Documentation>
 		</DocLocalization>
 	</Localization>
-	<Enumeration xsi:type="DocPropertyEnumeration" xsi:nil="true" href="PEnum_ElectricApplianceElectricCookerType" />
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ElectricApplianceElectricCookerType" />
+	</Enumeration>
 </DocProperty>
 

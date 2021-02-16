@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRotationalFrequencyMeasure" UniqueId="dd0b3837-37fa-4355-bb08-5f8e2e152be6" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRotationalFrequencyMeasure" UniqueId="dd0b3837-37fa-4355-bb08-5f8e2e152be6" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Rotational Frequency Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de la fréquence de rotation" />
+		<DocLocalization Name="Rotational Frequency Measure" Locale="en" />
+		<DocLocalization Name="Mesure de la fréquence de rotation" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

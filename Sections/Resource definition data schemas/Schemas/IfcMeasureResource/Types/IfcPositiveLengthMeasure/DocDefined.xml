@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPositiveLengthMeasure" UniqueId="3a9ab3fb-6071-423b-afb3-b5d134501151" DefinedType="IfcLengthMeasure">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPositiveLengthMeasure" UniqueId="3a9ab3fb-6071-423b-afb3-b5d134501151" DiagramNumber="0" DefinedType="IfcLengthMeasure" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Positive Length Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de longueur positive" />
+		<DocLocalization Name="Positive Length Measure" Locale="en" />
+		<DocLocalization Name="Mesure de longueur positive" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocDefined" xsi:nil="true" href="IfcLengthMeasure" />
 	<WhereRules>

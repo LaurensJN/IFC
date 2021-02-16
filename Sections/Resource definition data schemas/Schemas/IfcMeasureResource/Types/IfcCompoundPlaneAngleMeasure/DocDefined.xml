@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCompoundPlaneAngleMeasure" UniqueId="6b5c667d-bed9-4b77-ba0b-039cef56680c" DefinedType="INTEGER">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCompoundPlaneAngleMeasure" UniqueId="6b5c667d-bed9-4b77-ba0b-039cef56680c" DiagramNumber="0" DefinedType="INTEGER" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Compound Plane Angle Measure" />
-		<DocLocalization Locale="fr" Name="Mesure composée d&apos;angle plan" />
+		<DocLocalization Name="Compound Plane Angle Measure" Locale="en" />
+		<DocLocalization Name="Mesure composée d&apos;angle plan" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="INTEGER_3zVfmb7DP1RPb9bVPO2XuE" />
 	<WhereRules>
@@ -25,6 +25,6 @@ OR
 ((SELF[1] &lt;= 0) AND (SELF[2] &lt;= 0) AND (SELF[3] &lt;= 0) AND ((SIZEOF(SELF) = 3) OR (SELF[4] &lt;= 0)))</Expression>
 		</DocWhereRule>
 	</WhereRules>
-	<Aggregation xsi:type="DocAttribute" UniqueId="b8797118-03a1-4cf9-871c-c02cb7310645" AggregationType="1" AggregationLower="3" AggregationUpper="4" />
+	<Aggregation xsi:type="DocAttribute" UniqueId="b8797118-03a1-4cf9-871c-c02cb7310645" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="3" AggregationUpper="4" />
 </DocDefined>
 

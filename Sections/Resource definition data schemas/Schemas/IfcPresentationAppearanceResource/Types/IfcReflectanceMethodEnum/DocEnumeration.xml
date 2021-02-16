@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcReflectanceMethodEnum" UniqueId="f56cf58e-094b-41bd-983e-3a67294a8c4e">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcReflectanceMethodEnum" UniqueId="f56cf58e-094b-41bd-983e-3a67294a8c4e" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Reflectance Method Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des méthodes de réflexion" />
+		<DocLocalization Name="Reflectance Method Enum" Locale="en" />
+		<DocLocalization Name="Enumération des méthodes de réflexion" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="BLINN_0FfWRvPADDb85lLhgBjoJ3" />

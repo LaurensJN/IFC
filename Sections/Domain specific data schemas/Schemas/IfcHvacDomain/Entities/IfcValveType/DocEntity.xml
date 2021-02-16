@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcValveType" Name="IfcValveType" UniqueId="bc7e1649-6634-4653-947b-036b7b3af5bd" BaseDefinition="IfcFlowControllerType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcValveType" Name="IfcValveType" UniqueId="bc7e1649-6634-4653-947b-036b7b3af5bd" DiagramNumber="0" BaseDefinition="IfcFlowControllerType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Ventil - Typ" />
-		<DocLocalization Locale="en" Name="Valve Type" />
-		<DocLocalization Locale="fr" Name="Type de vanne" />
+		<DocLocalization Name="Ventil - Typ" Locale="de" />
+		<DocLocalization Name="Valve Type" Locale="en" />
+		<DocLocalization Name="Type de vanne" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="64e1374c-df50-4f51-8439-a60368207f3d" DefinedType="IfcValveTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="64e1374c-df50-4f51-8439-a60368207f3d" DefinedType="IfcValveTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The type of valve.</Documentation>
 		</DocAttribute>
 	</Attributes>

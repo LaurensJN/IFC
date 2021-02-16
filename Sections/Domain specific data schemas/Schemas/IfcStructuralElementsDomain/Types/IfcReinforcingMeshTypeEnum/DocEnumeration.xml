@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcReinforcingMeshTypeEnum" UniqueId="f852081d-0a35-4b2a-a5ad-7a009805dc00">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcReinforcingMeshTypeEnum" UniqueId="f852081d-0a35-4b2a-a5ad-7a009805dc00" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Reinforcing Mesh Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types de treillis" />
+		<DocLocalization Name="Reinforcing Mesh Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types de treillis" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="USERDEFINED_2Hd4CtyFn0jR69Km8BDLCa" />

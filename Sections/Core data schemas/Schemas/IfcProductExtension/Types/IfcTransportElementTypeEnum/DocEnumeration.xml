@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTransportElementTypeEnum" UniqueId="1d2ff367-4801-42c9-ab52-201b9879cc70">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTransportElementTypeEnum" UniqueId="1d2ff367-4801-42c9-ab52-201b9879cc70" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Transport Element Type Enum" />
-		<DocLocalization Locale="fr" Name="Énumération des types d&apos;équipement de transport" />
+		<DocLocalization Name="Transport Element Type Enum" Locale="en" />
+		<DocLocalization Name="Énumération des types d&apos;équipement de transport" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="ELEVATOR_1CIhC6H157nx7tHgVv1A" />

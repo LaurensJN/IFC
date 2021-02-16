@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBooleanOperand" UniqueId="1de4c14b-c3b0-4dab-9526-6208b17404f9">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBooleanOperand" UniqueId="1de4c14b-c3b0-4dab-9526-6208b17404f9" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="de" Name="Boolescher Operand" />
-		<DocLocalization Locale="en" Name="Boolean Operand" />
-		<DocLocalization Locale="fr" Name="Opérande booléen" />
+		<DocLocalization Name="Boolescher Operand" Locale="de" />
+		<DocLocalization Name="Boolean Operand" Locale="en" />
+		<DocLocalization Name="Opérande booléen" Locale="fr" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcSolidModel" UniqueId="d3bff7a0-ec1f-49cc-898c-1ac1a1829caf" />

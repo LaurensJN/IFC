@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSurfaceFeature" Name="IfcSurfaceFeature" UniqueId="e9ba48f9-734e-4e7f-9a90-572fd19c5475" BaseDefinition="IfcFeatureElement" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSurfaceFeature" Name="IfcSurfaceFeature" UniqueId="e9ba48f9-734e-4e7f-9a90-572fd19c5475" DiagramNumber="0" BaseDefinition="IfcFeatureElement" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Oberflächenbearbeitung" />
-		<DocLocalization Locale="en" Name="Surface Feature" />
-		<DocLocalization Locale="fr" Name="Traitement de surface" />
+		<DocLocalization Name="Oberflächenbearbeitung" Locale="de" />
+		<DocLocalization Name="Surface Feature" Locale="en" />
+		<DocLocalization Name="Traitement de surface" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="324c2136-9ea8-40b8-b332-c28ff31d3c3a" DefinedType="IfcSurfaceFeatureTypeEnum" AttributeFlags="1">
+		<DocAttribute Name="PredefinedType" UniqueId="324c2136-9ea8-40b8-b332-c28ff31d3c3a" DefinedType="IfcSurfaceFeatureTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Indicates the kind of surface feature.</Documentation>
 		</DocAttribute>
 	</Attributes>

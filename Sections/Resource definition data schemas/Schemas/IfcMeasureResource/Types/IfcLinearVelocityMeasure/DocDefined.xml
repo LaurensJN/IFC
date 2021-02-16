@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLinearVelocityMeasure" UniqueId="e7f5589f-c344-47e1-b311-0ac9aec0f95f" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLinearVelocityMeasure" UniqueId="e7f5589f-c344-47e1-b311-0ac9aec0f95f" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Linear Velocity Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de vitesse linéaire" />
+		<DocLocalization Name="Linear Velocity Measure" Locale="en" />
+		<DocLocalization Name="Mesure de vitesse linéaire" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

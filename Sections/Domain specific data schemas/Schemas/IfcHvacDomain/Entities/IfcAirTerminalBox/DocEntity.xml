@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcAirTerminalBox" Name="IfcAirTerminalBox" UniqueId="5c94650b-db68-4716-a299-3069c0a7a43b" BaseDefinition="IfcFlowController" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcAirTerminalBox" Name="IfcAirTerminalBox" UniqueId="5c94650b-db68-4716-a299-3069c0a7a43b" DiagramNumber="0" BaseDefinition="IfcFlowController" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Volumenstromregler" />
-		<DocLocalization Locale="en" Name="Air Terminal Box" />
-		<DocLocalization Locale="fr" Name="Diffuseur d&apos;air" />
+		<DocLocalization Name="Volumenstromregler" Locale="de" />
+		<DocLocalization Name="Air Terminal Box" Locale="en" />
+		<DocLocalization Name="Diffuseur d&apos;air" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="5a851e83-1420-4838-b101-36c0f6996d1d" DefinedType="IfcAirTerminalBoxTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="5a851e83-1420-4838-b101-36c0f6996d1d" DefinedType="IfcAirTerminalBoxTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="6588dcc9-ed7e-41f0-8c09-da5c8b62eb19">

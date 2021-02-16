@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcElectricDistributionBoard" Name="IfcElectricDistributionBoard" UniqueId="21087b7b-8ee5-404b-8c9b-1b17cfc62c90" BaseDefinition="IfcFlowController" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcElectricDistributionBoard" Name="IfcElectricDistributionBoard" UniqueId="21087b7b-8ee5-404b-8c9b-1b17cfc62c90" DiagramNumber="0" BaseDefinition="IfcFlowController" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Elektrischer Verteilungsregler" />
-		<DocLocalization Locale="en" Name="Electric Distribution Board" />
-		<DocLocalization Locale="fr" Name="Tableau de distribution électrique" />
+		<DocLocalization Name="Elektrischer Verteilungsregler" Locale="de" />
+		<DocLocalization Name="Electric Distribution Board" Locale="en" />
+		<DocLocalization Name="Tableau de distribution électrique" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="920c3b35-1613-4cf1-9d02-d2deba60e55d" DefinedType="IfcElectricDistributionBoardTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="920c3b35-1613-4cf1-9d02-d2deba60e55d" DefinedType="IfcElectricDistributionBoardTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="ea80a53d-e2b7-4def-bf5b-312792f3255b">

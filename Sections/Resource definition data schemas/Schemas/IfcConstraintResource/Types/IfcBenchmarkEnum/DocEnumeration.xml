@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBenchmarkEnum" UniqueId="94b40d09-01cf-4ea3-be68-29a9e401b125">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBenchmarkEnum" UniqueId="94b40d09-01cf-4ea3-be68-29a9e401b125" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="de" Name="Bezugswert - Aufzählung" />
-		<DocLocalization Locale="en" Name="Benchmark Enum" />
-		<DocLocalization Locale="fr" Name="Énumération de référence ou de base" />
+		<DocLocalization Name="Bezugswert - Aufzählung" Locale="de" />
+		<DocLocalization Name="Benchmark Enum" Locale="en" />
+		<DocLocalization Name="Énumération de référence ou de base" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="GREATERTHAN_11cNd_MaT9ifvF1J9BRhcV" />

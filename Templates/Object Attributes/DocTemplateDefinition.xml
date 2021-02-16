@@ -7,9 +7,9 @@
 				<DocTemplateDefinition Name="Element Occurrence Attributes" UniqueId="037ad90d-348e-42c0-a85b-ad0d5383f598" Type="IfcElement">
 					<Documentation>Physical elements may be further identified via the _Tag_ attribute. This is a human readable identifier such as an element or item number While there is no restriction on usage of such tags, it is recommended the _Tag_ is unique within it&apos;s containing scope.</Documentation>
 					<Rules>
-						<DocModelRuleAttribute Name="Tag">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Tag">
 							<Rules>
-								<DocModelRuleEntity Name="IfcIdentifier" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" />
 							</Rules>
 						</DocModelRuleAttribute>
 					</Rules>
@@ -17,7 +17,7 @@
 						<DocTemplateDefinition id="Door_Attributes_0UNQGfptnF8uioKwsOuZYj" Name="Door Attributes" UniqueId="1e5da429-cf7c-4f23-8b32-53ad98e238ad" Type="IfcDoor">
 							<Documentation>Doors may be further described by their size and operation type.</Documentation>
 							<Localization>
-								<DocLocalization Locale="tt" Name="AUTOMATIC">
+								<DocLocalization Name="AUTOMATIC" Locale="tt">
 									<Documentation>&lt;TemplateRules operator=&quot;and&quot;&gt;
   &lt;TemplateRules operator=&quot;or&quot;&gt;
 	&lt;TemplateRule Parameters=&quot;OperationType[Value]=&apos;SINGLE_SWING_LEFT&apos;&quot;/&gt;
@@ -32,87 +32,87 @@
 								</DocLocalization>
 							</Localization>
 							<Rules>
-								<DocModelRuleAttribute Name="Tag">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Tag">
 									<Rules>
-										<DocModelRuleEntity Name="IfcIdentifier" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="OverallHeight" Identification="OverallHeight">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="OverallHeight" Identification="OverallHeight">
 									<Rules>
-										<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="OverallWidth" Identification="OverallWidth">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="OverallWidth" Identification="OverallWidth">
 									<Rules>
-										<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="OperationType" Identification="OperationType">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="OperationType" Identification="OperationType">
 									<Rules>
-										<DocModelRuleEntity Name="IfcDoorTypeOperationEnum" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcDoorTypeOperationEnum" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="UserDefinedOperationType">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="UserDefinedOperationType">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="IsTypedBy">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="IsTypedBy">
 									<Rules>
-										<DocModelRuleEntity Name="IfcRelDefinesByType">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRelDefinesByType">
 											<Rules>
-												<DocModelRuleAttribute Name="RelatingType">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RelatingType">
 													<Rules>
-														<DocModelRuleEntity Name="IfcDoorType">
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcDoorType">
 															<Rules>
-																<DocModelRuleAttribute Name="OperationType" Identification="TypeOperationType">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="OperationType" Identification="TypeOperationType">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcDoorTypeOperationEnum" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcDoorTypeOperationEnum" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="UserDefinedOperationType">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="UserDefinedOperationType">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcLabel" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="HasPropertySets">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasPropertySets">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcDoorLiningProperties">
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcDoorLiningProperties">
 																			<Rules>
-																				<DocModelRuleAttribute Name="LiningDepth" />
-																				<DocModelRuleAttribute Name="LiningThickness" />
-																				<DocModelRuleAttribute Name="ThresholdDepth" />
-																				<DocModelRuleAttribute Name="ThresholdThickness" />
-																				<DocModelRuleAttribute Name="TransomThickness" />
-																				<DocModelRuleAttribute Name="TransomOffset" />
-																				<DocModelRuleAttribute Name="LiningOffset" />
-																				<DocModelRuleAttribute Name="ThresholdOffset" />
-																				<DocModelRuleAttribute Name="CasingThickness" />
-																				<DocModelRuleAttribute Name="CasingDepth" />
-																				<DocModelRuleAttribute Name="LiningToPanelOffsetX" />
-																				<DocModelRuleAttribute Name="LiningToPanelOffsetY" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LiningDepth" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LiningThickness" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ThresholdDepth" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ThresholdThickness" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="TransomThickness" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="TransomOffset" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LiningOffset" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ThresholdOffset" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="CasingThickness" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="CasingDepth" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LiningToPanelOffsetX" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LiningToPanelOffsetY" />
 																			</Rules>
 																		</DocModelRuleEntity>
-																		<DocModelRuleEntity Name="IfcDoorPanelProperties">
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcDoorPanelProperties">
 																			<Rules>
-																				<DocModelRuleAttribute Name="PanelDepth">
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PanelDepth">
 																					<Rules>
-																						<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 																					</Rules>
 																				</DocModelRuleAttribute>
-																				<DocModelRuleAttribute Name="PanelOperation">
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PanelOperation">
 																					<Rules>
-																						<DocModelRuleEntity Name="IfcDoorPanelOperationEnum" />
+																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcDoorPanelOperationEnum" />
 																					</Rules>
 																				</DocModelRuleAttribute>
-																				<DocModelRuleAttribute Name="PanelWidth">
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PanelWidth">
 																					<Rules>
-																						<DocModelRuleEntity Name="IfcNormalisedRatioMeasure" />
+																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcNormalisedRatioMeasure" />
 																					</Rules>
 																				</DocModelRuleAttribute>
-																				<DocModelRuleAttribute Name="PanelPosition">
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PanelPosition">
 																					<Rules>
-																						<DocModelRuleEntity Name="IfcDoorPanelPositionEnum" />
+																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcDoorPanelPositionEnum" />
 																					</Rules>
 																				</DocModelRuleAttribute>
 																			</Rules>
@@ -132,7 +132,7 @@
 						<DocTemplateDefinition id="Window_Attributes_3u3TY5b1EAe5Nj0iIslY" Name="Window Attributes" UniqueId="f80dd8bf-fc59-4138-aa05-5ed02c4b6be2" Type="IfcWindow">
 							<Documentation>Windows may be further described by their size and partitioning type.</Documentation>
 							<Localization>
-								<DocLocalization Locale="tt" Name="AUTOMATIC">
+								<DocLocalization Name="AUTOMATIC" Locale="tt">
 									<Documentation>&lt;TemplateRules operator=&quot;and&quot;&gt;
   &lt;TemplateRules operator=&quot;or&quot;&gt;
 	&lt;TemplateRule Parameters=&quot;PartitioningType[Value]=&apos;DOUBLE_PANEL_VERTICAL&apos;&quot;/&gt;
@@ -147,80 +147,80 @@
 								</DocLocalization>
 							</Localization>
 							<Rules>
-								<DocModelRuleAttribute Name="Tag">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Tag">
 									<Rules>
-										<DocModelRuleEntity Name="IfcIdentifier" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="OverallHeight" Identification="OverallHeight">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="OverallHeight" Identification="OverallHeight">
 									<Rules>
-										<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="OverallWidth" Identification="OverallWidth">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="OverallWidth" Identification="OverallWidth">
 									<Rules>
-										<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="PartitioningType" Identification="PartitioningType">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PartitioningType" Identification="PartitioningType">
 									<Rules>
-										<DocModelRuleEntity Name="IfcWindowTypePartitioningEnum" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcWindowTypePartitioningEnum" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="UserDefinedPartitioningType">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="UserDefinedPartitioningType">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="IsTypedBy">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="IsTypedBy">
 									<Rules>
-										<DocModelRuleEntity Name="IfcRelDefinesByType">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRelDefinesByType">
 											<Rules>
-												<DocModelRuleAttribute Name="RelatingType">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RelatingType">
 													<Rules>
-														<DocModelRuleEntity Name="IfcWindowType">
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcWindowType">
 															<Rules>
-																<DocModelRuleAttribute Name="PartitioningType" Identification="TypePartitioningType">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PartitioningType" Identification="TypePartitioningType">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcWindowTypePartitioningEnum" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcWindowTypePartitioningEnum" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="UserDefinedPartitioningType">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="UserDefinedPartitioningType">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcLabel" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="HasPropertySets">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasPropertySets">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcWindowLiningProperties">
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcWindowLiningProperties">
 																			<Rules>
-																				<DocModelRuleAttribute Name="LiningDepth" />
-																				<DocModelRuleAttribute Name="LiningThickness" />
-																				<DocModelRuleAttribute Name="TransomThickness" />
-																				<DocModelRuleAttribute Name="MullionThickness" />
-																				<DocModelRuleAttribute Name="FirstTransomOffset" />
-																				<DocModelRuleAttribute Name="SecondTransomOffset" />
-																				<DocModelRuleAttribute Name="FirstMullionOffset" />
-																				<DocModelRuleAttribute Name="SecondMullionOffset" />
-																				<DocModelRuleAttribute Name="LiningOffset" />
-																				<DocModelRuleAttribute Name="LiningToPanelOffsetX" />
-																				<DocModelRuleAttribute Name="LiningToPanelOffsetY" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LiningDepth" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LiningThickness" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="TransomThickness" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="MullionThickness" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="FirstTransomOffset" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="SecondTransomOffset" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="FirstMullionOffset" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="SecondMullionOffset" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LiningOffset" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LiningToPanelOffsetX" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LiningToPanelOffsetY" />
 																			</Rules>
 																		</DocModelRuleEntity>
-																		<DocModelRuleEntity Name="IfcWindowPanelProperties">
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcWindowPanelProperties">
 																			<Rules>
-																				<DocModelRuleAttribute Name="OperationType">
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="OperationType">
 																					<Rules>
-																						<DocModelRuleEntity Name="IfcWindowPanelOperationEnum" />
+																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcWindowPanelOperationEnum" />
 																					</Rules>
 																				</DocModelRuleAttribute>
-																				<DocModelRuleAttribute Name="PanelPosition">
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PanelPosition">
 																					<Rules>
-																						<DocModelRuleEntity Name="IfcWindowPanelPositionEnum" />
+																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcWindowPanelPositionEnum" />
 																					</Rules>
 																				</DocModelRuleAttribute>
-																				<DocModelRuleAttribute Name="FrameDepth" />
-																				<DocModelRuleAttribute Name="FrameThickness" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="FrameDepth" />
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="FrameThickness" />
 																			</Rules>
 																		</DocModelRuleEntity>
 																	</Rules>
@@ -240,7 +240,7 @@
 				<DocTemplateDefinition id="Grid_Attributes_2SUqSDbuf0_gTtH9j0M8W0" Name="Grid Attributes" UniqueId="9c7b470d-978a-40fa-a777-449b40588800" Type="IfcGrid">
 					<Documentation>Grids may be used to provide a layout reference for building elements.</Documentation>
 					<Localization>
-						<DocLocalization Locale="tt" Name="AUTOMATIC">
+						<DocLocalization Name="AUTOMATIC" Locale="tt">
 							<Documentation>&lt;TemplateRules operator=&quot;and&quot;&gt;
 	&lt;TemplateRule Parameters=&quot;UAxes[Size]=5&quot;/&gt;
 	&lt;TemplateRule Parameters=&quot;VAxes[Size]=5&quot;/&gt;
@@ -249,62 +249,62 @@
 						</DocLocalization>
 					</Localization>
 					<Rules>
-						<DocModelRuleAttribute Name="PredefinedType">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PredefinedType">
 							<Rules>
-								<DocModelRuleEntity Name="IfcGridTypeEnum" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcGridTypeEnum" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="UAxes" Identification="UAxes">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="UAxes" Identification="UAxes">
 							<Rules>
-								<DocModelRuleEntity Name="IfcGridAxis">
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcGridAxis">
 									<Rules>
-										<DocModelRuleAttribute Name="AxisTag">
+										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="AxisTag">
 											<Rules>
-												<DocModelRuleEntity Name="IfcLabel" />
+												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 											</Rules>
 										</DocModelRuleAttribute>
-										<DocModelRuleAttribute Name="AxisCurve">
+										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="AxisCurve">
 											<Rules>
-												<DocModelRuleEntity Name="IfcIndexedPolyCurve" />
-												<DocModelRuleEntity Name="IfcCircle" />
+												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIndexedPolyCurve" />
+												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcCircle" />
 											</Rules>
 										</DocModelRuleAttribute>
-										<DocModelRuleAttribute Name="SameSense">
+										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="SameSense">
 											<Rules>
-												<DocModelRuleEntity Name="IfcBoolean" />
+												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcBoolean" />
 											</Rules>
 										</DocModelRuleAttribute>
 									</Rules>
 								</DocModelRuleEntity>
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="VAxes" Identification="VAxes">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="VAxes" Identification="VAxes">
 							<Rules>
-								<DocModelRuleEntity Name="IfcGridAxis">
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcGridAxis">
 									<Rules>
-										<DocModelRuleAttribute Name="AxisTag">
+										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="AxisTag">
 											<Rules>
-												<DocModelRuleEntity Name="IfcLabel" />
+												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 											</Rules>
 										</DocModelRuleAttribute>
-										<DocModelRuleAttribute Name="AxisCurve">
+										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="AxisCurve">
 											<Rules>
-												<DocModelRuleEntity Name="IfcIndexedPolyCurve" />
-												<DocModelRuleEntity Name="IfcCircle" />
+												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIndexedPolyCurve" />
+												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcCircle" />
 											</Rules>
 										</DocModelRuleAttribute>
-										<DocModelRuleAttribute Name="SameSense">
+										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="SameSense">
 											<Rules>
-												<DocModelRuleEntity Name="IfcBoolean" />
+												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcBoolean" />
 											</Rules>
 										</DocModelRuleAttribute>
 									</Rules>
 								</DocModelRuleEntity>
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="WAxes" Identification="WAxes">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="WAxes" Identification="WAxes">
 							<Rules>
-								<DocModelRuleEntity Name="IfcGridAxis" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcGridAxis" />
 							</Rules>
 						</DocModelRuleAttribute>
 					</Rules>
@@ -312,14 +312,14 @@
 				<DocTemplateDefinition Name="Spatial Element Attributes" UniqueId="9661dfc6-707f-49a8-8881-7142b07f3bb1" Type="IfcSpatialElement">
 					<Documentation>Spatial objects may be further identified via the _LongName_ attribute. This value should generally correspond to building signage describing floor levels or rooms. While the _Name_ attribute generally provides a coded or abbreviated identifier, the _LongName_ provides a functional name for the location such as &quot;Reception Area&quot;.</Documentation>
 					<Rules>
-						<DocModelRuleAttribute Name="Name" Identification="Name">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="Name">
 							<Rules>
-								<DocModelRuleEntity Name="IfcLabel" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="LongName" Identification="LongName">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LongName" Identification="LongName">
 							<Rules>
-								<DocModelRuleEntity Name="IfcLabel" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 							</Rules>
 						</DocModelRuleAttribute>
 					</Rules>
@@ -327,7 +327,7 @@
 						<DocTemplateDefinition id="Building_Attributes_1040yDtLX7yucQjgMcjFLo" Name="Building Attributes" UniqueId="40100f0d-dd58-47f3-899a-b6a5a6b4f572" Type="IfcBuilding">
 							<Documentation>A building may be located according to a postal address, and may indicate a baseline elevation and land elevation.</Documentation>
 							<Localization>
-								<DocLocalization Locale="tt" Name="AUTOMATIC">
+								<DocLocalization Name="AUTOMATIC" Locale="tt">
 									<Documentation>&lt;TemplateRules operator=&quot;and&quot;&gt;
 	&lt;TemplateRule Parameters=&quot;Name[Value]=&apos;AEC3 Office&apos;&quot;/&gt;
 	&lt;TemplateRule Parameters=&quot;LongName[Value]=&apos;AEC3 Office Building Munich&apos;&quot;/&gt;
@@ -340,83 +340,83 @@
 								</DocLocalization>
 							</Localization>
 							<Rules>
-								<DocModelRuleAttribute Name="LongName" Identification="LongName">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LongName" Identification="LongName">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="Name" Identification="Name">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="Name">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="CompositionType">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="CompositionType">
 									<Rules>
-										<DocModelRuleEntity Name="IfcElementCompositionEnum" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcElementCompositionEnum" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="ElevationOfRefHeight">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ElevationOfRefHeight">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLengthMeasure" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLengthMeasure" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="ElevationOfTerrain">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ElevationOfTerrain">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLengthMeasure" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLengthMeasure" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="BuildingAddress" Identification="HasAddress">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="BuildingAddress" Identification="HasAddress">
 									<Rules>
-										<DocModelRuleEntity Name="IfcPostalAddress">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPostalAddress">
 											<Rules>
-												<DocModelRuleAttribute Name="Purpose">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Purpose">
 													<Rules>
-														<DocModelRuleEntity Name="IfcAddressTypeEnum" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcAddressTypeEnum" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="Description">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
 													<Rules>
-														<DocModelRuleEntity Name="IfcText" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="UserDefinedPurpose">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="UserDefinedPurpose">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="InternalLocation">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="InternalLocation">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="AddressLines" Identification="AddressLines">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="AddressLines" Identification="AddressLines">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="PostalBox">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PostalBox">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="Town" Identification="Town">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Town" Identification="Town">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="Region">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Region">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="PostalCode" Identification="PostalCode">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PostalCode" Identification="PostalCode">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="Country" Identification="Country">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Country" Identification="Country">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
 											</Rules>
@@ -428,7 +428,7 @@
 						<DocTemplateDefinition id="Site_Attributes_3soUxCzVn0bg0t4iBDJPsN" Name="Site Attributes" UniqueId="f6c9eecc-f5fc-4096-a037-12c2cd4d9d97" Type="IfcSite">
 							<Documentation>A site may be located according to latitute, longitute, elevation, land title designation, and/or postal address.</Documentation>
 							<Localization>
-								<DocLocalization Locale="tt" Name="AUTOMATIC">
+								<DocLocalization Name="AUTOMATIC" Locale="tt">
 									<Documentation>&lt;TemplateRules operator=&quot;and&quot;&gt;
 	&lt;TemplateRule Parameters=&quot;Name[Value]=&apos;SiteName&apos;&quot;/&gt;
 	&lt;TemplateRule Parameters=&quot;LongName[Value]=&apos;LongSiteName&apos;&quot;/&gt;
@@ -440,93 +440,93 @@
 								</DocLocalization>
 							</Localization>
 							<Rules>
-								<DocModelRuleAttribute Name="LongName" Identification="LongName">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LongName" Identification="LongName">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="Name" Identification="Name">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="Name">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="CompositionType">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="CompositionType">
 									<Rules>
-										<DocModelRuleEntity Name="IfcElementCompositionEnum" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcElementCompositionEnum" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="LandTitleNumber">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LandTitleNumber">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="RefLatitude" Identification="Latitude">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RefLatitude" Identification="Latitude">
 									<Rules>
-										<DocModelRuleEntity Name="IfcCompoundPlaneAngleMeasure" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcCompoundPlaneAngleMeasure" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="RefLongitude" Identification="Longitude">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RefLongitude" Identification="Longitude">
 									<Rules>
-										<DocModelRuleEntity Name="IfcCompoundPlaneAngleMeasure" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcCompoundPlaneAngleMeasure" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="RefElevation" Identification="Elevation">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RefElevation" Identification="Elevation">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLengthMeasure" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLengthMeasure" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="SiteAddress" Identification="HasAddress">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="SiteAddress" Identification="HasAddress">
 									<Rules>
-										<DocModelRuleEntity Name="IfcPostalAddress">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPostalAddress">
 											<Rules>
-												<DocModelRuleAttribute Name="Purpose">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Purpose">
 													<Rules>
-														<DocModelRuleEntity Name="IfcAddressTypeEnum" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcAddressTypeEnum" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="Description">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
 													<Rules>
-														<DocModelRuleEntity Name="IfcText" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="InternalLocation">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="InternalLocation">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="AddressLines">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="AddressLines">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="PostalBox">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PostalBox">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="Town">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Town">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="Region">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Region">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="PostalCode">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PostalCode">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="Country">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Country">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="UserDefinedPurpose">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="UserDefinedPurpose">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
 											</Rules>
@@ -538,7 +538,7 @@
 						<DocTemplateDefinition id="Space_Attributes_1KEbAdUPn3IQ2w1CFyAHJJ" Name="Space Attributes" UniqueId="543a52a7-799c-4349-a0ba-04c3fc2914d3" Type="IfcSpace">
 							<Documentation>Space may be further described by their elevation including floor coverings.</Documentation>
 							<Localization>
-								<DocLocalization Locale="tt" Name="AUTOMATIC">
+								<DocLocalization Name="AUTOMATIC" Locale="tt">
 									<Documentation>&lt;TemplateRules operator=&quot;and&quot;&gt;
 	&lt;TemplateRule Parameters=&quot;Name[Value]=&apos;OF-02.012&apos;&quot;/&gt;
 	&lt;TemplateRule Parameters=&quot;LongName[Value]=&apos;Office 2.12&apos;&quot;/&gt;
@@ -548,42 +548,42 @@
 								</DocLocalization>
 							</Localization>
 							<Rules>
-								<DocModelRuleAttribute Name="LongName" Identification="LongName">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LongName" Identification="LongName">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="Name" Identification="Name">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="Name">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="CompositionType">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="CompositionType">
 									<Rules>
-										<DocModelRuleEntity Name="IfcElementCompositionEnum" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcElementCompositionEnum" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="ElevationWithFlooring">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ElevationWithFlooring">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLengthMeasure" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLengthMeasure" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="IsTypedBy">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="IsTypedBy">
 									<Rules>
-										<DocModelRuleEntity Name="IfcRelDefinesByType">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRelDefinesByType">
 											<Rules>
-												<DocModelRuleAttribute Name="RelatingType">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RelatingType">
 													<Rules>
-														<DocModelRuleEntity Name="IfcSpaceType">
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcSpaceType">
 															<Rules>
-																<DocModelRuleAttribute Name="Name" Identification="TypeName">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="TypeName">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcLabel" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="LongName" Identification="TypeLongName">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LongName" Identification="TypeLongName">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcLabel" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																	</Rules>
 																</DocModelRuleAttribute>
 															</Rules>
@@ -598,27 +598,27 @@
 						</DocTemplateDefinition>
 						<DocTemplateDefinition id="Spatial_Zone_Attributes_05GL9TrITEtACcw2mZmmnz" Name="Spatial Zone Attributes" UniqueId="0541525d-d527-4edc-a326-e82c23c30c7d" Type="IfcSpatialZone">
 							<Rules>
-								<DocModelRuleAttribute Name="Name" Identification="Name">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="Name">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="LongName" Identification="LongName">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LongName" Identification="LongName">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="IsTypedBy">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="IsTypedBy">
 									<Rules>
-										<DocModelRuleEntity Name="IfcRelDefinesByType">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRelDefinesByType">
 											<Rules>
-												<DocModelRuleAttribute Name="RelatingType">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RelatingType">
 													<Rules>
-														<DocModelRuleEntity Name="IfcSpatialZoneType">
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcSpatialZoneType">
 															<Rules>
-																<DocModelRuleAttribute Name="LongName">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LongName">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcLabel" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																	</Rules>
 																</DocModelRuleAttribute>
 															</Rules>
@@ -634,7 +634,7 @@
 						<DocTemplateDefinition id="Storey_Attributes_18Z9koCG9BYRqWGgfmOAu8" Name="Storey Attributes" UniqueId="488c9bb2-3102-4b89-bd20-42aa7060ae08" Type="IfcBuildingStorey">
 							<Documentation>A building storey may be indicate the elevation of the top surface of the floor slab, excluding any floor coverings. For storeys with raised or sunken areas, the elevation should reflect the largest area of the slab. For split-level buildings, each level should have it&apos;s own _IfcBuildingStorey_.</Documentation>
 							<Localization>
-								<DocLocalization Locale="tt" Name="AUTOMATIC">
+								<DocLocalization Name="AUTOMATIC" Locale="tt">
 									<Documentation>&lt;TemplateRules operator=&quot;and&quot;&gt;
 	&lt;TemplateRule Parameters=&quot;Name[Value]=&apos;OG2&apos;&quot;/&gt;
 	&lt;TemplateRule Parameters=&quot;LongName[Value]=&apos;Obergeschoss 2&apos;&quot;/&gt;
@@ -643,24 +643,24 @@
 								</DocLocalization>
 							</Localization>
 							<Rules>
-								<DocModelRuleAttribute Name="LongName" Identification="LongName">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LongName" Identification="LongName">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="Name" Identification="Name">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="Name">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="CompositionType">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="CompositionType">
 									<Rules>
-										<DocModelRuleEntity Name="IfcElementCompositionEnum" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcElementCompositionEnum" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="Elevation" Identification="Elevation">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Elevation" Identification="Elevation">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLengthMeasure" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLengthMeasure" />
 									</Rules>
 								</DocModelRuleAttribute>
 							</Rules>
@@ -670,12 +670,12 @@
 				<DocTemplateDefinition Name="System Element Attributes" UniqueId="8042f661-d4d7-4e93-a506-6d04a405d05a" Type="IfcSystem">
 					<Documentation>Systems may be further identified via the _LongName_ attribute. This value should generally correspond to readable names for systems. While the _Name_ attribute generally provides a coded or abbreviated identifie, like &quot;HW&quot;, the _LongName_ provides a functional name for the system such as &quot;Hot water system&quot;.</Documentation>
 					<Rules>
-						<DocModelRuleAttribute Name="Name" Identification="Name">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="Name">
 							<Rules>
-								<DocModelRuleEntity Name="IfcLabel" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="LongName" Identification="LongName" />
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LongName" Identification="LongName" />
 					</Rules>
 				</DocTemplateDefinition>
 			</Templates>
@@ -692,7 +692,7 @@ The main attributes to be provided for a _Object Occurrence Predefined Type_ are
 
  If the object is typed by an _IfcTypeObject_, then the _PredefinedType_ at the _IfcObject_ occurrence shall only be used if the _PredefinedType_ at _IfcTypeObject_ is set to _NOTDEFINED_.</Documentation>
 			<Localization>
-				<DocLocalization Locale="tt" Name="AUTOMATIC">
+				<DocLocalization Name="AUTOMATIC" Locale="tt">
 					<Documentation>&lt;TemplateRules operator=&quot;and&quot;&gt;
   &lt;TemplateRules operator=&quot;or&quot;&gt;
 	&lt;!-- Other checking type attribute on object or occurrence --&gt;
@@ -710,22 +710,22 @@ The main attributes to be provided for a _Object Occurrence Predefined Type_ are
 				</DocLocalization>
 			</Localization>
 			<Rules>
-				<DocModelRuleAttribute Name="ObjectType" Identification="UserDefinedType">
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ObjectType" Identification="UserDefinedType">
 					<Rules>
-						<DocModelRuleEntity Name="IfcLabel" />
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 					</Rules>
 				</DocModelRuleAttribute>
-				<DocModelRuleAttribute Name="PredefinedType" Identification="PredefinedType" />
-				<DocModelRuleAttribute Name="IsTypedBy">
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PredefinedType" Identification="PredefinedType" />
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="IsTypedBy">
 					<Rules>
-						<DocModelRuleEntity Name="IfcRelDefinesByType">
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRelDefinesByType">
 							<Rules>
-								<DocModelRuleAttribute Name="RelatingType">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RelatingType">
 									<Rules>
-										<DocModelRuleEntity Name="IfcTypeObject">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcTypeObject">
 											<Rules>
-												<DocModelRuleAttribute Name="ElementType" Identification="TypeUserdefinedType" />
-												<DocModelRuleAttribute Name="PredefinedType" Identification="TypePredefinedType" />
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ElementType" Identification="TypeUserdefinedType" />
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PredefinedType" Identification="TypePredefinedType" />
 											</Rules>
 										</DocModelRuleEntity>
 									</Rules>
@@ -742,25 +742,25 @@ The main attributes to be provided for a _Object Occurrence Predefined Type_ are
 				<DocTemplateDefinition Name="Door Type Attributes" UniqueId="0e3b8e5c-0c1e-4f09-8d75-df62df8f7efc" Type="IfcDoorType">
 					<Documentation>Door types may be further described by their operation type.</Documentation>
 					<Rules>
-						<DocModelRuleAttribute Name="OperationType">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="OperationType">
 							<Rules>
-								<DocModelRuleEntity Name="IfcDoorTypeOperationEnum" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcDoorTypeOperationEnum" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="UserDefinedOperationType">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="UserDefinedOperationType">
 							<Rules>
-								<DocModelRuleEntity Name="IfcLabel" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="ParameterTakesPrecedence">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ParameterTakesPrecedence">
 							<Rules>
-								<DocModelRuleEntity Name="IfcBoolean" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcBoolean" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="HasPropertySets">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasPropertySets">
 							<Rules>
-								<DocModelRuleEntity Name="IfcDoorLiningProperties" />
-								<DocModelRuleEntity Name="IfcDoorPanelProperties" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcDoorLiningProperties" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcDoorPanelProperties" />
 							</Rules>
 						</DocModelRuleAttribute>
 					</Rules>
@@ -768,14 +768,14 @@ The main attributes to be provided for a _Object Occurrence Predefined Type_ are
 				<DocTemplateDefinition Name="Mechanical Fastener Type Attributes" UniqueId="c94186fc-8bf7-4539-ae81-3d4404bdf1e3" Type="IfcMechanicalFastenerType">
 					<Documentation>Mechanical fasteners may have overall dimensions as informational attributes assigned.</Documentation>
 					<Rules>
-						<DocModelRuleAttribute Name="NominalDiameter">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="NominalDiameter">
 							<Rules>
-								<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="NominalLength">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="NominalLength">
 							<Rules>
-								<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
 					</Rules>
@@ -783,34 +783,34 @@ The main attributes to be provided for a _Object Occurrence Predefined Type_ are
 				<DocTemplateDefinition Name="Reinforcing Bar Type Attributes" UniqueId="673f859a-2a77-4a9d-9887-78d585b89b3f" Type="IfcReinforcingBarType">
 					<Documentation>Reinforcing may be further described according to physical characteristics.</Documentation>
 					<Rules>
-						<DocModelRuleAttribute Name="NominalDiameter">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="NominalDiameter">
 							<Rules>
-								<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="CrossSectionArea">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="CrossSectionArea">
 							<Rules>
-								<DocModelRuleEntity Name="IfcAreaMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcAreaMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="BarLength">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="BarLength">
 							<Rules>
-								<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="BarSurface">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="BarSurface">
 							<Rules>
-								<DocModelRuleEntity Name="IfcReinforcingBarSurfaceEnum" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcReinforcingBarSurfaceEnum" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="BendingShapeCode">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="BendingShapeCode">
 							<Rules>
-								<DocModelRuleEntity Name="IfcLabel" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="BendingParameters">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="BendingParameters">
 							<Rules>
-								<DocModelRuleEntity Name="IfcBendingParameterSelect" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcBendingParameterSelect" />
 							</Rules>
 						</DocModelRuleAttribute>
 					</Rules>
@@ -818,54 +818,54 @@ The main attributes to be provided for a _Object Occurrence Predefined Type_ are
 				<DocTemplateDefinition Name="Reinforcing Mesh Type Attributes" UniqueId="37ae331a-ad22-4184-b29a-9bf32af12ea3" Type="IfcReinforcingMeshType">
 					<Documentation>Reinforcing may be further described according to physical characteristics.</Documentation>
 					<Rules>
-						<DocModelRuleAttribute Name="MeshLength">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="MeshLength">
 							<Rules>
-								<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="MeshWidth">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="MeshWidth">
 							<Rules>
-								<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="LongitudinalBarNominalDiameter">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LongitudinalBarNominalDiameter">
 							<Rules>
-								<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="TransverseBarNominalDiameter">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="TransverseBarNominalDiameter">
 							<Rules>
-								<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="LongitudinalBarCrossSectionArea">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LongitudinalBarCrossSectionArea">
 							<Rules>
-								<DocModelRuleEntity Name="IfcAreaMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcAreaMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="TransverseBarCrossSectionArea">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="TransverseBarCrossSectionArea">
 							<Rules>
-								<DocModelRuleEntity Name="IfcAreaMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcAreaMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="LongitudinalBarSpacing">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LongitudinalBarSpacing">
 							<Rules>
-								<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="TransverseBarSpacing">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="TransverseBarSpacing">
 							<Rules>
-								<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="BendingShapeCode">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="BendingShapeCode">
 							<Rules>
-								<DocModelRuleEntity Name="IfcLabel" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="BendingParameters">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="BendingParameters">
 							<Rules>
-								<DocModelRuleEntity Name="IfcBendingParameterSelect" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcBendingParameterSelect" />
 							</Rules>
 						</DocModelRuleAttribute>
 					</Rules>
@@ -873,19 +873,19 @@ The main attributes to be provided for a _Object Occurrence Predefined Type_ are
 				<DocTemplateDefinition Name="Tendon Type Attributes" UniqueId="3f569092-bc7b-4e93-b9fa-ccdfa9cfacb7" Type="IfcTendonType">
 					<Documentation>Reinforcing may be further described according to physical characteristics.</Documentation>
 					<Rules>
-						<DocModelRuleAttribute Name="NominalDiameter">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="NominalDiameter">
 							<Rules>
-								<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="CrossSectionArea">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="CrossSectionArea">
 							<Rules>
-								<DocModelRuleEntity Name="IfcAreaMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcAreaMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="SheethDiameter">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="SheethDiameter">
 							<Rules>
-								<DocModelRuleEntity Name="IfcPositiveLengthMeasure" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPositiveLengthMeasure" />
 							</Rules>
 						</DocModelRuleAttribute>
 					</Rules>
@@ -893,25 +893,25 @@ The main attributes to be provided for a _Object Occurrence Predefined Type_ are
 				<DocTemplateDefinition Name="Window Type Attributes" UniqueId="842d3d13-3018-4ebd-9c6c-720abdae7e5c" Type="IfcWindowType">
 					<Documentation>Window types may be further described by their partitioning type.</Documentation>
 					<Rules>
-						<DocModelRuleAttribute Name="PartitioningType">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PartitioningType">
 							<Rules>
-								<DocModelRuleEntity Name="IfcWindowTypePartitioningEnum" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcWindowTypePartitioningEnum" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="UserDefinedPartitioningType">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="UserDefinedPartitioningType">
 							<Rules>
-								<DocModelRuleEntity Name="IfcLabel" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="ParameterTakesPrecedence">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ParameterTakesPrecedence">
 							<Rules>
-								<DocModelRuleEntity Name="IfcBoolean" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcBoolean" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="HasPropertySets">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasPropertySets">
 							<Rules>
-								<DocModelRuleEntity Name="IfcWindowLiningProperties" />
-								<DocModelRuleEntity Name="IfcWindowPanelProperties" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcWindowLiningProperties" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcWindowPanelProperties" />
 							</Rules>
 						</DocModelRuleAttribute>
 					</Rules>
@@ -921,7 +921,7 @@ The main attributes to be provided for a _Object Occurrence Predefined Type_ are
 		<DocTemplateDefinition Name="Object Type Predefined Type" UniqueId="626b49a5-ebd5-4c7f-90e1-c0c09511bc53" Type="IfcTypeObject">
 			<Documentation>Many object occurrence and object type entities have an attribute named _PredefinedType_ consisting of a specific enumeration. Such predefined type essentially provides another level of inheritance to further differentiate objects without the need for additional entities. Predefined types are not just informational; various rules apply such as applicable property sets, part composition, and distribution ports. If the object is typed by an _IfcTypeObject_, then the _PredefinedType_ at the _IfcObject_ occurrence shall only be used if the _PredefinedType_ at _IfcTypeObject_ is set to _NOTDEFINED_.</Documentation>
 			<Rules>
-				<DocModelRuleAttribute Name="PredefinedType" />
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PredefinedType" />
 			</Rules>
 			<Templates>
 				<DocTemplateDefinition Name="Element Type Predefined Type" UniqueId="a0b913af-7d13-46dd-b7cf-a737879fd432" Type="IfcElementType">
@@ -929,15 +929,15 @@ The main attributes to be provided for a _Object Occurrence Predefined Type_ are
 
 Physical element types may be further identified via the Tag attribute. This is a human readable identifier such as an element or item number. While there is no restriction on usage of such tags, it is recommended the Tag is unique within it&apos;s containing scope.</Documentation>
 					<Rules>
-						<DocModelRuleAttribute Name="PredefinedType" />
-						<DocModelRuleAttribute Name="ElementType">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PredefinedType" />
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ElementType">
 							<Rules>
-								<DocModelRuleEntity Name="IfcLabel" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="Tag">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Tag">
 							<Rules>
-								<DocModelRuleEntity Name="IfcLabel" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 							</Rules>
 						</DocModelRuleAttribute>
 					</Rules>
@@ -952,15 +952,15 @@ Specific subtypes introduce additional attributes for _User Identity_.
 
 &gt; NOTE&amp;nbsp; Since the corresponding occurrences of _IfcSpatialElementType_ do not have a _Tag_ attribute, it is recommended not to use it here.</Documentation>
 					<Rules>
-						<DocModelRuleAttribute Name="PredefinedType" />
-						<DocModelRuleAttribute Name="ElementType">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PredefinedType" />
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ElementType">
 							<Rules>
-								<DocModelRuleEntity Name="IfcLabel" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 							</Rules>
 						</DocModelRuleAttribute>
-						<DocModelRuleAttribute Name="Tag">
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Tag">
 							<Rules>
-								<DocModelRuleEntity Name="IfcLabel" />
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 							</Rules>
 						</DocModelRuleAttribute>
 					</Rules>
@@ -975,39 +975,39 @@ Specific subtypes introduce additional attributes for _User Identity_.
 * Spatial objects may be further identified via the _LongName_ attribute. This value should generally correspond to building signage describing floor levels or rooms. While the _Name_ attribute generally provides a coded or abbreviated identifier, the _LongName_ provides a functional name for the location such as &quot;Reception Area&quot;. See concept template _Spatial Element Occurrence Attributes_
 * Physical elements may be further identified via the _Tag_ attribute. This is a human readable identifier such as an element or item number While there is no restriction on usage of such tags, it is recommended the _Tag_ is unique within it&apos;s containing scope. See concept template _Element Occurrence Attributes_</Documentation>
 			<Localization>
-				<DocLocalization Locale="tt" Name="AUTOMATIC">
+				<DocLocalization Name="AUTOMATIC" Locale="tt">
 					<Documentation>&lt;TemplateRules operator=&quot;and&quot;&gt;
                 &lt;TemplateRule Parameters=&quot;ObjectName[Value]=&apos;Beam_01&apos;&quot;/&gt;
 &lt;/TemplateRules&gt; </Documentation>
 				</DocLocalization>
 			</Localization>
 			<Rules>
-				<DocModelRuleAttribute Name="Name" Identification="ObjectName">
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="ObjectName">
 					<Rules>
-						<DocModelRuleEntity Name="IfcLabel" />
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 					</Rules>
 				</DocModelRuleAttribute>
-				<DocModelRuleAttribute Name="Description" Identification="ObjectDescription">
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description" Identification="ObjectDescription">
 					<Rules>
-						<DocModelRuleEntity Name="IfcText" />
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" />
 					</Rules>
 				</DocModelRuleAttribute>
-				<DocModelRuleAttribute Name="IsTypedBy">
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="IsTypedBy">
 					<Rules>
-						<DocModelRuleEntity Name="IfcRelDefinesByType">
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRelDefinesByType">
 							<Rules>
-								<DocModelRuleAttribute Name="RelatingType">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RelatingType">
 									<Rules>
-										<DocModelRuleEntity Name="IfcTypeObject">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcTypeObject">
 											<Rules>
-												<DocModelRuleAttribute Name="Name" Identification="TypeName">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="TypeName">
 													<Rules>
-														<DocModelRuleEntity Name="IfcLabel" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="Description" Identification="TypeDescription">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description" Identification="TypeDescription">
 													<Rules>
-														<DocModelRuleEntity Name="IfcText" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" />
 													</Rules>
 												</DocModelRuleAttribute>
 											</Rules>
@@ -1031,95 +1031,95 @@ Project libraries may also be retrieved from model servers having particular rev
 
 Finally, objects may also carry informational attributes indicating when an object was created, who, when, and what application was used to last modify an object, and who currently owns the object, potentially having exclusive use according to its lock state.</Documentation>
 			<Rules>
-				<DocModelRuleAttribute Name="OwnerHistory">
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="OwnerHistory">
 					<Rules>
-						<DocModelRuleEntity Name="IfcOwnerHistory">
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcOwnerHistory">
 							<Rules>
-								<DocModelRuleAttribute Name="OwningUser">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="OwningUser">
 									<Rules>
-										<DocModelRuleEntity Name="IfcPersonAndOrganization">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPersonAndOrganization">
 											<Rules>
-												<DocModelRuleAttribute Name="ThePerson">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ThePerson">
 													<Rules>
-														<DocModelRuleEntity Name="IfcPerson">
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPerson">
 															<Rules>
-																<DocModelRuleAttribute Name="Identification">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Identification">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcIdentifier" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="FamilyName">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="FamilyName">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcLabel" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="GivenName">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="GivenName">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcLabel" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="MiddleNames">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="MiddleNames">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcLabel" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="PrefixTitles">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="PrefixTitles">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcLabel" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="SuffixTitles">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="SuffixTitles">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcLabel" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="Roles">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Roles">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcActorRole" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcActorRole" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="Addresses">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Addresses">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcTelecomAddress">
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcTelecomAddress">
 																			<Rules>
-																				<DocModelRuleAttribute Name="Purpose">
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Purpose">
 																					<Rules>
-																						<DocModelRuleEntity Name="IfcAddressTypeEnum" />
+																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcAddressTypeEnum" />
 																					</Rules>
 																				</DocModelRuleAttribute>
-																				<DocModelRuleAttribute Name="TelephoneNumbers">
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="TelephoneNumbers">
 																					<Rules>
-																						<DocModelRuleEntity Name="IfcLabel" />
+																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																					</Rules>
 																				</DocModelRuleAttribute>
-																				<DocModelRuleAttribute Name="FacsimileNumbers">
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="FacsimileNumbers">
 																					<Rules>
-																						<DocModelRuleEntity Name="IfcLabel" />
+																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																					</Rules>
 																				</DocModelRuleAttribute>
-																				<DocModelRuleAttribute Name="ElectronicMailAddresses">
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ElectronicMailAddresses">
 																					<Rules>
-																						<DocModelRuleEntity Name="IfcLabel" />
+																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																					</Rules>
 																				</DocModelRuleAttribute>
-																				<DocModelRuleAttribute Name="WWWHomePageURL">
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="WWWHomePageURL">
 																					<Rules>
-																						<DocModelRuleEntity Name="IfcURIReference" />
+																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcURIReference" />
 																					</Rules>
 																				</DocModelRuleAttribute>
-																				<DocModelRuleAttribute Name="MessagingIDs">
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="MessagingIDs">
 																					<Rules>
-																						<DocModelRuleEntity Name="IfcURIReference" />
+																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcURIReference" />
 																					</Rules>
 																				</DocModelRuleAttribute>
-																				<DocModelRuleAttribute Name="Description">
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
 																					<Rules>
-																						<DocModelRuleEntity Name="IfcText" />
+																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" />
 																					</Rules>
 																				</DocModelRuleAttribute>
-																				<DocModelRuleAttribute Name="UserDefinedPurpose">
+																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="UserDefinedPurpose">
 																					<Rules>
-																						<DocModelRuleEntity Name="IfcLabel" />
+																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																					</Rules>
 																				</DocModelRuleAttribute>
 																			</Rules>
@@ -1130,56 +1130,56 @@ Finally, objects may also carry informational attributes indicating when an obje
 														</DocModelRuleEntity>
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="TheOrganization">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="TheOrganization">
 													<Rules>
-														<DocModelRuleEntity Name="IfcOrganization">
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcOrganization">
 															<Rules>
-																<DocModelRuleAttribute Name="Identification">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Identification">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcIdentifier" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="Name">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcLabel" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="Description">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcText" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="Roles">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Roles">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcActorRole" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcActorRole" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="Addresses">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Addresses">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcAddress" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcAddress" />
 																	</Rules>
 																</DocModelRuleAttribute>
 															</Rules>
 														</DocModelRuleEntity>
 													</Rules>
 												</DocModelRuleAttribute>
-												<DocModelRuleAttribute Name="Roles">
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Roles">
 													<Rules>
-														<DocModelRuleEntity Name="IfcActorRole">
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcActorRole">
 															<Rules>
-																<DocModelRuleAttribute Name="Role">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Role">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcRoleEnum" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRoleEnum" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="UserDefinedRole">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="UserDefinedRole">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcLabel" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 																	</Rules>
 																</DocModelRuleAttribute>
-																<DocModelRuleAttribute Name="Description">
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
 																	<Rules>
-																		<DocModelRuleEntity Name="IfcText" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" />
 																	</Rules>
 																</DocModelRuleAttribute>
 															</Rules>
@@ -1190,51 +1190,51 @@ Finally, objects may also carry informational attributes indicating when an obje
 										</DocModelRuleEntity>
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="OwningApplication">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="OwningApplication">
 									<Rules>
-										<DocModelRuleEntity Name="IfcApplication">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcApplication">
 											<Rules>
-												<DocModelRuleAttribute Name="ApplicationDeveloper" />
-												<DocModelRuleAttribute Name="Version" />
-												<DocModelRuleAttribute Name="ApplicationFullName" />
-												<DocModelRuleAttribute Name="ApplicationIdentifier" />
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ApplicationDeveloper" />
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Version" />
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ApplicationFullName" />
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ApplicationIdentifier" />
 											</Rules>
 										</DocModelRuleEntity>
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="State">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="State">
 									<Rules>
-										<DocModelRuleEntity Name="IfcStateEnum" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcStateEnum" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="ChangeAction">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ChangeAction">
 									<Rules>
-										<DocModelRuleEntity Name="IfcChangeActionEnum" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcChangeActionEnum" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="CreationDate">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="CreationDate">
 									<Rules>
-										<DocModelRuleEntity Name="IfcTimeStamp" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcTimeStamp" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="LastModifiedDate">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LastModifiedDate">
 									<Rules>
-										<DocModelRuleEntity Name="IfcTimeStamp" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcTimeStamp" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="LastModifyingUser">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LastModifyingUser">
 									<Rules>
-										<DocModelRuleEntity Name="IfcPersonAndOrganization" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPersonAndOrganization" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="LastModifyingApplication">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LastModifyingApplication">
 									<Rules>
-										<DocModelRuleEntity Name="IfcApplication">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcApplication">
 											<Rules>
-												<DocModelRuleAttribute Name="ApplicationDeveloper" />
-												<DocModelRuleAttribute Name="Version" />
-												<DocModelRuleAttribute Name="ApplicationFullName" />
-												<DocModelRuleAttribute Name="ApplicationIdentifier" />
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ApplicationDeveloper" />
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Version" />
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ApplicationFullName" />
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ApplicationIdentifier" />
 											</Rules>
 										</DocModelRuleEntity>
 									</Rules>
@@ -1250,9 +1250,9 @@ Finally, objects may also carry informational attributes indicating when an obje
 
 Various objects may have additional identifications that may be human-readable and/or may be structured through classification association. Various file formats may use additional identifications of instances for serialization purposes, however there is no requirement or guarantee for such identifications to remain the same between revisions or across applications. For example, the IFC-SPF file format lists each instance with a 64-bit integer that is unique within the particular file.</Documentation>
 			<Rules>
-				<DocModelRuleAttribute Name="GlobalId" Identification="GUID">
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="GlobalId" Identification="GUID">
 					<Rules>
-						<DocModelRuleEntity Name="IfcGloballyUniqueId" />
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcGloballyUniqueId" />
 					</Rules>
 				</DocModelRuleAttribute>
 			</Rules>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProjectedOrTrueLengthEnum" UniqueId="910e9007-48c6-48d5-bc09-c771d8fc9440">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProjectedOrTrueLengthEnum" UniqueId="910e9007-48c6-48d5-bc09-c771d8fc9440" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Projected Or True Length Enum" />
+		<DocLocalization Name="Projected Or True Length Enum" Locale="en" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="PROJECTED_LENGTH_36e2bJ66n8wRV0D__3V64b" />

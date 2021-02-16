@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFontStyle" UniqueId="a56e68ba-e36b-42e9-91dc-57f1afed3b60" DefinedType="STRING">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFontStyle" UniqueId="a56e68ba-e36b-42e9-91dc-57f1afed3b60" DiagramNumber="0" DefinedType="STRING" Length="0">
 	<Localization>
-		<DocLocalization Locale="de" Name="Schriftstil" />
-		<DocLocalization Locale="en" Name="Font Style" />
-		<DocLocalization Locale="fr" Name="Style de police" />
+		<DocLocalization Name="Schriftstil" Locale="de" />
+		<DocLocalization Name="Font Style" Locale="en" />
+		<DocLocalization Name="Style de police" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_3ynilg4C96p9BjwFj6UaHw" />
 	<WhereRules>

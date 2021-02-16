@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFontVariant" UniqueId="5af73e06-d478-4f63-985c-c7659b253ded" DefinedType="STRING">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFontVariant" UniqueId="5af73e06-d478-4f63-985c-c7659b253ded" DiagramNumber="0" DefinedType="STRING" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Font Variant" />
-		<DocLocalization Locale="fr" Name="Police normale ou en petites majuscules" />
+		<DocLocalization Name="Font Variant" Locale="en" />
+		<DocLocalization Name="Police normale ou en petites majuscules" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_3ynilg4C96p9BjwFj6UaHw" />
 	<WhereRules>

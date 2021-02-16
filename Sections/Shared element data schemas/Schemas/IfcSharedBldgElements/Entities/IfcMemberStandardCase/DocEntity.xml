@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcMemberStandardCase" Name="IfcMemberStandardCase" UniqueId="383643f9-fe77-4371-bc51-8e41fc87a6ba" Status="Deprecated" BaseDefinition="IfcMember" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcMemberStandardCase" Name="IfcMemberStandardCase" UniqueId="383643f9-fe77-4371-bc51-8e41fc87a6ba" Status="Deprecated" DiagramNumber="0" BaseDefinition="IfcMember" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Stab / Stabträger - Standard" />
-		<DocLocalization Locale="en" Name="Member Standard Case" />
-		<DocLocalization Locale="fr" Name="Membre standard" />
+		<DocLocalization Name="Stab / Stabträger - Standard" Locale="de" />
+		<DocLocalization Name="Member Standard Case" Locale="en" />
+		<DocLocalization Name="Membre standard" Locale="fr" />
 	</Localization>
 	<WhereRules>
 		<DocWhereRule Name="HasMaterialProfileSetUsage" UniqueId="442935a1-cd00-47f9-abb9-a2096c66779c">

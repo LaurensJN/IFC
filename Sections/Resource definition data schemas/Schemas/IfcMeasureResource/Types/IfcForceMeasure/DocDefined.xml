@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcForceMeasure" UniqueId="9cd70568-074e-4b07-8139-a51293f3d0ad" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcForceMeasure" UniqueId="9cd70568-074e-4b07-8139-a51293f3d0ad" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Force Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de force" />
+		<DocLocalization Name="Force Measure" Locale="en" />
+		<DocLocalization Name="Mesure de force" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

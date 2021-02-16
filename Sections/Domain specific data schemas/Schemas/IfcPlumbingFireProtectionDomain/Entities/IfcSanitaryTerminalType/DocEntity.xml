@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSanitaryTerminalType" Name="IfcSanitaryTerminalType" UniqueId="3e6d6990-982c-4e43-a72e-52557bdc1ac3" BaseDefinition="IfcFlowTerminalType" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSanitaryTerminalType" Name="IfcSanitaryTerminalType" UniqueId="3e6d6990-982c-4e43-a72e-52557bdc1ac3" DiagramNumber="0" BaseDefinition="IfcFlowTerminalType" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Sanitäreinrichtung - Typ" />
-		<DocLocalization Locale="en" Name="Sanitary Terminal Type" />
-		<DocLocalization Locale="fr" Name="Type d&apos;équipement sanitaire" />
+		<DocLocalization Name="Sanitäreinrichtung - Typ" Locale="de" />
+		<DocLocalization Name="Sanitary Terminal Type" Locale="en" />
+		<DocLocalization Name="Type d&apos;équipement sanitaire" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="1e4ce0fe-9a0e-4b63-85a0-96729bee115b" DefinedType="IfcSanitaryTerminalTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="1e4ce0fe-9a0e-4b63-85a0-96729bee115b" DefinedType="IfcSanitaryTerminalTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of sanitary terminal from which the type required may be set.</Documentation>
 		</DocAttribute>
 	</Attributes>

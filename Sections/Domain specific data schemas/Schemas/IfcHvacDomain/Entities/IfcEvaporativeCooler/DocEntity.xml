@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcEvaporativeCooler" Name="IfcEvaporativeCooler" UniqueId="00254f70-e0ef-4d79-91de-eade9f1c10c5" BaseDefinition="IfcEnergyConversionDevice" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcEvaporativeCooler" Name="IfcEvaporativeCooler" UniqueId="00254f70-e0ef-4d79-91de-eade9f1c10c5" DiagramNumber="0" BaseDefinition="IfcEnergyConversionDevice" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Verdunstungskühler" />
-		<DocLocalization Locale="en" Name="Evaporative Cooler" />
-		<DocLocalization Locale="fr" Name="Refroidisseur évaporatif" />
+		<DocLocalization Name="Verdunstungskühler" Locale="de" />
+		<DocLocalization Name="Evaporative Cooler" Locale="en" />
+		<DocLocalization Name="Refroidisseur évaporatif" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="5235d6fd-e834-4f07-bc90-c52223140472" DefinedType="IfcEvaporativeCoolerTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="5235d6fd-e834-4f07-bc90-c52223140472" DefinedType="IfcEvaporativeCoolerTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="1323597a-e148-42ce-b940-abb63210ef1b">

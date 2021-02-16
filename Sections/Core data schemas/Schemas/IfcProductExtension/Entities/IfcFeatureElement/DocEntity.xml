@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFeatureElement" Name="IfcFeatureElement" UniqueId="439553ce-81d9-4bd1-8648-bcf6a5ee6ecc" BaseDefinition="IfcElement" EntityFlags="205">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFeatureElement" Name="IfcFeatureElement" UniqueId="439553ce-81d9-4bd1-8648-bcf6a5ee6ecc" DiagramNumber="0" BaseDefinition="IfcElement" EntityFlags="205">
 	<Localization>
-		<DocLocalization Locale="de" Name="Modifikator (geometrischer Körper)" />
-		<DocLocalization Locale="en" Name="Feature Element" />
+		<DocLocalization Name="Modifikator (geometrischer Körper)" Locale="de" />
+		<DocLocalization Name="Feature Element" Locale="en" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="5e859002-f162-4984-8c68-3cd337157692" DefinedType="IfcFeatureElementAddition" />

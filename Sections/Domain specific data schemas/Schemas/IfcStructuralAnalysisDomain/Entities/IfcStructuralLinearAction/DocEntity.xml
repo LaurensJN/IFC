@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralLinearAction" UniqueId="8db6f32f-4084-4717-8dfb-ad3400beaf4c" BaseDefinition="IfcStructuralCurveAction" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralLinearAction" UniqueId="8db6f32f-4084-4717-8dfb-ad3400beaf4c" DiagramNumber="0" BaseDefinition="IfcStructuralCurveAction" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="gleichmäßige Linienlast" />
-		<DocLocalization Locale="en" Name="Structural Linear Action" />
+		<DocLocalization Name="gleichmäßige Linienlast" Locale="de" />
+		<DocLocalization Name="Structural Linear Action" Locale="en" />
 	</Localization>
 	<WhereRules>
 		<DocWhereRule Name="SuitableLoadType" UniqueId="a69ea701-c378-456d-8595-4bbfec56bd21">

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSurface" Name="IfcSurface" UniqueId="831d6ea9-533c-4e2e-89ce-3769c22c7190" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="205">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSurface" Name="IfcSurface" UniqueId="831d6ea9-533c-4e2e-89ce-3769c22c7190" DiagramNumber="0" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="205">
 	<Localization>
-		<DocLocalization Locale="de" Name="Oberfläche" />
-		<DocLocalization Locale="en" Name="Surface" />
-		<DocLocalization Locale="fr" Name="Surface" />
+		<DocLocalization Name="Oberfläche" Locale="de" />
+		<DocLocalization Name="Surface" Locale="en" />
+		<DocLocalization Name="Surface" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="965ebedd-3b78-4f4c-bcf6-5ddc5f64987c" DefinedType="IfcElementarySurface" />
@@ -11,7 +11,7 @@
 		<DocSubtype UniqueId="97f3084a-68e8-44f6-9316-870dae12c53c" DefinedType="IfcBoundedSurface" />
 	</Subtypes>
 	<Attributes>
-		<DocAttribute Name="Dim" UniqueId="d7b044c2-96b1-4dd0-a385-e33e64ee17df" DefinedType="IfcDimensionCount">
+		<DocAttribute Name="Dim" UniqueId="d7b044c2-96b1-4dd0-a385-e33e64ee17df" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The space dimensionality of IfcSurface. It is always a three-dimensional geometric representation item.
 { .change-ifc2x4}
 &gt; IFC4 CHANGE Derived attribute promoted from subtypes.</Documentation>

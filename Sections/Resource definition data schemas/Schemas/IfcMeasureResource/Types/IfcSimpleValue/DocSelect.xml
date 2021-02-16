@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSimpleValue" UniqueId="08136c24-2758-4351-a3d0-7b40b8a7c5ad">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSimpleValue" UniqueId="08136c24-2758-4351-a3d0-7b40b8a7c5ad" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="de" Name="Einfacher Wert" />
-		<DocLocalization Locale="en" Name="Simple Value" />
-		<DocLocalization Locale="fr" Name="Valeur simple" />
+		<DocLocalization Name="Einfacher Wert" Locale="de" />
+		<DocLocalization Name="Simple Value" Locale="en" />
+		<DocLocalization Name="Valeur simple" Locale="fr" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcInteger" UniqueId="4d336d34-5763-481d-a939-2d405852fd9a" />

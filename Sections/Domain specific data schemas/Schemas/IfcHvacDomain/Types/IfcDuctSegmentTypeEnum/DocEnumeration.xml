@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDuctSegmentTypeEnum" UniqueId="94b83462-b388-4566-9a73-9b62b61dc9c9">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDuctSegmentTypeEnum" UniqueId="94b83462-b388-4566-9a73-9b62b61dc9c9" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Duct Segment Type Enum" />
-		<DocLocalization Locale="fr" Name="Énumération des types de tronçon de gaine" />
+		<DocLocalization Name="Duct Segment Type Enum" Locale="en" />
+		<DocLocalization Name="Énumération des types de tronçon de gaine" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="RIGIDSEGMENT_3pOtIowDr3BOZLZggRWHvx" />

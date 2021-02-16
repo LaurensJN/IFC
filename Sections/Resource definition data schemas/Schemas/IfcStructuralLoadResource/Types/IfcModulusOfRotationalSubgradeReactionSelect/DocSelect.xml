@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcModulusOfRotationalSubgradeReactionSelect" UniqueId="317f2b3b-e9d3-4027-9bb8-aaa491ecbd44">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcModulusOfRotationalSubgradeReactionSelect" UniqueId="317f2b3b-e9d3-4027-9bb8-aaa491ecbd44" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Modulus Of Rotational Subgrade Reaction Select" />
+		<DocLocalization Name="Modulus Of Rotational Subgrade Reaction Select" Locale="en" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcBoolean" UniqueId="2dced102-5788-425d-8bff-3b0a25d6b41c" />

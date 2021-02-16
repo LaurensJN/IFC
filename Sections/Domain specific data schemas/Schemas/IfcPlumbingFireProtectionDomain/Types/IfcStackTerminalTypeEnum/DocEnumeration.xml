@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStackTerminalTypeEnum" UniqueId="1d89101b-584e-461e-9cd9-fdfeff188f55">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStackTerminalTypeEnum" UniqueId="1d89101b-584e-461e-9cd9-fdfeff188f55" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Stack Terminal Type Enum" />
+		<DocLocalization Name="Stack Terminal Type Enum" Locale="en" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="BIRDCAGE_2Gyov4ba1EyRh6eE42B42N" />

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSpatialZone" Name="IfcSpatialZone" UniqueId="238c3771-892d-42d9-95eb-0e1807d07f4c" BaseDefinition="IfcSpatialElement" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSpatialZone" Name="IfcSpatialZone" UniqueId="238c3771-892d-42d9-95eb-0e1807d07f4c" DiagramNumber="0" BaseDefinition="IfcSpatialElement" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Räumliche Zone" />
-		<DocLocalization Locale="en" Name="Spatial Zone" />
-		<DocLocalization Locale="fr" Name="Zone spatiale" />
+		<DocLocalization Name="Räumliche Zone" Locale="de" />
+		<DocLocalization Name="Spatial Zone" Locale="en" />
+		<DocLocalization Name="Zone spatiale" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="2dfe36e4-06f5-40ff-bcfb-4976d2cfada4" DefinedType="IfcSpatialZoneTypeEnum" AttributeFlags="1">
+		<DocAttribute Name="PredefinedType" UniqueId="2dfe36e4-06f5-40ff-bcfb-4976d2cfada4" DefinedType="IfcSpatialZoneTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined types to define the particular type of the spatial zone. There may be property set definitions available for each predefined type.</Documentation>
 		</DocAttribute>
 	</Attributes>

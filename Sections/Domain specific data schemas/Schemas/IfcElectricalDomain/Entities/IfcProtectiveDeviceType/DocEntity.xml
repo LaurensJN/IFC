@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcProtectiveDeviceType" Name="IfcProtectiveDeviceType" UniqueId="42a11802-b62b-451b-b13b-bbbd59194027" BaseDefinition="IfcFlowControllerType" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcProtectiveDeviceType" Name="IfcProtectiveDeviceType" UniqueId="42a11802-b62b-451b-b13b-bbbd59194027" DiagramNumber="0" BaseDefinition="IfcFlowControllerType" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Sicherung - Typ" />
-		<DocLocalization Locale="en" Name="Protective Device Type" />
-		<DocLocalization Locale="fr" Name="Type d&apos;équipement de protection" />
+		<DocLocalization Name="Sicherung - Typ" Locale="de" />
+		<DocLocalization Name="Protective Device Type" Locale="en" />
+		<DocLocalization Name="Type d&apos;équipement de protection" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="63f1f340-e5f4-4898-a768-09b5fac4220b" DefinedType="IfcProtectiveDeviceTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="63f1f340-e5f4-4898-a768-09b5fac4220b" DefinedType="IfcProtectiveDeviceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of protective device from which the type required may be set.</Documentation>
 		</DocAttribute>
 	</Attributes>

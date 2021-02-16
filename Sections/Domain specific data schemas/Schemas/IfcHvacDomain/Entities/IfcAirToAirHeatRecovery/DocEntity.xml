@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcAirToAirHeatRecovery" Name="IfcAirToAirHeatRecovery" UniqueId="c3b0db60-6c85-4fba-9efe-5d2a04a9e3d3" BaseDefinition="IfcEnergyConversionDevice" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcAirToAirHeatRecovery" Name="IfcAirToAirHeatRecovery" UniqueId="c3b0db60-6c85-4fba-9efe-5d2a04a9e3d3" DiagramNumber="0" BaseDefinition="IfcEnergyConversionDevice" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Wärmerückgewinner" />
-		<DocLocalization Locale="en" Name="Air To Air Heat Recovery" />
-		<DocLocalization Locale="fr" Name="Echangeur air-air" />
+		<DocLocalization Name="Wärmerückgewinner" Locale="de" />
+		<DocLocalization Name="Air To Air Heat Recovery" Locale="en" />
+		<DocLocalization Name="Echangeur air-air" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="8bf12e55-5171-4fd6-be19-5780bdb84f49" DefinedType="IfcAirToAirHeatRecoveryTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="8bf12e55-5171-4fd6-be19-5780bdb84f49" DefinedType="IfcAirToAirHeatRecoveryTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="5bba3634-4b54-406e-ae44-4550eecf2ee4">

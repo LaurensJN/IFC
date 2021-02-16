@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcRelationship" Name="IfcRelationship" UniqueId="9719f52b-2f51-4db0-9908-f63426ac8fc8" BaseDefinition="IfcRoot" EntityFlags="77">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcRelationship" Name="IfcRelationship" UniqueId="9719f52b-2f51-4db0-9908-f63426ac8fc8" DiagramNumber="0" BaseDefinition="IfcRoot" EntityFlags="77">
 	<Localization>
-		<DocLocalization Locale="de" Name="Objektifizierte Relation (allgemein)" />
-		<DocLocalization Locale="en" Name="Relationship" />
-		<DocLocalization Locale="fr" Name="Relation" />
+		<DocLocalization Name="Objektifizierte Relation (allgemein)" Locale="de" />
+		<DocLocalization Name="Relationship" Locale="en" />
+		<DocLocalization Name="Relation" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="01823b37-1023-49a1-9595-fdfe43bc4e64" DefinedType="IfcRelAssigns" />

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFan" Name="IfcFan" UniqueId="7dfc1ce2-90b4-40a6-bd33-b4d698233f5a" BaseDefinition="IfcFlowMovingDevice" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFan" Name="IfcFan" UniqueId="7dfc1ce2-90b4-40a6-bd33-b4d698233f5a" DiagramNumber="0" BaseDefinition="IfcFlowMovingDevice" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Ventilator" />
-		<DocLocalization Locale="en" Name="Fan" />
-		<DocLocalization Locale="fr" Name="Ventilateur" />
+		<DocLocalization Name="Ventilator" Locale="de" />
+		<DocLocalization Name="Fan" Locale="en" />
+		<DocLocalization Name="Ventilateur" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="78b04d8e-a13f-425e-a5b9-e2649b1d5639" DefinedType="IfcFanTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="78b04d8e-a13f-425e-a5b9-e2649b1d5639" DefinedType="IfcFanTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="bfcf4931-c63f-4174-9ab0-293e038e7798">

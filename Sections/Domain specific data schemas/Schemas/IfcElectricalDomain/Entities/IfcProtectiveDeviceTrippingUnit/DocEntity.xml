@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcProtectiveDeviceTrippingUnit" Name="IfcProtectiveDeviceTrippingUnit" UniqueId="a8488154-175e-4eda-b9b6-157a9fa9cafe" BaseDefinition="IfcDistributionControlElement" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcProtectiveDeviceTrippingUnit" Name="IfcProtectiveDeviceTrippingUnit" UniqueId="a8488154-175e-4eda-b9b6-157a9fa9cafe" DiagramNumber="0" BaseDefinition="IfcDistributionControlElement" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Sicherungsschalter" />
-		<DocLocalization Locale="en" Name="Protective Device Tripping Unit" />
-		<DocLocalization Locale="fr" Name="Unité de déclenchement d&apos;équipement de protection" />
+		<DocLocalization Name="Sicherungsschalter" Locale="de" />
+		<DocLocalization Name="Protective Device Tripping Unit" Locale="en" />
+		<DocLocalization Name="Unité de déclenchement d&apos;équipement de protection" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="6801c27d-267c-44ff-a462-840addfa2cc5" DefinedType="IfcProtectiveDeviceTrippingUnitTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="6801c27d-267c-44ff-a462-840addfa2cc5" DefinedType="IfcProtectiveDeviceTrippingUnitTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="53b282a4-872e-4b06-81fe-5c055f4a865f">

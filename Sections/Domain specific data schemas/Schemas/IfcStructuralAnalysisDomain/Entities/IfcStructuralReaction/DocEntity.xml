@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralReaction" UniqueId="f0e940ad-cfed-49d8-a850-023bd268a88a" BaseDefinition="IfcStructuralActivity" EntityFlags="133">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralReaction" UniqueId="f0e940ad-cfed-49d8-a850-023bd268a88a" DiagramNumber="0" BaseDefinition="IfcStructuralActivity" EntityFlags="133">
 	<Localization>
-		<DocLocalization Locale="de" Name="Auflagerreaktion / Schnittkraft (allgemein)" />
-		<DocLocalization Locale="en" Name="Structural Reaction" />
+		<DocLocalization Name="Auflagerreaktion / Schnittkraft (allgemein)" Locale="de" />
+		<DocLocalization Name="Structural Reaction" Locale="en" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="af18b839-96bc-4a1f-9314-59380475e15d" DefinedType="IfcStructuralPointReaction" />

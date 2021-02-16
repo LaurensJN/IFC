@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBoxAlignment" UniqueId="0b2a355f-5bc6-4926-8828-c5be74ed5763" DefinedType="IfcLabel">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBoxAlignment" UniqueId="0b2a355f-5bc6-4926-8828-c5be74ed5763" DiagramNumber="0" DefinedType="IfcLabel" Length="0">
 	<Localization>
-		<DocLocalization Locale="de" Name="Ausrichtung (Text-)Feld" />
-		<DocLocalization Locale="en" Name="Box Alignment" />
-		<DocLocalization Locale="fr" Name="Alignement de zone de texte" />
+		<DocLocalization Name="Ausrichtung (Text-)Feld" Locale="de" />
+		<DocLocalization Name="Box Alignment" Locale="en" />
+		<DocLocalization Name="Alignement de zone de texte" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocDefinitionRef" xsi:nil="true" href="IfcLabel_0PE2d5tdn4ff_VrMgDm7rb" />
 	<WhereRules>

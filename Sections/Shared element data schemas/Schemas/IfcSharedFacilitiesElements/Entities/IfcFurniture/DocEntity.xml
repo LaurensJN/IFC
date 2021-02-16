@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFurniture" Name="IfcFurniture" UniqueId="73f7c69a-738b-407d-8e68-505ddadbfb41" Status="H" BaseDefinition="IfcFurnishingElement" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFurniture" Name="IfcFurniture" UniqueId="73f7c69a-738b-407d-8e68-505ddadbfb41" Status="H" DiagramNumber="0" BaseDefinition="IfcFurnishingElement" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Mobiliar" />
-		<DocLocalization Locale="en" Name="Furniture" />
-		<DocLocalization Locale="fr" Name="Mobilier" />
+		<DocLocalization Name="Mobiliar" Locale="de" />
+		<DocLocalization Name="Furniture" Locale="en" />
+		<DocLocalization Name="Mobilier" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="ffe18e42-a9d5-4e8f-984d-86632f76b530" DefinedType="IfcFurnitureTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="ffe18e42-a9d5-4e8f-984d-86632f76b530" DefinedType="IfcFurnitureTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="65e1e5c7-ede5-42e5-81f9-fe599a7064de">

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcTaskType" Name="IfcTaskType" UniqueId="77b2b704-db87-472e-a29a-8703008a914e" BaseDefinition="IfcTypeProcess" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcTaskType" Name="IfcTaskType" UniqueId="77b2b704-db87-472e-a29a-8703008a914e" DiagramNumber="0" BaseDefinition="IfcTypeProcess" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Aufgabe - Typ" />
-		<DocLocalization Locale="en" Name="Task Type" />
-		<DocLocalization Locale="fr" Name="Type de tâche" />
+		<DocLocalization Name="Aufgabe - Typ" Locale="de" />
+		<DocLocalization Name="Task Type" Locale="en" />
+		<DocLocalization Name="Type de tâche" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="6d753b35-1021-4b5f-b5e3-88577c0039e5" DefinedType="IfcTaskTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="6d753b35-1021-4b5f-b5e3-88577c0039e5" DefinedType="IfcTaskTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a task type from which 
     the type required may be set.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="WorkMethod" UniqueId="15b56ebb-668c-4abe-8828-59a6ecbd8ec2" DefinedType="IfcLabel" AttributeFlags="1">
+		<DocAttribute Name="WorkMethod" UniqueId="15b56ebb-668c-4abe-8828-59a6ecbd8ec2" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The method of work used in carrying out a task.</Documentation>
 		</DocAttribute>
 	</Attributes>

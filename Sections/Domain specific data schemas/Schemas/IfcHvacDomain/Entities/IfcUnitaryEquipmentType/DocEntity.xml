@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcUnitaryEquipmentType" Name="IfcUnitaryEquipmentType" UniqueId="9ad0a30e-c8f8-4b10-a580-7fe63adeee83" BaseDefinition="IfcEnergyConversionDeviceType" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcUnitaryEquipmentType" Name="IfcUnitaryEquipmentType" UniqueId="9ad0a30e-c8f8-4b10-a580-7fe63adeee83" DiagramNumber="0" BaseDefinition="IfcEnergyConversionDeviceType" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Einbaufertige Anlage - Typ" />
-		<DocLocalization Locale="en" Name="Unitary Equipment Type" />
-		<DocLocalization Locale="fr" Name="Type d&apos;équipement unitaire" />
+		<DocLocalization Name="Einbaufertige Anlage - Typ" Locale="de" />
+		<DocLocalization Name="Unitary Equipment Type" Locale="en" />
+		<DocLocalization Name="Type d&apos;équipement unitaire" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="72298c6a-62aa-4795-8440-09510e987809" DefinedType="IfcUnitaryEquipmentTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="72298c6a-62aa-4795-8440-09510e987809" DefinedType="IfcUnitaryEquipmentTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The type of unitary equipment.</Documentation>
 		</DocAttribute>
 	</Attributes>

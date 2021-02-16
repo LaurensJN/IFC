@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDayInMonthNumber" UniqueId="0c42411a-5567-46b3-bef9-616aab9e1028" DefinedType="INTEGER">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDayInMonthNumber" UniqueId="0c42411a-5567-46b3-bef9-616aab9e1028" DiagramNumber="0" DefinedType="INTEGER" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Day In Month Number" />
-		<DocLocalization Locale="fr" Name="Numéro du jour du mois" />
+		<DocLocalization Name="Day In Month Number" Locale="en" />
+		<DocLocalization Name="Numéro du jour du mois" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="INTEGER_3zVfmb7DP1RPb9bVPO2XuE" />
 	<WhereRules>

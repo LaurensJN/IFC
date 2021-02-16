@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCondenserType" Name="IfcCondenserType" UniqueId="9d2cddee-45de-4b2c-9d48-812cc8cac37f" BaseDefinition="IfcEnergyConversionDeviceType" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCondenserType" Name="IfcCondenserType" UniqueId="9d2cddee-45de-4b2c-9d48-812cc8cac37f" DiagramNumber="0" BaseDefinition="IfcEnergyConversionDeviceType" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Kondensator - Typ" />
-		<DocLocalization Locale="en" Name="Condenser Type" />
-		<DocLocalization Locale="fr" Name="Type de condenseur" />
+		<DocLocalization Name="Kondensator - Typ" Locale="de" />
+		<DocLocalization Name="Condenser Type" Locale="en" />
+		<DocLocalization Name="Type de condenseur" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="6beaeb3e-2f12-4f5e-b32b-edc3cf6bac0b" DefinedType="IfcCondenserTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="6beaeb3e-2f12-4f5e-b32b-edc3cf6bac0b" DefinedType="IfcCondenserTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines the type of condenser.</Documentation>
 		</DocAttribute>
 	</Attributes>

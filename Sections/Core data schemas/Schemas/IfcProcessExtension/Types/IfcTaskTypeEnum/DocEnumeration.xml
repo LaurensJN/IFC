@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTaskTypeEnum" UniqueId="8747d965-7b28-49e9-828a-dd743865fe45">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTaskTypeEnum" UniqueId="8747d965-7b28-49e9-828a-dd743865fe45" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Task Type Enum" />
-		<DocLocalization Locale="fr" Name="Énumération des types de tâche" />
+		<DocLocalization Name="Task Type Enum" Locale="en" />
+		<DocLocalization Name="Énumération des types de tâche" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="ATTENDANCE_1bK_kRouP5_uoz9yow1V9Q" />

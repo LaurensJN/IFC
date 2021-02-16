@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFanType" Name="IfcFanType" UniqueId="13691192-2383-4c23-ab6a-c8a9a2b8c1ba" BaseDefinition="IfcFlowMovingDeviceType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFanType" Name="IfcFanType" UniqueId="13691192-2383-4c23-ab6a-c8a9a2b8c1ba" DiagramNumber="0" BaseDefinition="IfcFlowMovingDeviceType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Ventilator - Typ" />
-		<DocLocalization Locale="en" Name="Fan Type" />
-		<DocLocalization Locale="fr" Name="Type de ventilateur" />
+		<DocLocalization Name="Ventilator - Typ" Locale="de" />
+		<DocLocalization Name="Fan Type" Locale="en" />
+		<DocLocalization Name="Type de ventilateur" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="a35b99d4-7d3d-4273-92a5-5812abe54400" DefinedType="IfcFanTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="a35b99d4-7d3d-4273-92a5-5812abe54400" DefinedType="IfcFanTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines the type of fan typically used in building services.</Documentation>
 		</DocAttribute>
 	</Attributes>

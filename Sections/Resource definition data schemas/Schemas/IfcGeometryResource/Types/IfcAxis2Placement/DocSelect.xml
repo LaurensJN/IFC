@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAxis2Placement" UniqueId="929012e2-9ea2-4f90-a265-8c380c75ae9b">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAxis2Placement" UniqueId="929012e2-9ea2-4f90-a265-8c380c75ae9b" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Axis2 Placement" />
+		<DocLocalization Name="Axis2 Placement" Locale="en" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcAxis2Placement2D" UniqueId="94d61fbf-8d63-4539-a9d5-cc5f8a11d102" />

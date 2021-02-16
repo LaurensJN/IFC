@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAdvancedFace" UniqueId="6c23b448-71b0-4236-9351-383aca8d452c" BaseDefinition="IfcFaceSurface" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAdvancedFace" UniqueId="6c23b448-71b0-4236-9351-383aca8d452c" DiagramNumber="0" BaseDefinition="IfcFaceSurface" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Fläche - komplex" />
-		<DocLocalization Locale="en" Name="Advanced Face" />
-		<DocLocalization Locale="fr" Name="Face avancée" />
+		<DocLocalization Name="Fläche - komplex" Locale="de" />
+		<DocLocalization Name="Advanced Face" Locale="en" />
+		<DocLocalization Name="Face avancée" Locale="fr" />
 	</Localization>
 	<WhereRules>
 		<DocWhereRule Name="ApplicableSurface" UniqueId="bdb32ee6-1359-4c1a-8cbd-a79872e15a8e">

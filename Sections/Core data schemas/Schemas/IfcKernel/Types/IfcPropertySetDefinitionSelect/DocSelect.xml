@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPropertySetDefinitionSelect" UniqueId="379de60f-07fe-44bd-8cc1-0e7db8c4fda2">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPropertySetDefinitionSelect" UniqueId="379de60f-07fe-44bd-8cc1-0e7db8c4fda2" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Property Set Definition Select" />
+		<DocLocalization Name="Property Set Definition Select" Locale="en" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcPropertySetDefinitionSet" UniqueId="ac3d2450-46a8-4cda-b2e0-f253691bf67d" />

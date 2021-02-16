@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcRelAssociatesMaterial" Name="IfcRelAssociatesMaterial" UniqueId="68083c6e-1181-46f4-84da-7cd237846083" BaseDefinition="IfcRelAssociates" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcRelAssociatesMaterial" Name="IfcRelAssociatesMaterial" UniqueId="68083c6e-1181-46f4-84da-7cd237846083" DiagramNumber="0" BaseDefinition="IfcRelAssociates" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Ordnet Material zu - Relation" />
-		<DocLocalization Locale="en" Name="Rel Associates Material" />
-		<DocLocalization Locale="fr" Name="Association de matériau" />
+		<DocLocalization Name="Ordnet Material zu - Relation" Locale="de" />
+		<DocLocalization Name="Rel Associates Material" Locale="en" />
+		<DocLocalization Name="Association de matériau" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="RelatingMaterial" UniqueId="463ce87e-d144-4166-8fe4-c3c46fd0dd1d" DefinedType="IfcMaterialSelect">
+		<DocAttribute Name="RelatingMaterial" UniqueId="463ce87e-d144-4166-8fe4-c3c46fd0dd1d" DefinedType="IfcMaterialSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Material definition assigned to the elements or element types.</Documentation>
 		</DocAttribute>
 	</Attributes>

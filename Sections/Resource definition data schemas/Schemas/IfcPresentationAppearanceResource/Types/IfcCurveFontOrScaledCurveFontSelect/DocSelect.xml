@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCurveFontOrScaledCurveFontSelect" UniqueId="9b2496c9-ef73-4fac-af93-f12b7960412f">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCurveFontOrScaledCurveFontSelect" UniqueId="9b2496c9-ef73-4fac-af93-f12b7960412f" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Curve Font Or Scaled Curve Font Select" />
+		<DocLocalization Name="Curve Font Or Scaled Curve Font Select" Locale="en" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcCurveStyleFontSelect" UniqueId="7849aa91-62a0-4883-aa8b-965eeea64b66" />

@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcPile" Name="IfcPile" UniqueId="986bf516-0c1c-465d-992a-2150e7aabe95" BaseDefinition="IfcBuildingElement" EntityFlags="37">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcPile" Name="IfcPile" UniqueId="986bf516-0c1c-465d-992a-2150e7aabe95" DiagramNumber="0" BaseDefinition="IfcBuildingElement" EntityFlags="37">
 	<Localization>
-		<DocLocalization Locale="de" Name="Fundament / Tiefgründung" />
-		<DocLocalization Locale="en" Name="Pile" />
-		<DocLocalization Locale="fr" Name="Pieu" />
+		<DocLocalization Name="Fundament / Tiefgründung" Locale="de" />
+		<DocLocalization Name="Pile" Locale="en" />
+		<DocLocalization Name="Pieu" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="d2a4fc10-ab8a-4025-a09e-59889c12124b" DefinedType="IfcPileTypeEnum" AttributeFlags="1">
+		<DocAttribute Name="PredefinedType" UniqueId="d2a4fc10-ab8a-4025-a09e-59889c12124b" DefinedType="IfcPileTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The predefined generic type of the pile according to function.
 
 { .change-ifc2x4}
 &gt; IFC4 CHANGE&amp;nbsp; Attribute made optional. Type information can be provided by _IfcRelDefinesByType_ and _IfcPileType_.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="ConstructionType" UniqueId="68d7f08c-9d56-4f95-ae87-2f3278162109" Status="Deprecated" DefinedType="IfcPileConstructionEnum" AttributeFlags="1">
+		<DocAttribute Name="ConstructionType" UniqueId="68d7f08c-9d56-4f95-ae87-2f3278162109" Status="Deprecated" DefinedType="IfcPileConstructionEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Deprecated.
 
 { .change-ifc2x4}

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcVoidingFeature" Name="IfcVoidingFeature" UniqueId="76ade710-1f8c-4677-9f36-a21e6d4c7476" BaseDefinition="IfcFeatureElementSubtraction" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcVoidingFeature" Name="IfcVoidingFeature" UniqueId="76ade710-1f8c-4677-9f36-a21e6d4c7476" DiagramNumber="0" BaseDefinition="IfcFeatureElementSubtraction" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Aussparung / Abzugskörper" />
-		<DocLocalization Locale="en" Name="Voiding Feature" />
+		<DocLocalization Name="Aussparung / Abzugskörper" Locale="de" />
+		<DocLocalization Name="Voiding Feature" Locale="en" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="fff2ddf2-413b-4847-8afd-9e3ed847b801" DefinedType="IfcVoidingFeatureTypeEnum" AttributeFlags="1">
+		<DocAttribute Name="PredefinedType" UniqueId="fff2ddf2-413b-4847-8afd-9e3ed847b801" DefinedType="IfcVoidingFeatureTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Qualifies the feature regarding its shape and configuration relative to the voided element.</Documentation>
 		</DocAttribute>
 	</Attributes>

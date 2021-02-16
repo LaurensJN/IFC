@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElectricDistributionBoardType" UniqueId="e153e8ad-aea7-4f9a-b6aa-2f143a1c3e18" BaseDefinition="IfcFlowControllerType" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElectricDistributionBoardType" UniqueId="e153e8ad-aea7-4f9a-b6aa-2f143a1c3e18" DiagramNumber="0" BaseDefinition="IfcFlowControllerType" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Elektrischer Verteilungsregler - Typ" />
-		<DocLocalization Locale="en" Name="Electric Distribution Board Type" />
-		<DocLocalization Locale="fr" Name="Type de tableau de distribution électrique" />
+		<DocLocalization Name="Elektrischer Verteilungsregler - Typ" Locale="de" />
+		<DocLocalization Name="Electric Distribution Board Type" Locale="en" />
+		<DocLocalization Name="Type de tableau de distribution électrique" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="4c8ff855-b2e2-47b6-bc14-b23a381aa1fb" DefinedType="IfcElectricDistributionBoardTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="4c8ff855-b2e2-47b6-bc14-b23a381aa1fb" DefinedType="IfcElectricDistributionBoardTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of electric distribution type from which the type required may be set.</Documentation>
 		</DocAttribute>
 	</Attributes>

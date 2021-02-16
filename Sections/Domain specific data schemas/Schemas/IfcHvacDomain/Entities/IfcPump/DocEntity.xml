@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcPump" Name="IfcPump" UniqueId="da626cac-98fb-4f4c-8d4a-c8c4bac3a68d" BaseDefinition="IfcFlowMovingDevice" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcPump" Name="IfcPump" UniqueId="da626cac-98fb-4f4c-8d4a-c8c4bac3a68d" DiagramNumber="0" BaseDefinition="IfcFlowMovingDevice" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Pumpe" />
-		<DocLocalization Locale="en" Name="Pump" />
-		<DocLocalization Locale="fr" Name="Pompe" />
+		<DocLocalization Name="Pumpe" Locale="de" />
+		<DocLocalization Name="Pump" Locale="en" />
+		<DocLocalization Name="Pompe" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="f3a4f34f-67bd-4977-b1ac-23f5004f8536" DefinedType="IfcPumpTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="f3a4f34f-67bd-4977-b1ac-23f5004f8536" DefinedType="IfcPumpTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="29596e30-4b39-417c-b5f4-de45dad40815">

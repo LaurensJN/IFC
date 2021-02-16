@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcHumidifierTypeEnum" UniqueId="6faa5ff4-de87-49c2-8faa-4fa4b80ff3b6">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcHumidifierTypeEnum" UniqueId="6faa5ff4-de87-49c2-8faa-4fa4b80ff3b6" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Humidifier Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types d&apos;humidificateur" />
+		<DocLocalization Name="Humidifier Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types d&apos;humidificateur" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="STEAMINJECTION_1b6zZZM99EevT2LVdQ7BV" />

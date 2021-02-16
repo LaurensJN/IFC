@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcPoint" Name="IfcPoint" UniqueId="14ec2c5e-ae20-48be-8ced-c1da53166809" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="77">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcPoint" Name="IfcPoint" UniqueId="14ec2c5e-ae20-48be-8ced-c1da53166809" DiagramNumber="0" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="77">
 	<Localization>
-		<DocLocalization Locale="de" Name="Punkt" />
-		<DocLocalization Locale="en" Name="Point" />
-		<DocLocalization Locale="fr" Name="Point" />
+		<DocLocalization Name="Punkt" Locale="de" />
+		<DocLocalization Name="Point" Locale="en" />
+		<DocLocalization Name="Point" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="42aa582a-f8ff-4ba3-b01e-c855781466d4" DefinedType="IfcCartesianPoint" />

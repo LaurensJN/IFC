@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurfaceReinforcementArea" UniqueId="5c929647-20a8-4225-a930-0d718d2b60e1" BaseDefinition="IfcStructuralLoadOrResult" EntityFlags="237">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurfaceReinforcementArea" UniqueId="5c929647-20a8-4225-a930-0d718d2b60e1" DiagramNumber="0" BaseDefinition="IfcStructuralLoadOrResult" EntityFlags="237">
 	<Localization>
-		<DocLocalization Locale="de" Name="Oberfläche - Bewehrungsfläche" />
-		<DocLocalization Locale="en" Name="Surface Reinforcement Area" />
+		<DocLocalization Name="Oberfläche - Bewehrungsfläche" Locale="de" />
+		<DocLocalization Name="Surface Reinforcement Area" Locale="en" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="SurfaceReinforcement1" UniqueId="1659501c-1100-4ab7-b15a-c0365324dcb9" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="1" AggregationLower="2" AggregationUpper="3">
+		<DocAttribute Name="SurfaceReinforcement1" UniqueId="1659501c-1100-4ab7-b15a-c0365324dcb9" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="2" AggregationUpper="3">
 			<Documentation>Reinforcement at the face of the member which is located at the side of the positive local z direction of the surface member.  Specified as area per length, e.g. square metre per metre (hence length measure, e.g. metre).  The reinforcement area may be specified for two or three directions of reinforcement bars.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="SurfaceReinforcement2" UniqueId="515bb7dd-3c55-498f-b0c9-0ac79b544936" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="1" AggregationLower="2" AggregationUpper="3">
+		<DocAttribute Name="SurfaceReinforcement2" UniqueId="515bb7dd-3c55-498f-b0c9-0ac79b544936" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="2" AggregationUpper="3">
 			<Documentation>Reinforcement at the face of the member which is located at the side of the negative local z direction of the surface member.  Specified as area per length, e.g. square metre per metre (hence length measure, e.g. metre).  The reinforcement area may be specified for two or three directions of reinforcement bars.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="ShearReinforcement" UniqueId="dd92eb3e-9d3f-4315-abb6-94152ed4c09f" DefinedType="IfcRatioMeasure" AttributeFlags="1">
+		<DocAttribute Name="ShearReinforcement" UniqueId="dd92eb3e-9d3f-4315-abb6-94152ed4c09f" DefinedType="IfcRatioMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Shear reinforcement.  Specified as area per area, e.g. square metre per square metre (hence ratio measure, i.e. unitless).</Documentation>
 		</DocAttribute>
 	</Attributes>

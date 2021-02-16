@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTranslationalStiffnessSelect" UniqueId="b177b9c6-3b72-45b3-801c-aaf9d735d847">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTranslationalStiffnessSelect" UniqueId="b177b9c6-3b72-45b3-801c-aaf9d735d847" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Translational Stiffness Select" />
-		<DocLocalization Locale="fr" Name="Sélection de rigidité de translation" />
+		<DocLocalization Name="Translational Stiffness Select" Locale="en" />
+		<DocLocalization Name="Sélection de rigidité de translation" Locale="fr" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcBoolean" UniqueId="aa718289-c861-4165-a2cb-68b8de68f314" />

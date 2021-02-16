@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAdvancedBrepWithVoids" UniqueId="e6acb3a9-e21b-4936-936f-c5e1059a8929" BaseDefinition="IfcAdvancedBrep" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAdvancedBrepWithVoids" UniqueId="e6acb3a9-e21b-4936-936f-c5e1059a8929" DiagramNumber="0" BaseDefinition="IfcAdvancedBrep" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Boundary Representation mit Aussparungen - NURBS" />
-		<DocLocalization Locale="en" Name="Advanced Brep With Voids" />
-		<DocLocalization Locale="fr" Name="Représentation frontière avancée avec trous" />
+		<DocLocalization Name="Boundary Representation mit Aussparungen - NURBS" Locale="de" />
+		<DocLocalization Name="Advanced Brep With Voids" Locale="en" />
+		<DocLocalization Name="Représentation frontière avancée avec trous" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="Voids" UniqueId="b1d3d0d2-7d07-4d41-b0d2-f91d38f1b867" DefinedType="IfcClosedShell" AggregationType="3" AggregationLower="1" AggregationUpper="0" />
+		<DocAttribute Name="Voids" UniqueId="b1d3d0d2-7d07-4d41-b0d2-f91d38f1b867" DefinedType="IfcClosedShell" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="VoidsHaveAdvancedFaces" UniqueId="75421634-c0c0-4de4-8d56-8aa47749122c">

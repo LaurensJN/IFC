@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcBoiler" Name="IfcBoiler" UniqueId="bf8bb360-a4b6-4854-88b5-78c7f9524139" BaseDefinition="IfcEnergyConversionDevice" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcBoiler" Name="IfcBoiler" UniqueId="bf8bb360-a4b6-4854-88b5-78c7f9524139" DiagramNumber="0" BaseDefinition="IfcEnergyConversionDevice" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Heizkessel" />
-		<DocLocalization Locale="en" Name="Boiler" />
-		<DocLocalization Locale="fr" Name="Chaudière" />
+		<DocLocalization Name="Heizkessel" Locale="de" />
+		<DocLocalization Name="Boiler" Locale="en" />
+		<DocLocalization Name="Chaudière" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="dcce598a-edcb-438b-a65f-0d4084ac2a8f" DefinedType="IfcBoilerTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="dcce598a-edcb-438b-a65f-0d4084ac2a8f" DefinedType="IfcBoilerTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="f86e2f14-1a73-4b22-aad6-1eb3fd404d93">

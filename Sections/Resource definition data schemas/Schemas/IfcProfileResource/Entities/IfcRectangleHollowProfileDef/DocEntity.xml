@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcRectangleHollowProfileDef" Name="IfcRectangleHollowProfileDef" UniqueId="19db74b8-9bbd-4310-a2b8-d47984481a40" BaseDefinition="IfcRectangleProfileDef" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcRectangleHollowProfileDef" Name="IfcRectangleHollowProfileDef" UniqueId="19db74b8-9bbd-4310-a2b8-d47984481a40" DiagramNumber="0" BaseDefinition="IfcRectangleProfileDef" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Rechteckprofil hohl - parametrische Definition" />
-		<DocLocalization Locale="en" Name="Rectangle Hollow Profile Def" />
+		<DocLocalization Name="Rechteckprofil hohl - parametrische Definition" Locale="de" />
+		<DocLocalization Name="Rectangle Hollow Profile Def" Locale="en" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="WallThickness" UniqueId="e469897c-3e73-451f-9c72-a373783992ba" DefinedType="IfcPositiveLengthMeasure">
+		<DocAttribute Name="WallThickness" UniqueId="e469897c-3e73-451f-9c72-a373783992ba" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Thickness of the material.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="InnerFilletRadius" UniqueId="5aa6d217-3f48-4fbb-9145-55601b62701b" DefinedType="IfcNonNegativeLengthMeasure" AttributeFlags="1">
+		<DocAttribute Name="InnerFilletRadius" UniqueId="5aa6d217-3f48-4fbb-9145-55601b62701b" DefinedType="IfcNonNegativeLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Inner corner radius.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="OuterFilletRadius" UniqueId="493f68ea-2c2e-44f2-bef4-d2c48668cc91" DefinedType="IfcNonNegativeLengthMeasure" AttributeFlags="1">
+		<DocAttribute Name="OuterFilletRadius" UniqueId="493f68ea-2c2e-44f2-bef4-d2c48668cc91" DefinedType="IfcNonNegativeLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Outer corner radius.</Documentation>
 		</DocAttribute>
 	</Attributes>

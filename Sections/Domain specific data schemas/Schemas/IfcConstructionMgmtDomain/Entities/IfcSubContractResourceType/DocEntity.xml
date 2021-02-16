@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSubContractResourceType" UniqueId="352fd6e0-58e5-4a63-905c-991b1079ef81" BaseDefinition="IfcConstructionResourceType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSubContractResourceType" UniqueId="352fd6e0-58e5-4a63-905c-991b1079ef81" DiagramNumber="0" BaseDefinition="IfcConstructionResourceType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Unterauftragnehmer - Ressource -Typ" />
-		<DocLocalization Locale="en" Name="Sub Contract Resource Type" />
-		<DocLocalization Locale="fr" Name="Type de ressource de sous-traitance" />
+		<DocLocalization Name="Unterauftragnehmer - Ressource -Typ" Locale="de" />
+		<DocLocalization Name="Sub Contract Resource Type" Locale="en" />
+		<DocLocalization Name="Type de ressource de sous-traitance" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="5a5ee4dc-db65-4bab-b553-4a7593fedbe1" DefinedType="IfcSubContractResourceTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="5a5ee4dc-db65-4bab-b553-4a7593fedbe1" DefinedType="IfcSubContractResourceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines types of subcontract resources.</Documentation>
 		</DocAttribute>
 	</Attributes>

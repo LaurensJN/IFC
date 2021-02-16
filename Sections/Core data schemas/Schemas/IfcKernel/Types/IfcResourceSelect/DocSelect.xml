@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcResourceSelect" UniqueId="b97e4b63-eaeb-4818-b297-463b89017608">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcResourceSelect" UniqueId="b97e4b63-eaeb-4818-b297-463b89017608" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Resource Select" />
-		<DocLocalization Locale="fr" Name="Sélection entre ressource et type de ressource" />
+		<DocLocalization Name="Resource Select" Locale="en" />
+		<DocLocalization Name="Sélection entre ressource et type de ressource" Locale="fr" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcResource" UniqueId="61a1d05f-bff7-41fb-adda-7e675d506e8c" />

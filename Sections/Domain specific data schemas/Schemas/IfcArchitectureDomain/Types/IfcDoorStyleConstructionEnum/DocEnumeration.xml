@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDoorStyleConstructionEnum" UniqueId="d61c0e51-fa27-414a-b025-370cf67cd653">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDoorStyleConstructionEnum" UniqueId="d61c0e51-fa27-414a-b025-370cf67cd653" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Door Style Construction Enum" />
+		<DocLocalization Name="Door Style Construction Enum" Locale="en" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="ALUMINIUM_0SaWP3rvn0_QQV2Q037aa" />

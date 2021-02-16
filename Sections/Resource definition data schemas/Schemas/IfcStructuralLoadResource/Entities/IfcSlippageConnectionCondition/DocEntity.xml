@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSlippageConnectionCondition" UniqueId="a431388c-2787-440c-aeb1-229142deaf2a" BaseDefinition="IfcStructuralConnectionCondition" EntityFlags="165">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSlippageConnectionCondition" UniqueId="a431388c-2787-440c-aeb1-229142deaf2a" DiagramNumber="0" BaseDefinition="IfcStructuralConnectionCondition" EntityFlags="165">
 	<Localization>
-		<DocLocalization Locale="de" Name="Schlupf-Übergangsbedingung" />
-		<DocLocalization Locale="en" Name="Slippage Connection Condition" />
+		<DocLocalization Name="Schlupf-Übergangsbedingung" Locale="de" />
+		<DocLocalization Name="Slippage Connection Condition" Locale="en" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="SlippageX" UniqueId="c3f20340-6dea-4111-9954-f94b796af7e4" DefinedType="IfcLengthMeasure" AttributeFlags="1">
+		<DocAttribute Name="SlippageX" UniqueId="c3f20340-6dea-4111-9954-f94b796af7e4" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Slippage in x-direction of the coordinate system defined by the instance which uses this resource object.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="SlippageY" UniqueId="1ad499d3-5c9a-4ee9-b0ae-d03371621e0d" DefinedType="IfcLengthMeasure" AttributeFlags="1">
+		<DocAttribute Name="SlippageY" UniqueId="1ad499d3-5c9a-4ee9-b0ae-d03371621e0d" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Slippage in y-direction of the coordinate system defined by the instance which uses this resource object.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="SlippageZ" UniqueId="25ed9e52-bccc-45a4-8a6a-734547a43857" DefinedType="IfcLengthMeasure" AttributeFlags="1">
+		<DocAttribute Name="SlippageZ" UniqueId="25ed9e52-bccc-45a4-8a6a-734547a43857" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Slippage in z-direction of the coordinate system defined by the instance which uses this resource object.</Documentation>
 		</DocAttribute>
 	</Attributes>

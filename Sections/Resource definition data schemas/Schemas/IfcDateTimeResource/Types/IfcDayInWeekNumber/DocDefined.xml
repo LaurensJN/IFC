@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDayInWeekNumber" UniqueId="155e77e5-f61e-487c-9e36-b6255b586646" DefinedType="INTEGER">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDayInWeekNumber" UniqueId="155e77e5-f61e-487c-9e36-b6255b586646" DiagramNumber="0" DefinedType="INTEGER" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Day In Week Number" />
-		<DocLocalization Locale="fr" Name="Numéro du jour de la semaine" />
+		<DocLocalization Name="Day In Week Number" Locale="en" />
+		<DocLocalization Name="Numéro du jour de la semaine" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="INTEGER_3zVfmb7DP1RPb9bVPO2XuE" />
 	<WhereRules>

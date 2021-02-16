@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcRailingType" Name="IfcRailingType" UniqueId="9f5e37e7-709e-46f6-aa16-7ce984b35c92" BaseDefinition="IfcBuildingElementType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcRailingType" Name="IfcRailingType" UniqueId="9f5e37e7-709e-46f6-aa16-7ce984b35c92" DiagramNumber="0" BaseDefinition="IfcBuildingElementType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Geländer - Typ" />
-		<DocLocalization Locale="en" Name="Railing Type" />
-		<DocLocalization Locale="fr" Name="Type de garde corps" />
+		<DocLocalization Name="Geländer - Typ" Locale="de" />
+		<DocLocalization Name="Railing Type" Locale="en" />
+		<DocLocalization Name="Type de garde corps" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="07835b3b-3d85-4552-97ee-27905ee63e86" DefinedType="IfcRailingTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="07835b3b-3d85-4552-97ee-27905ee63e86" DefinedType="IfcRailingTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a railing element from which the type required may be set.</Documentation>
 		</DocAttribute>
 	</Attributes>

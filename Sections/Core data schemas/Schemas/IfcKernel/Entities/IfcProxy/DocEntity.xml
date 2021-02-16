@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProxy" UniqueId="71ecd3f4-0c37-4779-a722-9dddefe6a6bf" Status="Deprecated" BaseDefinition="IfcProduct" EntityFlags="237">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProxy" UniqueId="71ecd3f4-0c37-4779-a722-9dddefe6a6bf" Status="Deprecated" DiagramNumber="0" BaseDefinition="IfcProduct" EntityFlags="237">
 	<Localization>
-		<DocLocalization Locale="de" Name="beliebiges Objekt" />
-		<DocLocalization Locale="en" Name="Proxy" />
-		<DocLocalization Locale="fr" Name="Objet utilisateur (définit par l&apos;utilisateur)" />
+		<DocLocalization Name="beliebiges Objekt" Locale="de" />
+		<DocLocalization Name="Proxy" Locale="en" />
+		<DocLocalization Name="Objet utilisateur (définit par l&apos;utilisateur)" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="ProxyType" UniqueId="7c83d5c4-1b38-400e-8d64-cbbcb8893211" DefinedType="IfcObjectTypeEnum">
+		<DocAttribute Name="ProxyType" UniqueId="7c83d5c4-1b38-400e-8d64-cbbcb8893211" DefinedType="IfcObjectTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>High level (and only) semantic meaning attached to the IfcProxy, defining the basic construct type behind the Proxy, e.g. Product or Process.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="Tag" UniqueId="d45cbd31-dd92-4820-9238-63d0fd345dc6" DefinedType="IfcLabel" AttributeFlags="1">
+		<DocAttribute Name="Tag" UniqueId="d45cbd31-dd92-4820-9238-63d0fd345dc6" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The tag (or label) identifier at the particular instance of a product, e.g. the serial number, or the position number. It is the identifier at the occurrence level.</Documentation>
 		</DocAttribute>
 	</Attributes>

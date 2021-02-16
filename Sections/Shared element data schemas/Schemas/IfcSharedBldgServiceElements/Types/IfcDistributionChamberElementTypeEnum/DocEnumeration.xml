@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDistributionChamberElementTypeEnum" UniqueId="fb830693-31cc-4449-b54c-055c674e0b8c">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDistributionChamberElementTypeEnum" UniqueId="fb830693-31cc-4449-b54c-055c674e0b8c" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Distribution Chamber Element Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types d&apos;élément de chambre de distribution" />
+		<DocLocalization Name="Distribution Chamber Element Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types d&apos;élément de chambre de distribution" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="FORMEDDUCT_3VZOVyzDv97Rk17Lu7Uif" />

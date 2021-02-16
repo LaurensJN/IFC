@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPlateTypeEnum" UniqueId="3b149038-4987-4e19-83ac-2260d7373f6c">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPlateTypeEnum" UniqueId="3b149038-4987-4e19-83ac-2260d7373f6c" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Plate Type Enum" />
-		<DocLocalization Locale="fr" Name="Énumération des types de plaque" />
+		<DocLocalization Name="Plate Type Enum" Locale="en" />
+		<DocLocalization Name="Énumération des types de plaque" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="CURTAIN_PANEL_3Q5yicf9HBdvNqjrWYyP4" />

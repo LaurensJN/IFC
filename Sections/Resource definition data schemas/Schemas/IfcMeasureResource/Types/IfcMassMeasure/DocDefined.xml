@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMassMeasure" UniqueId="305490ad-a6f5-4d1e-80cb-bfd56ac0682d" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMassMeasure" UniqueId="305490ad-a6f5-4d1e-80cb-bfd56ac0682d" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Mass Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de masse" />
+		<DocLocalization Name="Mass Measure" Locale="en" />
+		<DocLocalization Name="Mesure de masse" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

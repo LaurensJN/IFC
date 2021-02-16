@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSlab" Name="IfcSlab" UniqueId="8f561139-3792-4723-b343-700785092d40" BaseDefinition="IfcBuildingElement" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSlab" Name="IfcSlab" UniqueId="8f561139-3792-4723-b343-700785092d40" DiagramNumber="0" BaseDefinition="IfcBuildingElement" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Decke / Dachfläche / Bodenplatte" />
-		<DocLocalization Locale="en" Name="Slab" />
-		<DocLocalization Locale="fr" Name="Dalle" />
+		<DocLocalization Name="Decke / Dachfläche / Bodenplatte" Locale="de" />
+		<DocLocalization Name="Slab" Locale="en" />
+		<DocLocalization Name="Dalle" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="0524d9fa-38b9-4116-beb3-29bf18a8f541" DefinedType="IfcSlabStandardCase" />
 		<DocSubtype UniqueId="27225375-f497-4c90-a318-b910905ba064" DefinedType="IfcSlabElementedCase" />
 	</Subtypes>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="5f3dcc3b-0c4a-4603-b6c1-2aa940b83049" DefinedType="IfcSlabTypeEnum" AttributeFlags="1">
+		<DocAttribute Name="PredefinedType" UniqueId="5f3dcc3b-0c4a-4603-b6c1-2aa940b83049" DefinedType="IfcSlabTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic type for a slab that is specified in an enumeration. There may be a property set given specifically for the predefined types.
 &gt; NOTE&amp;nbsp; The _PredefinedType_ shall only be used, if no _IfcSlabType_ is assigned, providing its own _IfcSlabType.PredefinedType_.
 

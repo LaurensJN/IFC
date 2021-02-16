@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSimpleProperty" Name="IfcSimpleProperty" UniqueId="6754d0f9-1ae8-4653-bbab-f9aa6b1e5206" BaseDefinition="IfcProperty" EntityFlags="197">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSimpleProperty" Name="IfcSimpleProperty" UniqueId="6754d0f9-1ae8-4653-bbab-f9aa6b1e5206" DiagramNumber="0" BaseDefinition="IfcProperty" EntityFlags="197">
 	<Localization>
-		<DocLocalization Locale="de" Name="Einfaches Merkmal" />
-		<DocLocalization Locale="en" Name="Simple Property" />
-		<DocLocalization Locale="fr" Name="Propriété simple" />
+		<DocLocalization Name="Einfaches Merkmal" Locale="de" />
+		<DocLocalization Name="Simple Property" Locale="en" />
+		<DocLocalization Name="Propriété simple" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="4aded8a0-6a79-4d16-a028-281f6cc2e360" DefinedType="IfcPropertySingleValue" />

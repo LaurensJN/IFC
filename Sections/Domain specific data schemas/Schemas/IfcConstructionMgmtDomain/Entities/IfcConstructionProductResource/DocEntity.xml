@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcConstructionProductResource" Name="IfcConstructionProductResource" UniqueId="686e69fb-789c-4cef-a1b2-e9bb3345a558" Status="H" BaseDefinition="IfcConstructionResource" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcConstructionProductResource" Name="IfcConstructionProductResource" UniqueId="686e69fb-789c-4cef-a1b2-e9bb3345a558" Status="H" DiagramNumber="0" BaseDefinition="IfcConstructionResource" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Bauprodukt  - Ressource" />
-		<DocLocalization Locale="en" Name="Construction Product Resource" />
-		<DocLocalization Locale="fr" Name="Ressource d&apos;un produit de construction" />
+		<DocLocalization Name="Bauprodukt  - Ressource" Locale="de" />
+		<DocLocalization Name="Construction Product Resource" Locale="en" />
+		<DocLocalization Name="Ressource d&apos;un produit de construction" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="b9b8af92-d306-433d-b5ca-40dae047b2ba" DefinedType="IfcConstructionProductResourceTypeEnum" AttributeFlags="1">
+		<DocAttribute Name="PredefinedType" UniqueId="b9b8af92-d306-433d-b5ca-40dae047b2ba" DefinedType="IfcConstructionProductResourceTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines types of construction product resources.
 { .change-ifc2x4}
 &gt; IFC4 New attribute.</Documentation>

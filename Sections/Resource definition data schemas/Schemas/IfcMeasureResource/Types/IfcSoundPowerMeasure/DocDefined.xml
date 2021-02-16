@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSoundPowerMeasure" UniqueId="3e67e9d6-4bc4-4773-992f-9bb3345ed39d" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSoundPowerMeasure" UniqueId="3e67e9d6-4bc4-4773-992f-9bb3345ed39d" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Sound Power Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de puissance acoustique" />
+		<DocLocalization Name="Sound Power Measure" Locale="en" />
+		<DocLocalization Name="Mesure de puissance acoustique" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

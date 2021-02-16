@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcObjectiveEnum" UniqueId="20072f21-253d-40a9-9284-990b84bbbf78">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcObjectiveEnum" UniqueId="20072f21-253d-40a9-9284-990b84bbbf78" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="de" Name="Ziel (der Einschränkung) - Aufzählung" />
-		<DocLocalization Locale="en" Name="Objective Enum" />
-		<DocLocalization Locale="fr" Name="Énumération des types d&apos;objectif" />
+		<DocLocalization Name="Ziel (der Einschränkung) - Aufzählung" Locale="de" />
+		<DocLocalization Name="Objective Enum" Locale="en" />
+		<DocLocalization Name="Énumération des types d&apos;objectif" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="CODECOMPLIANCE_2I4fouhgL2phZIet9eTZp" />

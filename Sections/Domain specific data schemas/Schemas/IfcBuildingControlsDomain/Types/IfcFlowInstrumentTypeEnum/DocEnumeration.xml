@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFlowInstrumentTypeEnum" UniqueId="f3b815e8-347a-412e-9786-5c5986236e01">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFlowInstrumentTypeEnum" UniqueId="f3b815e8-347a-412e-9786-5c5986236e01" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Flow Instrument Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types d&apos;instrument d&apos;installation fluides" />
+		<DocLocalization Name="Flow Instrument Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types d&apos;instrument d&apos;installation fluides" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="PRESSUREGAUGE_2RPll7U3HAtgmR4PgM8pSz" />

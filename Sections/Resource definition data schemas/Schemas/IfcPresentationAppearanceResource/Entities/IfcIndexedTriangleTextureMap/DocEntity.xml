@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcIndexedTriangleTextureMap" UniqueId="2749b740-94fa-4cfa-ba95-c6f30ee8024d" BaseDefinition="IfcIndexedTextureMap" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcIndexedTriangleTextureMap" UniqueId="2749b740-94fa-4cfa-ba95-c6f30ee8024d" DiagramNumber="0" BaseDefinition="IfcIndexedTextureMap" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Liste von Indizes für Texturen auf Dreiecken" />
-		<DocLocalization Locale="en" Name="Indexed Triangle Texture Map" />
+		<DocLocalization Name="Liste von Indizes für Texturen auf Dreiecken" Locale="de" />
+		<DocLocalization Name="Indexed Triangle Texture Map" Locale="en" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="TexCoordIndex" UniqueId="d5e9ea70-6d42-4103-afbe-45a940d87c3d" DefinedType="IfcPositiveInteger" AttributeFlags="1" AggregationType="1" AggregationLower="1" AggregationUpper="0" XsdFormat="content" XsdTagless="true">
+		<DocAttribute Name="TexCoordIndex" UniqueId="d5e9ea70-6d42-4103-afbe-45a940d87c3d" DefinedType="IfcPositiveInteger" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0" XsdFormat="content" XsdTagless="true">
 			<Documentation>Index into the _IfcTextureVertexList_ for each vertex of the triangles representing the _IfcTriangulatedFaceSet_.</Documentation>
-			<AggregationAttribute xsi:type="DocAttribute" UniqueId="4b543060-c715-413d-9df3-be3adafa7173" AggregationType="1" AggregationLower="3" AggregationUpper="3" />
+			<AggregationAttribute xsi:type="DocAttribute" UniqueId="4b543060-c715-413d-9df3-be3adafa7173" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="3" AggregationUpper="3" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

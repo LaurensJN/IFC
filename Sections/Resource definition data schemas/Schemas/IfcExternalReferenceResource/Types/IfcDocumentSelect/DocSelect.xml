@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDocumentSelect" UniqueId="fb069bb4-1678-4449-818f-48f7ae7dcc5e">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDocumentSelect" UniqueId="fb069bb4-1678-4449-818f-48f7ae7dcc5e" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Document Select" />
-		<DocLocalization Locale="fr" Name="Sélection entre intégration et référencement des informations de document" />
+		<DocLocalization Name="Document Select" Locale="en" />
+		<DocLocalization Name="Sélection entre intégration et référencement des informations de document" Locale="fr" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcDocumentReference" UniqueId="5cca425d-c104-49c4-821f-5777f86de08b" />

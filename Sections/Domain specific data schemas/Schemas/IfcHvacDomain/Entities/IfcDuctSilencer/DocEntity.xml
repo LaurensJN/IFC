@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcDuctSilencer" Name="IfcDuctSilencer" UniqueId="a31bfbd0-af30-4a94-a395-16bd8b02ae79" BaseDefinition="IfcFlowTreatmentDevice" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcDuctSilencer" Name="IfcDuctSilencer" UniqueId="a31bfbd0-af30-4a94-a395-16bd8b02ae79" DiagramNumber="0" BaseDefinition="IfcFlowTreatmentDevice" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Kanalschalldämpfer" />
-		<DocLocalization Locale="en" Name="Duct Silencer" />
-		<DocLocalization Locale="fr" Name="Silencieux circulaire" />
+		<DocLocalization Name="Kanalschalldämpfer" Locale="de" />
+		<DocLocalization Name="Duct Silencer" Locale="en" />
+		<DocLocalization Name="Silencieux circulaire" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="aaa8fe96-302d-489d-8e43-b0705cec0bc4" DefinedType="IfcDuctSilencerTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="aaa8fe96-302d-489d-8e43-b0705cec0bc4" DefinedType="IfcDuctSilencerTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="7ebbb3ad-aefd-436d-83b6-4b5a6ea2f9f7">

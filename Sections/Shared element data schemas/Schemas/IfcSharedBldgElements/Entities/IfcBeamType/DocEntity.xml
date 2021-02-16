@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcBeamType" Name="IfcBeamType" UniqueId="030a0c92-14e1-4656-8d65-6fb50f43e9b3" BaseDefinition="IfcBuildingElementType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcBeamType" Name="IfcBeamType" UniqueId="030a0c92-14e1-4656-8d65-6fb50f43e9b3" DiagramNumber="0" BaseDefinition="IfcBuildingElementType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Balken / Unterzug - Typ" />
-		<DocLocalization Locale="en" Name="Beam Type" />
-		<DocLocalization Locale="fr" Name="Type de poutre" />
+		<DocLocalization Name="Balken / Unterzug - Typ" Locale="de" />
+		<DocLocalization Name="Beam Type" Locale="en" />
+		<DocLocalization Name="Type de poutre" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="78ef60cd-a49e-4e16-8a9c-b68abc70193e" DefinedType="IfcBeamTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="78ef60cd-a49e-4e16-8a9c-b68abc70193e" DefinedType="IfcBeamTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a beam element from which the type required may be set.</Documentation>
 		</DocAttribute>
 	</Attributes>

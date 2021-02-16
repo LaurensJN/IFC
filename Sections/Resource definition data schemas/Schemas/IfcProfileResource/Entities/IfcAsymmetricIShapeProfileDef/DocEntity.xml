@@ -1,45 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcAsymmetricIShapeProfileDef" Name="IfcAsymmetricIShapeProfileDef" UniqueId="a97ad274-6a1b-4db7-b4a9-46725be04471" BaseDefinition="IfcParameterizedProfileDef" EntityFlags="237">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcAsymmetricIShapeProfileDef" Name="IfcAsymmetricIShapeProfileDef" UniqueId="a97ad274-6a1b-4db7-b4a9-46725be04471" DiagramNumber="0" BaseDefinition="IfcParameterizedProfileDef" EntityFlags="237">
 	<Localization>
-		<DocLocalization Locale="de" Name="assymetrisches I-Profil - parametrische Definition" />
-		<DocLocalization Locale="en" Name="Asymmetric IShape Profile Def" />
-		<DocLocalization Locale="fr" Name="Définition de section d&apos;un profil en I assymétrique" />
+		<DocLocalization Name="assymetrisches I-Profil - parametrische Definition" Locale="de" />
+		<DocLocalization Name="Asymmetric IShape Profile Def" Locale="en" />
+		<DocLocalization Name="Définition de section d&apos;un profil en I assymétrique" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="BottomFlangeWidth" UniqueId="39940baf-a873-43ec-9cc3-b7e2398aa04c" DefinedType="IfcPositiveLengthMeasure">
+		<DocAttribute Name="BottomFlangeWidth" UniqueId="39940baf-a873-43ec-9cc3-b7e2398aa04c" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Extent of the bottom flange, defined parallel to the x axis of the position coordinate system.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="OverallDepth" UniqueId="b7d473cd-17c8-4879-9f2c-f1ee6a62c153" DefinedType="IfcPositiveLengthMeasure">
+		<DocAttribute Name="OverallDepth" UniqueId="b7d473cd-17c8-4879-9f2c-f1ee6a62c153" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Total extent of the depth, defined parallel to the y axis of the position coordinate system.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="WebThickness" UniqueId="0242c06a-0329-4364-a496-285cbe77d83f" DefinedType="IfcPositiveLengthMeasure">
+		<DocAttribute Name="WebThickness" UniqueId="0242c06a-0329-4364-a496-285cbe77d83f" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Thickness of the web of the I-shape. The web is centred on the x-axis and the y-axis of the position coordinate system.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="BottomFlangeThickness" UniqueId="7d3c1e36-4f3a-43a2-8e07-a5de53359a2c" DefinedType="IfcPositiveLengthMeasure">
+		<DocAttribute Name="BottomFlangeThickness" UniqueId="7d3c1e36-4f3a-43a2-8e07-a5de53359a2c" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Flange thickness of the bottom flange.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="BottomFlangeFilletRadius" UniqueId="65f2415f-cc1a-40ca-b017-080cbf0a9777" DefinedType="IfcNonNegativeLengthMeasure" AttributeFlags="1">
+		<DocAttribute Name="BottomFlangeFilletRadius" UniqueId="65f2415f-cc1a-40ca-b017-080cbf0a9777" DefinedType="IfcNonNegativeLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The fillet between the web and the bottom flange.  0 if sharp-edged, omitted if unknown.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="TopFlangeWidth" UniqueId="f33b2498-9ce9-410d-be0c-52b58ab7d57a" DefinedType="IfcPositiveLengthMeasure">
+		<DocAttribute Name="TopFlangeWidth" UniqueId="f33b2498-9ce9-410d-be0c-52b58ab7d57a" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Extent of the top flange, defined parallel to the x axis of the position coordinate system.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="TopFlangeThickness" UniqueId="3390a6a3-6070-47d2-a75f-2d359b3c6ea5" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1">
+		<DocAttribute Name="TopFlangeThickness" UniqueId="3390a6a3-6070-47d2-a75f-2d359b3c6ea5" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Flange thickness of the top flange. This attribute is formally optional for historic reasons only. Whenever the flange thickness is known, it shall be provided by value.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="TopFlangeFilletRadius" UniqueId="084b5c7a-a7ff-4a3e-aedf-11d993da5b5d" DefinedType="IfcNonNegativeLengthMeasure" AttributeFlags="1">
+		<DocAttribute Name="TopFlangeFilletRadius" UniqueId="084b5c7a-a7ff-4a3e-aedf-11d993da5b5d" DefinedType="IfcNonNegativeLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The fillet between the web and the top flange.  0 if sharp-edged, omitted if unknown.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="BottomFlangeEdgeRadius" UniqueId="8a9baaa0-a040-4a21-8a63-d9c19b1f1b79" DefinedType="IfcNonNegativeLengthMeasure" AttributeFlags="1">
+		<DocAttribute Name="BottomFlangeEdgeRadius" UniqueId="8a9baaa0-a040-4a21-8a63-d9c19b1f1b79" DefinedType="IfcNonNegativeLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Radius of the upper edges of the bottom flange.  0 if sharp-edged, omitted if unknown.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="BottomFlangeSlope" UniqueId="921600ed-fb99-48dd-a978-52712fa5b418" DefinedType="IfcPlaneAngleMeasure" AttributeFlags="1">
+		<DocAttribute Name="BottomFlangeSlope" UniqueId="921600ed-fb99-48dd-a978-52712fa5b418" DefinedType="IfcPlaneAngleMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Slope of the upper faces of the bottom flange.  Non-zero in case of of tapered bottom flange, 0 in case of parallel bottom flange, omitted if unknown.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="TopFlangeEdgeRadius" UniqueId="15799c29-5d34-492e-8919-fe0f0f0159c6" DefinedType="IfcNonNegativeLengthMeasure" AttributeFlags="1">
+		<DocAttribute Name="TopFlangeEdgeRadius" UniqueId="15799c29-5d34-492e-8919-fe0f0f0159c6" DefinedType="IfcNonNegativeLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Radius of the lower edges of the top flange.  0 if sharp-edged, omitted if unknown.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="TopFlangeSlope" UniqueId="655eed3b-029f-4cc3-be85-4ded814194bb" DefinedType="IfcPlaneAngleMeasure" AttributeFlags="1">
+		<DocAttribute Name="TopFlangeSlope" UniqueId="655eed3b-029f-4cc3-be85-4ded814194bb" DefinedType="IfcPlaneAngleMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Slope of the lower faces of the top flange.  Non-zero in case of of tapered top flange, 0 in case of parallel top flange, omitted if unknown.</Documentation>
 		</DocAttribute>
 	</Attributes>

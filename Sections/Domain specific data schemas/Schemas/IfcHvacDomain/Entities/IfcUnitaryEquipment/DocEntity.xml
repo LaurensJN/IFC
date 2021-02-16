@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcUnitaryEquipment" Name="IfcUnitaryEquipment" UniqueId="91a67370-1792-470c-855a-3bb193e960ea" BaseDefinition="IfcEnergyConversionDevice" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcUnitaryEquipment" Name="IfcUnitaryEquipment" UniqueId="91a67370-1792-470c-855a-3bb193e960ea" DiagramNumber="0" BaseDefinition="IfcEnergyConversionDevice" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Einbaufertige Anlage" />
-		<DocLocalization Locale="en" Name="Unitary Equipment" />
-		<DocLocalization Locale="fr" Name="Equipement unitaire" />
+		<DocLocalization Name="Einbaufertige Anlage" Locale="de" />
+		<DocLocalization Name="Unitary Equipment" Locale="en" />
+		<DocLocalization Name="Equipement unitaire" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="d539b3ab-a9b3-46f5-8d41-4a5a38a2bc2a" DefinedType="IfcUnitaryEquipmentTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="d539b3ab-a9b3-46f5-8d41-4a5a38a2bc2a" DefinedType="IfcUnitaryEquipmentTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="812ed5cc-4301-49c3-a33a-d62b8c4fbfbc">

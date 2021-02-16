@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcControllerType" Name="IfcControllerType" UniqueId="082e1f55-cfe3-44d7-a8e2-234118f81fca" Status="H" BaseDefinition="IfcDistributionControlElementType" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcControllerType" Name="IfcControllerType" UniqueId="082e1f55-cfe3-44d7-a8e2-234118f81fca" Status="H" DiagramNumber="0" BaseDefinition="IfcDistributionControlElementType" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Regler - Typ" />
-		<DocLocalization Locale="en" Name="Controller Type" />
-		<DocLocalization Locale="fr" Name="Organe de contrôle type" />
+		<DocLocalization Name="Regler - Typ" Locale="de" />
+		<DocLocalization Name="Controller Type" Locale="en" />
+		<DocLocalization Name="Organe de contrôle type" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="d80f0fc4-c3a0-4726-9626-b00ad62f3bab" DefinedType="IfcControllerTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="d80f0fc4-c3a0-4726-9626-b00ad62f3bab" DefinedType="IfcControllerTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of controller from which the type required may be set.</Documentation>
 		</DocAttribute>
 	</Attributes>

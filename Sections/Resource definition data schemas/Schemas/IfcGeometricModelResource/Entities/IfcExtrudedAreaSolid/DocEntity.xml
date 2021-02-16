@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcExtrudedAreaSolid" Name="IfcExtrudedAreaSolid" UniqueId="f65777d3-6cb6-48f6-8a26-d79b570cdfb2" BaseDefinition="IfcSweptAreaSolid" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcExtrudedAreaSolid" Name="IfcExtrudedAreaSolid" UniqueId="f65777d3-6cb6-48f6-8a26-d79b570cdfb2" DiagramNumber="0" BaseDefinition="IfcSweptAreaSolid" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Festkörper - aus extrudierter Fläche" />
-		<DocLocalization Locale="en" Name="Extruded Area Solid" />
+		<DocLocalization Name="Festkörper - aus extrudierter Fläche" Locale="de" />
+		<DocLocalization Name="Extruded Area Solid" Locale="en" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="4026540e-c8cb-4e22-ae2e-531a1737df72" DefinedType="IfcExtrudedAreaSolidTapered" />
 	</Subtypes>
 	<Attributes>
-		<DocAttribute Name="ExtrudedDirection" UniqueId="aef4b8f4-190c-4dbd-a5ef-4ad2bf1d00a3" DefinedType="IfcDirection" XsdFormat="attribute">
+		<DocAttribute Name="ExtrudedDirection" UniqueId="aef4b8f4-190c-4dbd-a5ef-4ad2bf1d00a3" DefinedType="IfcDirection" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The direction in which the surface, provided by _SweptArea_ is to be swept.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="Depth" UniqueId="a0e24ce6-15a3-49a4-827b-25a7987a23f7" DefinedType="IfcPositiveLengthMeasure">
+		<DocAttribute Name="Depth" UniqueId="a0e24ce6-15a3-49a4-827b-25a7987a23f7" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The distance the surface is to be swept along the _ExtrudedDirection_.</Documentation>
 		</DocAttribute>
 	</Attributes>

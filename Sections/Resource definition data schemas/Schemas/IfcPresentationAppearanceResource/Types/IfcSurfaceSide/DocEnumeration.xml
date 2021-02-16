@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurfaceSide" UniqueId="ead0e11b-6c81-40f3-ac8b-50c6867c3ffb">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurfaceSide" UniqueId="ead0e11b-6c81-40f3-ac8b-50c6867c3ffb" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Surface Side" />
+		<DocLocalization Name="Surface Side" Locale="en" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="POSITIVE_3KmiJwS10Kf02uAxWp2Ke" />

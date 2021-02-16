@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLinearMomentMeasure" UniqueId="88c02c7c-0d03-4394-8c14-b10c4e76fcc4" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLinearMomentMeasure" UniqueId="88c02c7c-0d03-4394-8c14-b10c4e76fcc4" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Linear Moment Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de moment linéaire" />
+		<DocLocalization Name="Linear Moment Measure" Locale="en" />
+		<DocLocalization Name="Mesure de moment linéaire" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

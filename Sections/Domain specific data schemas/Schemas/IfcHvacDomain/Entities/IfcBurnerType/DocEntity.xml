@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBurnerType" UniqueId="4a137418-8fa9-4459-8470-7b7ef512ad4d" BaseDefinition="IfcEnergyConversionDeviceType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBurnerType" UniqueId="4a137418-8fa9-4459-8470-7b7ef512ad4d" DiagramNumber="0" BaseDefinition="IfcEnergyConversionDeviceType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Brenner - Typ" />
-		<DocLocalization Locale="en" Name="Burner Type" />
-		<DocLocalization Locale="fr" Name="Type de brûleur" />
+		<DocLocalization Name="Brenner - Typ" Locale="de" />
+		<DocLocalization Name="Burner Type" Locale="en" />
+		<DocLocalization Name="Type de brûleur" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="fd7f286c-7e6e-487c-b148-304c94e2263e" DefinedType="IfcBurnerTypeEnum" />
+		<DocAttribute Name="PredefinedType" UniqueId="fd7f286c-7e6e-487c-b148-304c94e2263e" DefinedType="IfcBurnerTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="52288096-7055-4c20-b882-dad6abb7f0c8">

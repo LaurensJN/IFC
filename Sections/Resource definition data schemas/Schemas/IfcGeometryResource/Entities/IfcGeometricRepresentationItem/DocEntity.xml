@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcGeometricRepresentationItem" Name="IfcGeometricRepresentationItem" UniqueId="40f86a50-abee-4be6-ad4b-26f1f60e8956" BaseDefinition="IfcRepresentationItem" EntityFlags="205">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcGeometricRepresentationItem" Name="IfcGeometricRepresentationItem" UniqueId="40f86a50-abee-4be6-ad4b-26f1f60e8956" DiagramNumber="0" BaseDefinition="IfcRepresentationItem" EntityFlags="205">
 	<Localization>
-		<DocLocalization Locale="de" Name="Geometrische Repräsentation - Element" />
-		<DocLocalization Locale="en" Name="Geometric Representation Item" />
-		<DocLocalization Locale="fr" Name="Item de représentation géométrique" />
+		<DocLocalization Name="Geometrische Repräsentation - Element" Locale="de" />
+		<DocLocalization Name="Geometric Representation Item" Locale="en" />
+		<DocLocalization Name="Item de représentation géométrique" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="c6d2199a-086b-42b1-a620-8638bc5cb57c" DefinedType="IfcCompositeCurveSegment" />

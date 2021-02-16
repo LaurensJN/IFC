@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcDistributionChamberElementType" Name="IfcDistributionChamberElementType" UniqueId="e471c212-612d-4578-8f9e-e9623be892bf" BaseDefinition="IfcDistributionFlowElementType" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcDistributionChamberElementType" Name="IfcDistributionChamberElementType" UniqueId="e471c212-612d-4578-8f9e-e9623be892bf" DiagramNumber="0" BaseDefinition="IfcDistributionFlowElementType" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Schacht / Graben / Revisionsschacht - Typ" />
-		<DocLocalization Locale="en" Name="Distribution Chamber Element Type" />
-		<DocLocalization Locale="fr" Name="Type d&apos;élément de chambre de distribution" />
+		<DocLocalization Name="Schacht / Graben / Revisionsschacht - Typ" Locale="de" />
+		<DocLocalization Name="Distribution Chamber Element Type" Locale="en" />
+		<DocLocalization Name="Type d&apos;élément de chambre de distribution" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="5547f3da-2b18-4dea-8d61-4940224376c8" DefinedType="IfcDistributionChamberElementTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="5547f3da-2b18-4dea-8d61-4940224376c8" DefinedType="IfcDistributionChamberElementTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined types of distribution chambers.</Documentation>
 		</DocAttribute>
 	</Attributes>

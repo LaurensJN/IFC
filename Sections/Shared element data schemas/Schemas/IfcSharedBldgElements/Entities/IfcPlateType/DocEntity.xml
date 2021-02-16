@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcPlateType" Name="IfcPlateType" UniqueId="67bc5143-2c23-49ee-9fc3-422c27dd5452" BaseDefinition="IfcBuildingElementType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcPlateType" Name="IfcPlateType" UniqueId="67bc5143-2c23-49ee-9fc3-422c27dd5452" DiagramNumber="0" BaseDefinition="IfcBuildingElementType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Platte / Paneel - Typ" />
-		<DocLocalization Locale="en" Name="Plate Type" />
-		<DocLocalization Locale="fr" Name="Type de plaque" />
+		<DocLocalization Name="Platte / Paneel - Typ" Locale="de" />
+		<DocLocalization Name="Plate Type" Locale="en" />
+		<DocLocalization Name="Type de plaque" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="5f1eadb5-3430-43b0-b689-959f67eefef7" DefinedType="IfcPlateTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="5f1eadb5-3430-43b0-b689-959f67eefef7" DefinedType="IfcPlateTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a planar member element from which the type required may be set.</Documentation>
 		</DocAttribute>
 	</Attributes>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSpaceTypeEnum" UniqueId="258540e7-efd8-4560-9430-d5d91dccadab">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSpaceTypeEnum" UniqueId="258540e7-efd8-4560-9430-d5d91dccadab" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Space Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types de locaux" />
+		<DocLocalization Name="Space Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types de locaux" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="SPACE_3R5SrYqJf0Uxo32sbUS_MP" />

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralLoadStatic" UniqueId="e21bb052-877a-4087-b7fe-777b1b835f72" BaseDefinition="IfcStructuralLoadOrResult" EntityFlags="133">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralLoadStatic" UniqueId="e21bb052-877a-4087-b7fe-777b1b835f72" DiagramNumber="0" BaseDefinition="IfcStructuralLoadOrResult" EntityFlags="133">
 	<Localization>
-		<DocLocalization Locale="de" Name="Statische Last" />
-		<DocLocalization Locale="en" Name="Structural Load Static" />
+		<DocLocalization Name="Statische Last" Locale="de" />
+		<DocLocalization Name="Structural Load Static" Locale="en" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="9ab023aa-216f-4acd-a75b-73016c48dea9" DefinedType="IfcStructuralLoadSingleForce" />

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSolidAngleMeasure" UniqueId="8e327814-bf64-445b-8c48-498c363d28dc" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSolidAngleMeasure" UniqueId="8e327814-bf64-445b-8c48-498c363d28dc" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="de" Name="Festkörper - Winkelmaß" />
-		<DocLocalization Locale="en" Name="Solid Angle Measure" />
-		<DocLocalization Locale="fr" Name="Mesure d&apos;angle solide" />
+		<DocLocalization Name="Festkörper - Winkelmaß" Locale="de" />
+		<DocLocalization Name="Solid Angle Measure" Locale="en" />
+		<DocLocalization Name="Mesure d&apos;angle solide" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

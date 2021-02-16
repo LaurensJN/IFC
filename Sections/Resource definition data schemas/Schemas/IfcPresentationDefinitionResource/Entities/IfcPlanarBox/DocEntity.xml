@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPlanarBox" UniqueId="bec0a45e-76ad-42eb-9bc8-d02b405ab69b" BaseDefinition="IfcPlanarExtent" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPlanarBox" UniqueId="bec0a45e-76ad-42eb-9bc8-d02b405ab69b" DiagramNumber="0" BaseDefinition="IfcPlanarExtent" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Umgrenzungsfläche" />
-		<DocLocalization Locale="en" Name="Planar Box" />
-		<DocLocalization Locale="fr" Name="Boite planaire" />
+		<DocLocalization Name="Umgrenzungsfläche" Locale="de" />
+		<DocLocalization Name="Planar Box" Locale="en" />
+		<DocLocalization Name="Boite planaire" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="Placement" UniqueId="7ac3fdb9-4687-4617-b7e8-001ca67aca70" DefinedType="IfcAxis2Placement">
+		<DocAttribute Name="Placement" UniqueId="7ac3fdb9-4687-4617-b7e8-001ca67aca70" DefinedType="IfcAxis2Placement" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The _IfcAxis2Placement_ positions a local coordinate system for the definition of the rectangle. The origin of this local coordinate system serves as the lower left corner of the rectangular box.
   
 &gt; NOTE&amp;nbsp; In case of a 3D placement by _IfcAxisPlacement3D the _IfcPlanarBox_ is defined within the xy plane of the definition coordinate system._</Documentation>

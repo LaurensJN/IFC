@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCableFitting" Name="IfcCableFitting" UniqueId="a981fcc0-253f-4511-8e27-f490e28f4ada" BaseDefinition="IfcFlowFitting" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCableFitting" Name="IfcCableFitting" UniqueId="a981fcc0-253f-4511-8e27-f490e28f4ada" DiagramNumber="0" BaseDefinition="IfcFlowFitting" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Kabelverbinder" />
-		<DocLocalization Locale="en" Name="Cable Fitting" />
-		<DocLocalization Locale="fr" Name="Raccord de câble" />
+		<DocLocalization Name="Kabelverbinder" Locale="de" />
+		<DocLocalization Name="Cable Fitting" Locale="en" />
+		<DocLocalization Name="Raccord de câble" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="acc5a78e-537d-4725-bbec-f998f3e31f25" DefinedType="IfcCableFittingTypeEnum" AttributeFlags="1">
+		<DocAttribute Name="PredefinedType" UniqueId="acc5a78e-537d-4725-bbec-f998f3e31f25" DefinedType="IfcCableFittingTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of cable fitting from which the type required may be set.</Documentation>
 		</DocAttribute>
 	</Attributes>

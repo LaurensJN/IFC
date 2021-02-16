@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcActuatorType" Name="IfcActuatorType" UniqueId="c5566ffc-0c41-4c04-8976-47ec60b36fda" BaseDefinition="IfcDistributionControlElementType" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcActuatorType" Name="IfcActuatorType" UniqueId="c5566ffc-0c41-4c04-8976-47ec60b36fda" DiagramNumber="0" BaseDefinition="IfcDistributionControlElementType" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Aktor - Typ" />
-		<DocLocalization Locale="en" Name="Actuator Type" />
-		<DocLocalization Locale="fr" Name="Type d&apos;appareillage de commande" />
+		<DocLocalization Name="Aktor - Typ" Locale="de" />
+		<DocLocalization Name="Actuator Type" Locale="en" />
+		<DocLocalization Name="Type d&apos;appareillage de commande" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="0e4f0d49-2432-4458-b687-8429bcd48735" DefinedType="IfcActuatorTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="0e4f0d49-2432-4458-b687-8429bcd48735" DefinedType="IfcActuatorTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of actuator from which the type required may be set.</Documentation>
 		</DocAttribute>
 	</Attributes>

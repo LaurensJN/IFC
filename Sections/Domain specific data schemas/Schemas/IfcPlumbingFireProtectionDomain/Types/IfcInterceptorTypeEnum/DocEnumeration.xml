@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcInterceptorTypeEnum" UniqueId="5eee1402-5291-4e7b-b4e4-a5863186d3b3">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcInterceptorTypeEnum" UniqueId="5eee1402-5291-4e7b-b4e4-a5863186d3b3" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Interceptor Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types de filtre" />
+		<DocLocalization Name="Interceptor Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types de filtre" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="CYCLONIC_0d1tb4gtbAJwG3Mv3BsM_a" />

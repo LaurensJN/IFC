@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElectricCapacitanceMeasure" UniqueId="a5a5e840-ed08-4a81-8d77-486cb6715f70" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElectricCapacitanceMeasure" UniqueId="a5a5e840-ed08-4a81-8d77-486cb6715f70" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Electric Capacitance Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de capacité électrique" />
+		<DocLocalization Name="Electric Capacitance Measure" Locale="en" />
+		<DocLocalization Name="Mesure de capacité électrique" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

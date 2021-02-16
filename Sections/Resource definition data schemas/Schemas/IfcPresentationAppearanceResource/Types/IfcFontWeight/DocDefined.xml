@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFontWeight" UniqueId="bce759cd-c6d9-46b7-a8a9-b61c08dd5f34" DefinedType="STRING">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFontWeight" UniqueId="bce759cd-c6d9-46b7-a8a9-b61c08dd5f34" DiagramNumber="0" DefinedType="STRING" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Font Weight" />
-		<DocLocalization Locale="fr" Name="Graisse de police" />
+		<DocLocalization Name="Font Weight" Locale="en" />
+		<DocLocalization Name="Graisse de police" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_3ynilg4C96p9BjwFj6UaHw" />
 	<WhereRules>

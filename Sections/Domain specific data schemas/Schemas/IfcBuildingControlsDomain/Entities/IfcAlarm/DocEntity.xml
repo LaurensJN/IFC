@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcAlarm" Name="IfcAlarm" UniqueId="90995dc8-ff72-4331-bff5-af4591a13d27" BaseDefinition="IfcDistributionControlElement" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcAlarm" Name="IfcAlarm" UniqueId="90995dc8-ff72-4331-bff5-af4591a13d27" DiagramNumber="0" BaseDefinition="IfcDistributionControlElement" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Alarm / Gefahrenmelder" />
-		<DocLocalization Locale="en" Name="Alarm" />
-		<DocLocalization Locale="fr" Name="Alarme" />
+		<DocLocalization Name="Alarm / Gefahrenmelder" Locale="de" />
+		<DocLocalization Name="Alarm" Locale="en" />
+		<DocLocalization Name="Alarme" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="48e60449-60db-442b-9dda-c0a083a70b41" DefinedType="IfcAlarmTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="48e60449-60db-442b-9dda-c0a083a70b41" DefinedType="IfcAlarmTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="e334f43f-4c33-492b-9d9c-9d79d14ea95c">

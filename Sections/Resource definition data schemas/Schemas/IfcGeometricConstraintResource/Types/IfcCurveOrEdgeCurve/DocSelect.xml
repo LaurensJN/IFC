@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCurveOrEdgeCurve" UniqueId="36ccfa6b-979b-4044-985f-15545c0738d7">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCurveOrEdgeCurve" UniqueId="36ccfa6b-979b-4044-985f-15545c0738d7" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Curve Or Edge Curve" />
+		<DocLocalization Name="Curve Or Edge Curve" Locale="en" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcBoundedCurve" UniqueId="36877f68-9280-4c63-ad10-6b47a8b87d10" />

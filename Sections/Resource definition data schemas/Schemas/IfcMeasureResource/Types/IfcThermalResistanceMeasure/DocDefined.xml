@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcThermalResistanceMeasure" UniqueId="d98e2dd4-c054-4f6e-b2eb-d1e8fec8853e" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcThermalResistanceMeasure" UniqueId="d98e2dd4-c054-4f6e-b2eb-d1e8fec8853e" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Thermal Resistance Measure" />
-		<DocLocalization Locale="fr" Name="mesure de résistance thermique" />
+		<DocLocalization Name="Thermal Resistance Measure" Locale="en" />
+		<DocLocalization Name="mesure de résistance thermique" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

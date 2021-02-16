@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRotationalMassMeasure" UniqueId="58b72a5c-9e32-4312-b704-cab69ccd4e9b" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRotationalMassMeasure" UniqueId="58b72a5c-9e32-4312-b704-cab69ccd4e9b" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Rotational Mass Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de masse" />
+		<DocLocalization Name="Rotational Mass Measure" Locale="en" />
+		<DocLocalization Name="Mesure de masse" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

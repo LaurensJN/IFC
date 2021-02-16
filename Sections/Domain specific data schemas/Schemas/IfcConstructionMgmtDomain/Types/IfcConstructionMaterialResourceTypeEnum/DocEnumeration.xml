@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcConstructionMaterialResourceTypeEnum" UniqueId="f2d6a87c-e040-4422-9a95-caf75bfbb6bc">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcConstructionMaterialResourceTypeEnum" UniqueId="f2d6a87c-e040-4422-9a95-caf75bfbb6bc" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Construction Material Resource Type Enum" />
-		<DocLocalization Locale="fr" Name="Énumération des types de matériaux de construction" />
+		<DocLocalization Name="Construction Material Resource Type Enum" Locale="en" />
+		<DocLocalization Name="Énumération des types de matériaux de construction" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="AGGREGATES_1T25rz1db4VR1A4cnWlHhf" />

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSensor" Name="IfcSensor" UniqueId="f8dc24f1-371f-42ce-af2b-1102b868f220" Status="H" BaseDefinition="IfcDistributionControlElement" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSensor" Name="IfcSensor" UniqueId="f8dc24f1-371f-42ce-af2b-1102b868f220" Status="H" DiagramNumber="0" BaseDefinition="IfcDistributionControlElement" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Sensor" />
-		<DocLocalization Locale="en" Name="Sensor" />
-		<DocLocalization Locale="fr" Name="Capteur" />
+		<DocLocalization Name="Sensor" Locale="de" />
+		<DocLocalization Name="Sensor" Locale="en" />
+		<DocLocalization Name="Capteur" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="b3152fc9-1085-471d-afc9-32cd6d46fcb6" DefinedType="IfcSensorTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="b3152fc9-1085-471d-afc9-32cd6d46fcb6" DefinedType="IfcSensorTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="fc2321b8-03d8-482c-8495-fd4704989987">

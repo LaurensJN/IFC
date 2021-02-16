@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPreferredSurfaceCurveRepresentation" UniqueId="0aa93253-baf3-4248-a574-c13cf6601bb9">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPreferredSurfaceCurveRepresentation" UniqueId="0aa93253-baf3-4248-a574-c13cf6601bb9" DiagramNumber="0">
 	<Constants>
 		<DocConstant xsi:nil="true" href="CURVE3D_1B097xbz14gAmGMGNR9ZlI" />
 		<DocConstant xsi:nil="true" href="PCURVE_S1_3CUDEmfl5B8u05WHnxbo6w" />

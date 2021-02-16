@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextureVertexList" UniqueId="323bf335-cd8c-483b-bb95-0d441da83e76" BaseDefinition="IfcPresentationItem" EntityFlags="109">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextureVertexList" UniqueId="323bf335-cd8c-483b-bb95-0d441da83e76" DiagramNumber="0" BaseDefinition="IfcPresentationItem" EntityFlags="109">
 	<Localization>
-		<DocLocalization Locale="de" Name="Textur - Vertexliste" />
-		<DocLocalization Locale="en" Name="Texture Vertex List" />
-		<DocLocalization Locale="fr" Name="Liste des sommets de texture" />
+		<DocLocalization Name="Textur - Vertexliste" Locale="de" />
+		<DocLocalization Name="Texture Vertex List" Locale="en" />
+		<DocLocalization Name="Liste des sommets de texture" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="TexCoordsList" UniqueId="3249e956-2ae8-4e82-97d5-bcca53a9aea5" DefinedType="IfcParameterValue" AggregationType="1" AggregationLower="1" AggregationUpper="0" XsdFormat="content" XsdTagless="true">
+		<DocAttribute Name="TexCoordsList" UniqueId="3249e956-2ae8-4e82-97d5-bcca53a9aea5" DefinedType="IfcParameterValue" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0" XsdFormat="content" XsdTagless="true">
 			<Documentation>List of texture vertices defined by S-coordinate and T-coordinate.</Documentation>
-			<AggregationAttribute xsi:type="DocAttribute" UniqueId="0d65cafa-f479-4723-9acb-96420ca502f0" AggregationType="1" AggregationLower="2" AggregationUpper="2" />
+			<AggregationAttribute xsi:type="DocAttribute" UniqueId="0d65cafa-f479-4723-9acb-96420ca502f0" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="2" AggregationUpper="2" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

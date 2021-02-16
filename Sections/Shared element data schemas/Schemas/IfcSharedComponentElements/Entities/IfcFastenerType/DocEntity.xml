@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFastenerType" Name="IfcFastenerType" UniqueId="572e4980-73f9-469a-bc9e-520a82f27b85" BaseDefinition="IfcElementComponentType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFastenerType" Name="IfcFastenerType" UniqueId="572e4980-73f9-469a-bc9e-520a82f27b85" DiagramNumber="0" BaseDefinition="IfcElementComponentType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Befestigungsmittel - Typ" />
-		<DocLocalization Locale="en" Name="Fastener Type" />
-		<DocLocalization Locale="fr" Name="Type d&apos;élément d&apos;assemblage" />
+		<DocLocalization Name="Befestigungsmittel - Typ" Locale="de" />
+		<DocLocalization Name="Fastener Type" Locale="en" />
+		<DocLocalization Name="Type d&apos;élément d&apos;assemblage" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="338cf347-65d8-4519-b97e-d487b305360c" DefinedType="IfcFastenerTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="338cf347-65d8-4519-b97e-d487b305360c" DefinedType="IfcFastenerTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Subtype of fastener</Documentation>
 		</DocAttribute>
 	</Attributes>

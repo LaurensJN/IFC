@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLaborResourceType" UniqueId="3c666024-11d1-4495-9763-09f6ca7f89e7" BaseDefinition="IfcConstructionResourceType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLaborResourceType" UniqueId="3c666024-11d1-4495-9763-09f6ca7f89e7" DiagramNumber="0" BaseDefinition="IfcConstructionResourceType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Arbeit - Ressource - Typ" />
-		<DocLocalization Locale="en" Name="Labor Resource Type" />
-		<DocLocalization Locale="fr" Name="Type de ressource en main d&apos;œuvre" />
+		<DocLocalization Name="Arbeit - Ressource - Typ" Locale="de" />
+		<DocLocalization Name="Labor Resource Type" Locale="en" />
+		<DocLocalization Name="Type de ressource en main d&apos;œuvre" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="b175b20f-a6bc-4143-92dc-685e7d251824" DefinedType="IfcLaborResourceTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="b175b20f-a6bc-4143-92dc-685e7d251824" DefinedType="IfcLaborResourceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines types of labour resources.</Documentation>
 		</DocAttribute>
 	</Attributes>

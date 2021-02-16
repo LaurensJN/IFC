@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcUnitaryControlElement" Name="IfcUnitaryControlElement" UniqueId="cfc09c9c-67e9-4354-9a3c-87e3d2f14839" BaseDefinition="IfcDistributionControlElement" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcUnitaryControlElement" Name="IfcUnitaryControlElement" UniqueId="cfc09c9c-67e9-4354-9a3c-87e3d2f14839" DiagramNumber="0" BaseDefinition="IfcDistributionControlElement" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Einheitsregler" />
-		<DocLocalization Locale="en" Name="Unitary Control Element" />
-		<DocLocalization Locale="fr" Name="Elément de contrôle unitaire" />
+		<DocLocalization Name="Einheitsregler" Locale="de" />
+		<DocLocalization Name="Unitary Control Element" Locale="en" />
+		<DocLocalization Name="Elément de contrôle unitaire" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="5fd251f6-8d60-4ce4-bc91-5e5791b8cf4a" DefinedType="IfcUnitaryControlElementTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="5fd251f6-8d60-4ce4-bc91-5e5791b8cf4a" DefinedType="IfcUnitaryControlElementTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="a969ef01-36b6-4756-881f-b813c2111e2b">

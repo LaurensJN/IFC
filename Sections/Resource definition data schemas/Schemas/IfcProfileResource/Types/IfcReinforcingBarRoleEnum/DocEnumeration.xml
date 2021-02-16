@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcReinforcingBarRoleEnum" UniqueId="48b53bef-ef79-4028-9d67-9997cc04b9cf">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcReinforcingBarRoleEnum" UniqueId="48b53bef-ef79-4028-9d67-9997cc04b9cf" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Reinforcing Bar Role Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types d&apos;emploi de barres d&apos;armature" />
+		<DocLocalization Name="Reinforcing Bar Role Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types d&apos;emploi de barres d&apos;armature" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="MAIN_37zBaZhyL5Xw2i15SQguOi" />

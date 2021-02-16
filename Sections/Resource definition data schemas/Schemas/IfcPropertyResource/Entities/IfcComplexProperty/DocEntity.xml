@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcComplexProperty" Name="IfcComplexProperty" UniqueId="c8722acc-8737-44f1-b24d-0eb804a9a4da" BaseDefinition="IfcProperty" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcComplexProperty" Name="IfcComplexProperty" UniqueId="c8722acc-8737-44f1-b24d-0eb804a9a4da" DiagramNumber="0" BaseDefinition="IfcProperty" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Komplexes Merkmal" />
-		<DocLocalization Locale="en" Name="Complex Property" />
-		<DocLocalization Locale="fr" Name="Propriété complexe" />
+		<DocLocalization Name="Komplexes Merkmal" Locale="de" />
+		<DocLocalization Name="Complex Property" Locale="en" />
+		<DocLocalization Name="Propriété complexe" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="UsageName" UniqueId="f21a5e51-7581-416f-943f-25398d2e3c4d" DefinedType="IfcIdentifier">
+		<DocAttribute Name="UsageName" UniqueId="f21a5e51-7581-416f-943f-25398d2e3c4d" DefinedType="IfcIdentifier" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Usage description of the _IfcComplexProperty_ within the property set which references the _IfcComplexProperty_.
 &gt; NOTE&amp;nbsp; Consider a complex property for glazing properties. The _Name_ attribute of the _IfcComplexProperty_ could be _Pset_GlazingProperties_, and the UsageName attribute could be _OuterGlazingPane_.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="HasProperties" UniqueId="6321203a-4666-4064-aa58-167b85c5935f" DefinedType="IfcProperty" AggregationType="3" AggregationLower="1" AggregationUpper="0">
+		<DocAttribute Name="HasProperties" UniqueId="6321203a-4666-4064-aa58-167b85c5935f" DefinedType="IfcProperty" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>Set of properties that can be used within this complex property (may include other complex properties).</Documentation>
 		</DocAttribute>
 	</Attributes>

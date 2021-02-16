@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcDamperType" Name="IfcDamperType" UniqueId="b8de85d0-242c-4557-ad69-4310a1b46caa" BaseDefinition="IfcFlowControllerType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcDamperType" Name="IfcDamperType" UniqueId="b8de85d0-242c-4557-ad69-4310a1b46caa" DiagramNumber="0" BaseDefinition="IfcFlowControllerType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Regelklappe - Typ" />
-		<DocLocalization Locale="en" Name="Damper Type" />
-		<DocLocalization Locale="fr" Name="Type de détecteur d&apos;incendie" />
+		<DocLocalization Name="Regelklappe - Typ" Locale="de" />
+		<DocLocalization Name="Damper Type" Locale="en" />
+		<DocLocalization Name="Type de détecteur d&apos;incendie" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="708a30b6-ae25-4d2c-97c7-37de2da7c7c3" DefinedType="IfcDamperTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="708a30b6-ae25-4d2c-97c7-37de2da7c7c3" DefinedType="IfcDamperTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Type of damper.</Documentation>
 		</DocAttribute>
 	</Attributes>

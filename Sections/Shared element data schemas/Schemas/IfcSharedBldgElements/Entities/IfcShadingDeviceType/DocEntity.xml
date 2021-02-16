@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcShadingDeviceType" Name="IfcShadingDeviceType" UniqueId="a674ecb6-09b2-4165-9f92-d2ab912be8ed" BaseDefinition="IfcBuildingElementType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcShadingDeviceType" Name="IfcShadingDeviceType" UniqueId="a674ecb6-09b2-4165-9f92-d2ab912be8ed" DiagramNumber="0" BaseDefinition="IfcBuildingElementType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Sonnenschutz festeingebaut - Typ" />
-		<DocLocalization Locale="en" Name="Shading Device Type" />
-		<DocLocalization Locale="fr" Name="Type de protection solaire" />
+		<DocLocalization Name="Sonnenschutz festeingebaut - Typ" Locale="de" />
+		<DocLocalization Name="Shading Device Type" Locale="en" />
+		<DocLocalization Name="Type de protection solaire" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="2720f317-fb5d-4013-b767-c475b264dbd2" DefinedType="IfcShadingDeviceTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="2720f317-fb5d-4013-b767-c475b264dbd2" DefinedType="IfcShadingDeviceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a shading device element from which the type required may be set.</Documentation>
 		</DocAttribute>
 	</Attributes>

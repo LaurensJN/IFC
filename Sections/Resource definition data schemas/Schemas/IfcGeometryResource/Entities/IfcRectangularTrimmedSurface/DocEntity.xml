@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRectangularTrimmedSurface" UniqueId="25bb1436-242e-4954-a716-597d8e9ba615" BaseDefinition="IfcBoundedSurface" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRectangularTrimmedSurface" UniqueId="25bb1436-242e-4954-a716-597d8e9ba615" DiagramNumber="0" BaseDefinition="IfcBoundedSurface" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Rechteckig begrenzte Oberfläche" />
-		<DocLocalization Locale="en" Name="Rectangular Trimmed Surface" />
+		<DocLocalization Name="Rechteckig begrenzte Oberfläche" Locale="de" />
+		<DocLocalization Name="Rectangular Trimmed Surface" Locale="en" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="BasisSurface" UniqueId="2b292506-6136-479a-9255-a02ef4d16fa9" DefinedType="IfcSurface" XsdFormat="attribute">
+		<DocAttribute Name="BasisSurface" UniqueId="2b292506-6136-479a-9255-a02ef4d16fa9" DefinedType="IfcSurface" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Surface being trimmed.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="U1" UniqueId="15237180-8fcc-4bed-a1ef-26b540fe861e" DefinedType="IfcParameterValue">
+		<DocAttribute Name="U1" UniqueId="15237180-8fcc-4bed-a1ef-26b540fe861e" DefinedType="IfcParameterValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>First u parametric value.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="V1" UniqueId="f0aaaef2-f79e-42d5-85f8-c8494f5a575b" DefinedType="IfcParameterValue">
+		<DocAttribute Name="V1" UniqueId="f0aaaef2-f79e-42d5-85f8-c8494f5a575b" DefinedType="IfcParameterValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>First v parametric value.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="U2" UniqueId="1f5188e3-40dc-4708-9067-d8ce2a75609e" DefinedType="IfcParameterValue">
+		<DocAttribute Name="U2" UniqueId="1f5188e3-40dc-4708-9067-d8ce2a75609e" DefinedType="IfcParameterValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Second u parametric value.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="V2" UniqueId="fdec4f9a-ac75-4d58-8ca8-70266df5c502" DefinedType="IfcParameterValue">
+		<DocAttribute Name="V2" UniqueId="fdec4f9a-ac75-4d58-8ca8-70266df5c502" DefinedType="IfcParameterValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Second v parametric value.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="Usense" UniqueId="84dd552c-ed43-4b01-ad77-9d47469c7b67" DefinedType="IfcBoolean">
+		<DocAttribute Name="Usense" UniqueId="84dd552c-ed43-4b01-ad77-9d47469c7b67" DefinedType="IfcBoolean" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Flag to indicate whether the direction of the first parameter of the trimmed surface agrees with or opposes the sense of u in the basis surface.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="Vsense" UniqueId="3236b0bf-0d50-4b41-a891-8356e96558f8" DefinedType="IfcBoolean">
+		<DocAttribute Name="Vsense" UniqueId="3236b0bf-0d50-4b41-a891-8356e96558f8" DefinedType="IfcBoolean" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Flag to indicate whether the direction of the second parameter of the trimmed surface agrees with or opposes the sense of v in the basis surface.</Documentation>
 		</DocAttribute>
 	</Attributes>

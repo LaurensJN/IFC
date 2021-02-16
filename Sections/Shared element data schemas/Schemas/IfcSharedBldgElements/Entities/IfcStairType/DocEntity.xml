@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcStairType" Name="IfcStairType" UniqueId="d3b32e07-c9d3-4488-99fe-8ce356d2adc5" BaseDefinition="IfcBuildingElementType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcStairType" Name="IfcStairType" UniqueId="d3b32e07-c9d3-4488-99fe-8ce356d2adc5" DiagramNumber="0" BaseDefinition="IfcBuildingElementType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Treppe - Typ" />
-		<DocLocalization Locale="en" Name="Stair Type" />
-		<DocLocalization Locale="fr" Name="Type d&apos;escalier" />
+		<DocLocalization Name="Treppe - Typ" Locale="de" />
+		<DocLocalization Name="Stair Type" Locale="en" />
+		<DocLocalization Name="Type d&apos;escalier" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="b0b7e80d-1752-42ff-9551-397dbbab6cf2" DefinedType="IfcStairTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="b0b7e80d-1752-42ff-9551-397dbbab6cf2" DefinedType="IfcStairTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a stair element from which the type required may be set.</Documentation>
 		</DocAttribute>
 	</Attributes>

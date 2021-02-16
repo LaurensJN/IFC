@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPlanarForceMeasure" UniqueId="eeb7519b-52a1-456e-96ff-ef72e17ac74f" DefinedType="REAL">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPlanarForceMeasure" UniqueId="eeb7519b-52a1-456e-96ff-ef72e17ac74f" DiagramNumber="0" DefinedType="REAL" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Planar Force Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de force par unité de surface" />
+		<DocLocalization Name="Planar Force Measure" Locale="en" />
+		<DocLocalization Name="Mesure de force par unité de surface" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SFUxbTtX3UOd1BulupW_7" />
 </DocDefined>

@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTable" UniqueId="a998a201-457f-4f17-9337-b5f2acb084d8" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTable" UniqueId="a998a201-457f-4f17-9337-b5f2acb084d8" DiagramNumber="0" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Tabelle" />
-		<DocLocalization Locale="en" Name="Table" />
-		<DocLocalization Locale="fr" Name="Table" />
+		<DocLocalization Name="Tabelle" Locale="de" />
+		<DocLocalization Name="Table" Locale="en" />
+		<DocLocalization Name="Table" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="Name" UniqueId="9abc07c5-b708-450e-a8bd-c055f3dd735e" DefinedType="IfcLabel" AttributeFlags="1" />
-		<DocAttribute Name="Rows" UniqueId="7022ee4b-bd52-48f7-9edb-ef5c09c44206" DefinedType="IfcTableRow" AttributeFlags="1" AggregationType="1" AggregationLower="1" AggregationUpper="0">
+		<DocAttribute Name="Name" UniqueId="9abc07c5-b708-450e-a8bd-c055f3dd735e" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
+		<DocAttribute Name="Rows" UniqueId="7022ee4b-bd52-48f7-9edb-ef5c09c44206" DefinedType="IfcTableRow" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>Reference to information content of rows.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="Columns" UniqueId="6290f013-626e-4be6-a71e-0133059ad85e" DefinedType="IfcTableColumn" AttributeFlags="1" AggregationType="1" AggregationLower="1" AggregationUpper="0">
+		<DocAttribute Name="Columns" UniqueId="6290f013-626e-4be6-a71e-0133059ad85e" DefinedType="IfcTableColumn" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>The column information associated with this table.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="NumberOfCellsInRow" UniqueId="a079c8cc-df08-4b62-b081-51e8572745d1" DefinedType="IfcInteger">
+		<DocAttribute Name="NumberOfCellsInRow" UniqueId="a079c8cc-df08-4b62-b081-51e8572745d1" DefinedType="IfcInteger" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The number of cells in each row, this complies to the number of columns in a table. See WR2 that ensures that each row has the same number of cells. The actual value is derived from the first member of the Rows list.</Documentation>
 			<Derived>HIINDEX(Rows[1].RowCells)</Derived>
 		</DocAttribute>
-		<DocAttribute Name="NumberOfHeadings" UniqueId="f715f965-b239-42f1-b0c7-fd99d00ea73a" DefinedType="IfcInteger">
+		<DocAttribute Name="NumberOfHeadings" UniqueId="f715f965-b239-42f1-b0c7-fd99d00ea73a" DefinedType="IfcInteger" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The number of headings in a table. This is restricted by WR3 to max. one.</Documentation>
 			<Derived>SIZEOF(QUERY( Temp &lt;* Rows | Temp.IsHeading))</Derived>
 		</DocAttribute>
-		<DocAttribute Name="NumberOfDataRows" UniqueId="c5f803f8-2be0-441c-9417-3e937fb62764" DefinedType="IfcInteger">
+		<DocAttribute Name="NumberOfDataRows" UniqueId="c5f803f8-2be0-441c-9417-3e937fb62764" DefinedType="IfcInteger" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The number of rows in a table that contains data, i.e. total number of rows minus number of heading rows in table.</Documentation>
 			<Derived>SIZEOF(QUERY( Temp &lt;* Rows | NOT(Temp.IsHeading)))</Derived>
 		</DocAttribute>

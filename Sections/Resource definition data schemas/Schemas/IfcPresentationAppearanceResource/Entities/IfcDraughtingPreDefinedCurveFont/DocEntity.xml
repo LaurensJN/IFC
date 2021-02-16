@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDraughtingPreDefinedCurveFont" UniqueId="2c8e3dda-8168-4443-97ee-c5d8cd46e7bf" BaseDefinition="IfcPreDefinedCurveFont" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDraughtingPreDefinedCurveFont" UniqueId="2c8e3dda-8168-4443-97ee-c5d8cd46e7bf" DiagramNumber="0" BaseDefinition="IfcPreDefinedCurveFont" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Vordefinierter Zeichnungsliniensatz" />
-		<DocLocalization Locale="en" Name="Draughting Pre Defined Curve Font" />
+		<DocLocalization Name="Vordefinierter Zeichnungsliniensatz" Locale="de" />
+		<DocLocalization Name="Draughting Pre Defined Curve Font" Locale="en" />
 	</Localization>
 	<WhereRules>
 		<DocWhereRule Name="PreDefinedCurveFontNames" UniqueId="7fd4b6e0-e2e0-451f-991b-106105188dcc">

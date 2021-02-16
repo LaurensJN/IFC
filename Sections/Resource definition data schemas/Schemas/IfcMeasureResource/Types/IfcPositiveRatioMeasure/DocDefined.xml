@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPositiveRatioMeasure" UniqueId="0e028f37-2eed-4719-aeca-ab2f49f35a63" DefinedType="IfcRatioMeasure">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPositiveRatioMeasure" UniqueId="0e028f37-2eed-4719-aeca-ab2f49f35a63" DiagramNumber="0" DefinedType="IfcRatioMeasure" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Positive Ratio Measure" />
-		<DocLocalization Locale="fr" Name="Mesure de ratio positif" />
+		<DocLocalization Name="Positive Ratio Measure" Locale="en" />
+		<DocLocalization Name="Mesure de ratio positif" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocDefined" xsi:nil="true" href="IfcRatioMeasure" />
 	<WhereRules>

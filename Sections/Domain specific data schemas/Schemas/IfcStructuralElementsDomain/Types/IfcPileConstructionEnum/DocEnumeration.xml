@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPileConstructionEnum" UniqueId="52c14141-4c0d-4b48-bcad-73ef235b58b9">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPileConstructionEnum" UniqueId="52c14141-4c0d-4b48-bcad-73ef235b58b9" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Pile Construction Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types de construction de pieux" />
+		<DocLocalization Name="Pile Construction Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types de construction de pieux" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="CAST_IN_PLACE_0f0OPRu_H9LuSPierGd_eT" />

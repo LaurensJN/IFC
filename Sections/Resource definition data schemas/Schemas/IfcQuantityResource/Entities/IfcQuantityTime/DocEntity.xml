@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcQuantityTime" UniqueId="f137f056-3756-4b10-8243-deee1ffa7d9d" BaseDefinition="IfcPhysicalSimpleQuantity" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcQuantityTime" UniqueId="f137f056-3756-4b10-8243-deee1ffa7d9d" DiagramNumber="0" BaseDefinition="IfcPhysicalSimpleQuantity" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Mengenangabe - Zeit" />
-		<DocLocalization Locale="en" Name="Quantity Time" />
-		<DocLocalization Locale="fr" Name="Quantité de durée" />
+		<DocLocalization Name="Mengenangabe - Zeit" Locale="de" />
+		<DocLocalization Name="Quantity Time" Locale="en" />
+		<DocLocalization Name="Quantité de durée" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="TimeValue" UniqueId="24cb0119-3880-4176-ba50-7333569bbfd3" DefinedType="IfcTimeMeasure">
+		<DocAttribute Name="TimeValue" UniqueId="24cb0119-3880-4176-ba50-7333569bbfd3" DefinedType="IfcTimeMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Time measure value of this quantity.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="Formula" UniqueId="e063afe0-3eff-4106-abe3-927c705df3c1" DefinedType="IfcLabel" AttributeFlags="1">
+		<DocAttribute Name="Formula" UniqueId="e063afe0-3eff-4106-abe3-927c705df3c1" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>A formula by which the quantity has been calculated. It can be assigned in addition to the actual value of the quantity. Formulas could be mathematic calculations (like width x height), database links, or a combination. The formula is for informational purposes only.
 { .change-ifc2x4}
 &gt; IFC4 CHANGE Attribute added to the end of the attribute list.</Documentation>

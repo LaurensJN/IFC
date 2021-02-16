@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProtectiveDeviceTrippingUnitTypeEnum" UniqueId="54e067ce-e4f6-44b1-915a-2b75dd589f0e">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProtectiveDeviceTrippingUnitTypeEnum" UniqueId="54e067ce-e4f6-44b1-915a-2b75dd589f0e" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Protective Device Tripping Unit Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types d&apos;unité de déclenchement d’équipement de protection" />
+		<DocLocalization Name="Protective Device Tripping Unit Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types d&apos;unité de déclenchement d’équipement de protection" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="ELECTRONIC_0PV8UqkIbF19ZO0PFmYTvX" />

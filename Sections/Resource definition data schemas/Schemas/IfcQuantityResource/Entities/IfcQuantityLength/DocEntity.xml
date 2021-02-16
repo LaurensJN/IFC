@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcQuantityLength" UniqueId="4e958bba-84fa-45d3-bf26-9b6b72632919" BaseDefinition="IfcPhysicalSimpleQuantity" EntityFlags="229">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcQuantityLength" UniqueId="4e958bba-84fa-45d3-bf26-9b6b72632919" DiagramNumber="0" BaseDefinition="IfcPhysicalSimpleQuantity" EntityFlags="229">
 	<Localization>
-		<DocLocalization Locale="de" Name="Mengenangabe - Länge" />
-		<DocLocalization Locale="en" Name="Quantity Length" />
-		<DocLocalization Locale="fr" Name="Quantité de longueur" />
+		<DocLocalization Name="Mengenangabe - Länge" Locale="de" />
+		<DocLocalization Name="Quantity Length" Locale="en" />
+		<DocLocalization Name="Quantité de longueur" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="LengthValue" UniqueId="7f243ac1-2a97-4752-b2e2-8f8b9d39d18a" DefinedType="IfcLengthMeasure">
+		<DocAttribute Name="LengthValue" UniqueId="7f243ac1-2a97-4752-b2e2-8f8b9d39d18a" DefinedType="IfcLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Length measure value of this quantity.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="Formula" UniqueId="d6cebea3-47f2-41f9-a065-db12dc729cd4" DefinedType="IfcLabel" AttributeFlags="1">
+		<DocAttribute Name="Formula" UniqueId="d6cebea3-47f2-41f9-a065-db12dc729cd4" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>A formula by which the quantity has been calculated. It can be assigned in addition to the actual value of the quantity. Formulas could be mathematic calculations (like width x height), database links, or a combination. The formula is for informational purposes only.
 { .change-ifc2x4}
 &gt; IFC4 CHANGE Attribute added to the end of the attribute list.</Documentation>

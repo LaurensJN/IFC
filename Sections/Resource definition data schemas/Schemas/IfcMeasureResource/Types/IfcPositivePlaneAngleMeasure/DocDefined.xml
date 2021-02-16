@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPositivePlaneAngleMeasure" UniqueId="40cd7167-2011-405e-82f9-f6af73ed3182" DefinedType="IfcPlaneAngleMeasure">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPositivePlaneAngleMeasure" UniqueId="40cd7167-2011-405e-82f9-f6af73ed3182" DiagramNumber="0" DefinedType="IfcPlaneAngleMeasure" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Positive Plane Angle Measure" />
-		<DocLocalization Locale="fr" Name="Mesure d&apos;angle plan positif" />
+		<DocLocalization Name="Positive Plane Angle Measure" Locale="en" />
+		<DocLocalization Name="Mesure d&apos;angle plan positif" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocDefined" xsi:nil="true" href="IfcPlaneAngleMeasure" />
 	<WhereRules>

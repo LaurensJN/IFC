@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcClassificationSelect" UniqueId="e67e84df-c45f-4038-88b1-aceab7e88ae4">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcClassificationSelect" UniqueId="e67e84df-c45f-4038-88b1-aceab7e88ae4" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Classification Select" />
-		<DocLocalization Locale="fr" Name="Sélection de classification" />
+		<DocLocalization Name="Classification Select" Locale="en" />
+		<DocLocalization Name="Sélection de classification" Locale="fr" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcClassification" UniqueId="7eae4ff6-f7fc-49c7-ae66-ff9cd961fc25" />

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProfileTypeEnum" UniqueId="35faf9fa-3f44-4c9e-aa45-8ca6117029f5">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProfileTypeEnum" UniqueId="35faf9fa-3f44-4c9e-aa45-8ca6117029f5" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Profile Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types de profil" />
+		<DocLocalization Name="Profile Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types de profil" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="CURVE_1pVszbF69BVeDVkAjJVjh" />

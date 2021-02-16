@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcInteger" Name="IfcInteger" UniqueId="a3074d91-492b-41c2-b714-05cb9106d426" DefinedType="INTEGER">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcInteger" Name="IfcInteger" UniqueId="a3074d91-492b-41c2-b714-05cb9106d426" DiagramNumber="0" DefinedType="INTEGER" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Integer" />
-		<DocLocalization Locale="fr" Name="Entier" />
+		<DocLocalization Name="Integer" Locale="en" />
+		<DocLocalization Name="Entier" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="INTEGER_3zVfmb7DP1RPb9bVPO2XuE" />
 </DocDefined>

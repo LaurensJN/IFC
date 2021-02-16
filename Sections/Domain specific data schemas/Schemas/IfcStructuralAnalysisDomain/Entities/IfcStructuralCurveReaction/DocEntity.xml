@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcStructuralCurveReaction" Name="IfcStructuralCurveReaction" UniqueId="d85746e9-e456-40b1-9f23-87262b226375" BaseDefinition="IfcStructuralReaction" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcStructuralCurveReaction" Name="IfcStructuralCurveReaction" UniqueId="d85746e9-e456-40b1-9f23-87262b226375" DiagramNumber="0" BaseDefinition="IfcStructuralReaction" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="linienförmige Auflagerreaktion" />
-		<DocLocalization Locale="en" Name="Structural Curve Reaction" />
+		<DocLocalization Name="linienförmige Auflagerreaktion" Locale="de" />
+		<DocLocalization Name="Structural Curve Reaction" Locale="en" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="090260b8-a1fe-4aec-889e-d8fd90137b39" DefinedType="IfcStructuralCurveActivityTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="090260b8-a1fe-4aec-889e-d8fd90137b39" DefinedType="IfcStructuralCurveActivityTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Type of reaction according to its distribution of load values.</Documentation>
 		</DocAttribute>
 	</Attributes>

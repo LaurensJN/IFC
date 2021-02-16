@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcColumnStandardCase" Name="IfcColumnStandardCase" UniqueId="123ee93b-56da-46de-96fb-5e62bdaecd3f" Status="Deprecated" BaseDefinition="IfcColumn" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcColumnStandardCase" Name="IfcColumnStandardCase" UniqueId="123ee93b-56da-46de-96fb-5e62bdaecd3f" Status="Deprecated" DiagramNumber="0" BaseDefinition="IfcColumn" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Stütze / Pfeiler - Standard" />
-		<DocLocalization Locale="en" Name="Column Standard Case" />
-		<DocLocalization Locale="fr" Name="Poteau standard" />
+		<DocLocalization Name="Stütze / Pfeiler - Standard" Locale="de" />
+		<DocLocalization Name="Column Standard Case" Locale="en" />
+		<DocLocalization Name="Poteau standard" Locale="fr" />
 	</Localization>
 	<WhereRules>
 		<DocWhereRule Name="HasMaterialProfileSetUsage" UniqueId="9ddf6137-372a-4510-a319-d55e09e0a180">

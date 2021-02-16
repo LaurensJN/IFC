@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcStructuralCurveAction" Name="IfcStructuralCurveAction" UniqueId="948541ee-3298-408e-a404-6fd5b84b81e9" BaseDefinition="IfcStructuralAction" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcStructuralCurveAction" Name="IfcStructuralCurveAction" UniqueId="948541ee-3298-408e-a404-6fd5b84b81e9" DiagramNumber="0" BaseDefinition="IfcStructuralAction" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="veränderliche Linienlast" />
-		<DocLocalization Locale="en" Name="Structural Curve Action" />
+		<DocLocalization Name="veränderliche Linienlast" Locale="de" />
+		<DocLocalization Name="Structural Curve Action" Locale="en" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="f8230c76-1527-4d80-9d37-835fe4140454" DefinedType="IfcStructuralLinearAction" />
 		<DocSubtype UniqueId="f8230c76-1527-4d80-9d37-835fe4140454" DefinedType="IfcStructuralLinearAction" />
 	</Subtypes>
 	<Attributes>
-		<DocAttribute Name="ProjectedOrTrue" UniqueId="de505213-6b85-43ed-83d1-cdf5251aec7b" DefinedType="IfcProjectedOrTrueLengthEnum" AttributeFlags="1">
+		<DocAttribute Name="ProjectedOrTrue" UniqueId="de505213-6b85-43ed-83d1-cdf5251aec7b" DefinedType="IfcProjectedOrTrueLengthEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines whether load values are given per true length of the curve on which they act, or per length of the projection of the curve in load direction.  The latter is only applicable to loads which act in global coordinate directions.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="PredefinedType" UniqueId="a0301c23-b88b-4a3c-bb49-e303eb4a0b69" DefinedType="IfcStructuralCurveActivityTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="a0301c23-b88b-4a3c-bb49-e303eb4a0b69" DefinedType="IfcStructuralCurveActivityTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Type of action according to its distribution of load values.</Documentation>
 		</DocAttribute>
 	</Attributes>

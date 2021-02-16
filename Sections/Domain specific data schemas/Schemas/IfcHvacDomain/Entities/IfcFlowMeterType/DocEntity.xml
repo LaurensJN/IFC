@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFlowMeterType" Name="IfcFlowMeterType" UniqueId="daef9a4b-19fd-4e45-9d4d-4a12b58209b5" BaseDefinition="IfcFlowControllerType" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFlowMeterType" Name="IfcFlowMeterType" UniqueId="daef9a4b-19fd-4e45-9d4d-4a12b58209b5" DiagramNumber="0" BaseDefinition="IfcFlowControllerType" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Zähler (allgemein) - Typ" />
-		<DocLocalization Locale="en" Name="Flow Meter Type" />
-		<DocLocalization Locale="fr" Name="Type d&apos;appareil de mesure de débit" />
+		<DocLocalization Name="Zähler (allgemein) - Typ" Locale="de" />
+		<DocLocalization Name="Flow Meter Type" Locale="en" />
+		<DocLocalization Name="Type d&apos;appareil de mesure de débit" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="a2740dc9-c1bc-4df2-8270-bdab521192a4" DefinedType="IfcFlowMeterTypeEnum">
+		<DocAttribute Name="PredefinedType" UniqueId="a2740dc9-c1bc-4df2-8270-bdab521192a4" DefinedType="IfcFlowMeterTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines the type of flow meter.</Documentation>
 		</DocAttribute>
 	</Attributes>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAppliedValueSelect" UniqueId="24072442-9a47-4e97-ba45-6a5cb86a46af">
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAppliedValueSelect" UniqueId="24072442-9a47-4e97-ba45-6a5cb86a46af" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Applied Value Select" />
-		<DocLocalization Locale="fr" Name="Sélection de valeur appliquée" />
+		<DocLocalization Name="Applied Value Select" Locale="en" />
+		<DocLocalization Name="Sélection de valeur appliquée" Locale="fr" />
 	</Localization>
 	<Selects>
 		<DocSelectItem Name="IfcMeasureWithUnit" UniqueId="7606eb28-8f72-47ae-83e2-4252efbcac91" />

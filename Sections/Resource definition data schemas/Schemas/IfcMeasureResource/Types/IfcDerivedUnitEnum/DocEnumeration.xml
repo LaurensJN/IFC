@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDerivedUnitEnum" UniqueId="80794363-0849-4229-9e17-e00c0319c157">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDerivedUnitEnum" UniqueId="80794363-0849-4229-9e17-e00c0319c157" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Derived Unit Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des unités dérivées" />
+		<DocLocalization Name="Derived Unit Enum" Locale="en" />
+		<DocLocalization Name="Enumération des unités dérivées" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="ANGULARVELOCITYUNIT_1MPBIl4pX7Lf376seSnPMs" />

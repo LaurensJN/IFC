@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcArbitraryProfileDefWithVoids" Name="IfcArbitraryProfileDefWithVoids" UniqueId="ebffea85-6601-4032-8540-a094ef46f7cb" BaseDefinition="IfcArbitraryClosedProfileDef" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcArbitraryProfileDefWithVoids" Name="IfcArbitraryProfileDefWithVoids" UniqueId="ebffea85-6601-4032-8540-a094ef46f7cb" DiagramNumber="0" BaseDefinition="IfcArbitraryClosedProfileDef" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Beliebiges geschlossenes Profil mit Löchern" />
-		<DocLocalization Locale="en" Name="Arbitrary Profile Def With Voids" />
+		<DocLocalization Name="Beliebiges geschlossenes Profil mit Löchern" Locale="de" />
+		<DocLocalization Name="Arbitrary Profile Def With Voids" Locale="en" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="InnerCurves" UniqueId="f5a968fa-e9ba-423c-9752-52657d57b5bc" DefinedType="IfcCurve" AggregationType="3" AggregationLower="1" AggregationUpper="0">
+		<DocAttribute Name="InnerCurves" UniqueId="f5a968fa-e9ba-423c-9752-52657d57b5bc" DefinedType="IfcCurve" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>Set of bounded curves, defining the inner boundaries of the arbitrary profile.</Documentation>
 		</DocAttribute>
 	</Attributes>

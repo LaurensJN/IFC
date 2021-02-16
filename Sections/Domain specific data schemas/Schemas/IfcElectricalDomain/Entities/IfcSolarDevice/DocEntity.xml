@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSolarDevice" Name="IfcSolarDevice" UniqueId="509208ea-e863-454b-9bd2-3fdf0c7dbac6" BaseDefinition="IfcEnergyConversionDevice" EntityFlags="101">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSolarDevice" Name="IfcSolarDevice" UniqueId="509208ea-e863-454b-9bd2-3fdf0c7dbac6" DiagramNumber="0" BaseDefinition="IfcEnergyConversionDevice" EntityFlags="101">
 	<Localization>
-		<DocLocalization Locale="de" Name="Solargerät" />
-		<DocLocalization Locale="en" Name="Solar Device" />
-		<DocLocalization Locale="fr" Name="Capteur solaire" />
+		<DocLocalization Name="Solargerät" Locale="de" />
+		<DocLocalization Name="Solar Device" Locale="en" />
+		<DocLocalization Name="Capteur solaire" Locale="fr" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="PredefinedType" UniqueId="08401fee-143c-4a4a-8600-3460e518aefe" DefinedType="IfcSolarDeviceTypeEnum" AttributeFlags="1" />
+		<DocAttribute Name="PredefinedType" UniqueId="08401fee-143c-4a4a-8600-3460e518aefe" DefinedType="IfcSolarDeviceTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="CorrectPredefinedType" UniqueId="a5846fd1-1c09-4c09-b760-a43434109d4b">

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTimeStamp" UniqueId="a3db8b6e-920f-4280-bf14-2aa32ada6a1b" DefinedType="INTEGER">
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTimeStamp" UniqueId="a3db8b6e-920f-4280-bf14-2aa32ada6a1b" DiagramNumber="0" DefinedType="INTEGER" Length="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Time Stamp" />
-		<DocLocalization Locale="fr" Name="Horodatage" />
+		<DocLocalization Name="Time Stamp" Locale="en" />
+		<DocLocalization Name="Horodatage" Locale="fr" />
 	</Localization>
 	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="INTEGER_3zVfmb7DP1RPb9bVPO2XuE" />
 </DocDefined>

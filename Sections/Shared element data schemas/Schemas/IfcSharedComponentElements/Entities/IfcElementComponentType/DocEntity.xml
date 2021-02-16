@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcElementComponentType" Name="IfcElementComponentType" UniqueId="7904437f-39fd-4ac3-a04b-cd4158e276b3" BaseDefinition="IfcElementType" EntityFlags="197">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcElementComponentType" Name="IfcElementComponentType" UniqueId="7904437f-39fd-4ac3-a04b-cd4158e276b3" DiagramNumber="0" BaseDefinition="IfcElementType" EntityFlags="197">
 	<Localization>
-		<DocLocalization Locale="de" Name="Elementenbestandteil - Typ" />
-		<DocLocalization Locale="en" Name="Element Component Type" />
-		<DocLocalization Locale="fr" Name="Type de composant d&apos;élément" />
+		<DocLocalization Name="Elementenbestandteil - Typ" Locale="de" />
+		<DocLocalization Name="Element Component Type" Locale="en" />
+		<DocLocalization Name="Type de composant d&apos;élément" Locale="fr" />
 	</Localization>
 	<Subtypes>
 		<DocSubtype UniqueId="d7e7361b-275a-4c34-8e5e-f076e4f965a6" DefinedType="IfcBuildingElementPartType" />

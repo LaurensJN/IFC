@@ -6,16 +6,16 @@
 
 Each cost value may be defined using a constant amount or calculated according to specified formula.</Documentation>
 			<Rules>
-				<DocModelRuleAttribute Name="BaseCosts" Identification="CostType">
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="BaseCosts" Identification="CostType">
 					<Rules>
-						<DocModelRuleEntity Name="IfcAppliedValue">
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcAppliedValue">
 							<Rules>
-								<DocModelRuleAttribute Name="Name" Identification="CostName">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="CostName">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute Name="AppliedValue" Identification="ValueType" />
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="AppliedValue" Identification="ValueType" />
 							</Rules>
 						</DocModelRuleEntity>
 					</Rules>
@@ -27,13 +27,13 @@ Each cost value may be defined using a constant amount or calculated according t
 
 For work-based resources such as labor and equipment, quantities are based on time. For product-based resources, quantities are based on count. For material-based resources, quantities are based on volume.</Documentation>
 			<Rules>
-				<DocModelRuleAttribute Name="BaseQuantity" Identification="QuantityType">
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="BaseQuantity" Identification="QuantityType">
 					<Rules>
-						<DocModelRuleEntity Name="IfcPhysicalSimpleQuantity">
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPhysicalSimpleQuantity">
 							<Rules>
-								<DocModelRuleAttribute Name="Name" Identification="QuantityName">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="QuantityName">
 									<Rules>
-										<DocModelRuleEntity Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
 									</Rules>
 								</DocModelRuleAttribute>
 							</Rules>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcShadingDeviceTypeEnum" UniqueId="5ac40385-8b00-4be2-984f-1bddc3ed1254">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcShadingDeviceTypeEnum" UniqueId="5ac40385-8b00-4be2-984f-1bddc3ed1254" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Shading Device Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types de protection solaire" />
+		<DocLocalization Name="Shading Device Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types de protection solaire" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="JALOUSIE_1PaeLaIbAKRrJv1UbmMJW" />

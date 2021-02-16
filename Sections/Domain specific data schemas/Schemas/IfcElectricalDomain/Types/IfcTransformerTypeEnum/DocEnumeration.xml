@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTransformerTypeEnum" UniqueId="88a91c6a-1986-40f1-8551-6a855b5424f5">
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTransformerTypeEnum" UniqueId="88a91c6a-1986-40f1-8551-6a855b5424f5" DiagramNumber="0">
 	<Localization>
-		<DocLocalization Locale="en" Name="Transformer Type Enum" />
-		<DocLocalization Locale="fr" Name="Enumération des types de transformateur" />
+		<DocLocalization Name="Transformer Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types de transformateur" Locale="fr" />
 	</Localization>
 	<Constants>
 		<DocConstant xsi:nil="true" href="CURRENT_3iVrPJAGb3H8nyTRmMBbt4" />
