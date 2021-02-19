@@ -1,8 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Object Attributes" UniqueId="3Cj5gYTE56w8urobvTVCdT" Type="IfcRoot">
 	<Templates>
-		<DocTemplateDefinition Name="Object Occurrence Attributes" UniqueId="73e34d23-ed0d-4afd-a87d-4da2df34466a" Type="IfcRoot">
+		<DocTemplateDefinition id="Object_Occurrence_Attributes_1puqqZxGrAQXzJQBVD4Pg" Name="Object Occurrence Attributes" UniqueId="73e34d23-ed0d-4afd-a87d-4da2df34466a" Type="IfcProject">
 			<Documentation>Specific entities have additional attributes defined for describing common characteristics at occurrences.</Documentation>
+			<Rules>
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
+					<Rules>
+						<DocModelRuleEntity id="x3f825204d9374e99925084c474807ed5" CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="3f825204-d937-4e99-9250-84c474807ed5">
+							<Rules>
+								<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+									<Expression xsi:type="DocOpStatement" Operation="comparenotequal">
+										<Reference xsi:type="DocOpReference">
+											<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="x3f825204d9374e99925084c474807ed5" />
+										</Reference>
+										<Value xsi:type="DocOpLiteral" Operation="loadstring" />
+									</Expression>
+								</DocModelRuleConstraint>
+							</Rules>
+						</DocModelRuleEntity>
+					</Rules>
+				</DocModelRuleAttribute>
+			</Rules>
 			<Templates>
 				<DocTemplateDefinition Name="Element Occurrence Attributes" UniqueId="037ad90d-348e-42c0-a85b-ad0d5383f598" Type="IfcElement">
 					<Documentation>Physical elements may be further identified via the _Tag_ attribute. This is a human readable identifier such as an element or item number While there is no restriction on usage of such tags, it is recommended the _Tag_ is unique within it&apos;s containing scope.</Documentation>
@@ -10,6 +28,11 @@
 						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Tag">
 							<Rules>
 								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" />
+							</Rules>
+						</DocModelRuleAttribute>
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
+							<Rules>
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="2786240d-7ed9-4cfe-abe9-36cc0dea2769" />
 							</Rules>
 						</DocModelRuleAttribute>
 					</Rules>
@@ -127,6 +150,11 @@
 										</DocModelRuleEntity>
 									</Rules>
 								</DocModelRuleAttribute>
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
+									<Rules>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="aa49400c-b1b0-441f-a2d1-2f4856de0a02" />
+									</Rules>
+								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
 						<DocTemplateDefinition id="Window_Attributes_3u3TY5b1EAe5Nj0iIslY" Name="Window Attributes" UniqueId="f80dd8bf-fc59-4138-aa05-5ed02c4b6be2" Type="IfcWindow">
@@ -233,6 +261,11 @@
 										</DocModelRuleEntity>
 									</Rules>
 								</DocModelRuleAttribute>
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
+									<Rules>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="c193513c-ae5b-480e-bf10-fe8b7d027a1d" />
+									</Rules>
+								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
 					</Templates>
@@ -307,6 +340,11 @@
 								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcGridAxis" />
 							</Rules>
 						</DocModelRuleAttribute>
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
+							<Rules>
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="ed00f5f0-c901-422b-a4fa-ebb042e5b3eb" />
+							</Rules>
+						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
 				<DocTemplateDefinition Name="Spatial Element Attributes" UniqueId="9661dfc6-707f-49a8-8881-7142b07f3bb1" Type="IfcSpatialElement">
@@ -320,6 +358,11 @@
 						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LongName" Identification="LongName">
 							<Rules>
 								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
+							</Rules>
+						</DocModelRuleAttribute>
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
+							<Rules>
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="abfac845-5423-4deb-b165-f5466f12cbbe" />
 							</Rules>
 						</DocModelRuleAttribute>
 					</Rules>
@@ -421,6 +464,11 @@
 												</DocModelRuleAttribute>
 											</Rules>
 										</DocModelRuleEntity>
+									</Rules>
+								</DocModelRuleAttribute>
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
+									<Rules>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="021bf1b8-d109-46b4-9ee1-8afca8815dea" />
 									</Rules>
 								</DocModelRuleAttribute>
 							</Rules>
@@ -533,6 +581,11 @@
 										</DocModelRuleEntity>
 									</Rules>
 								</DocModelRuleAttribute>
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
+									<Rules>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="b77ca76b-a371-4563-9df9-a7b50728f589" />
+									</Rules>
+								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
 						<DocTemplateDefinition id="Space_Attributes_1KEbAdUPn3IQ2w1CFyAHJJ" Name="Space Attributes" UniqueId="543a52a7-799c-4349-a0ba-04c3fc2914d3" Type="IfcSpace">
@@ -594,6 +647,11 @@
 										</DocModelRuleEntity>
 									</Rules>
 								</DocModelRuleAttribute>
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
+									<Rules>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="5bbc276a-f540-4618-a7c6-b7842153c4cc" />
+									</Rules>
+								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
 						<DocTemplateDefinition id="Spatial_Zone_Attributes_05GL9TrITEtACcw2mZmmnz" Name="Spatial Zone Attributes" UniqueId="0541525d-d527-4edc-a326-e82c23c30c7d" Type="IfcSpatialZone">
@@ -627,6 +685,11 @@
 												</DocModelRuleAttribute>
 											</Rules>
 										</DocModelRuleEntity>
+									</Rules>
+								</DocModelRuleAttribute>
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
+									<Rules>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="55f24f37-e3d2-4930-8f21-a289246e6d95" />
 									</Rules>
 								</DocModelRuleAttribute>
 							</Rules>
@@ -663,6 +726,11 @@
 										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLengthMeasure" />
 									</Rules>
 								</DocModelRuleAttribute>
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
+									<Rules>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="6f7c2a92-94ab-4c5e-92b0-5a6d5d088f48" />
+									</Rules>
+								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
 					</Templates>
@@ -676,6 +744,11 @@
 							</Rules>
 						</DocModelRuleAttribute>
 						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="LongName" Identification="LongName" />
+						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
+							<Rules>
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="2d09ad9d-fb72-4909-aeff-f4444c64c27f" />
+							</Rules>
+						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
 			</Templates>

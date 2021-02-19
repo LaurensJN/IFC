@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Partial Templates" UniqueId="2Z8ltNpIXEfuUNziyIIhFM" Status="Sample">
+<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Partial Templates" UniqueId="a322fdd7-cd28-4ea7-8797-f6cf124ab3d6" Status="Sample">
 	<Templates>
 		<DocTemplateDefinition Name="Geometry Styles" UniqueId="d795e480-777d-4e81-9482-08066f67d23e" Type="IfcPresentationStyle">
 			<Rules>
@@ -3917,51 +3917,51 @@ Scaling is supported to correlate the size of a texture with its physical dimens
 				<DocTemplateDefinition xsi:nil="true" href="Material_1PXhOQjvz4uAadztqSAJX" />
 			</Templates>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition Name="Material Properties" UniqueId="3p9fvGMRr6OA7VQEayYwCF" Version="10.9" Status="Sample" Type="IfcMaterialDefinition">
-			<Documentation>Material properties may capture standard or user-defined parameters.</Documentation>
+		<DocTemplateDefinition Name="Material Properties" UniqueId="f3269e50-59bd-4660-a1df-68e93c8ba30f" Status="Sample" Type="IfcMaterialDefinition">
+			<Documentation>&lt;p&gt;Material properties may capture standard or user-defined parameters.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasProperties">
 					<Rules>
-						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcMaterialProperties">
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcMaterialProperties" UniqueId="09660be6-24a0-4549-abc1-da940e0ccfbf">
 							<Rules>
 								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="PsetName">
 									<Rules>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="ad51c60c-aa62-4a91-8018-577d9668f01f" />
 									</Rules>
 								</DocModelRuleAttribute>
 								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
 									<Rules>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="5b226a3c-f422-43b9-81cd-a76948d6273a" />
 									</Rules>
 								</DocModelRuleAttribute>
 								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Properties" Identification="Properties">
 									<Rules>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue" UniqueId="f6345790-c515-489c-8689-515884bcb800">
 											<References>
 												<DocTemplateDefinition xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 											</References>
 										</DocModelRuleEntity>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyBoundedValue">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyBoundedValue" UniqueId="5fb95c92-90d8-42ed-8907-80c2ff4f53d1">
 											<References>
 												<DocTemplateDefinition xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 											</References>
 										</DocModelRuleEntity>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyEnumeratedValue">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyEnumeratedValue" UniqueId="ed0df7d7-fed6-4f6d-8cde-3a6ec1f04f67">
 											<References>
 												<DocTemplateDefinition xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 											</References>
 										</DocModelRuleEntity>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyListValue">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyListValue" UniqueId="27d8323c-7ba5-444a-986e-dfa915aed150">
 											<References>
 												<DocTemplateDefinition xsi:nil="true" href="List_Value_2E4BQ8aNbEEesoQhogfKj" />
 											</References>
 										</DocModelRuleEntity>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyTableValue">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyTableValue" UniqueId="78488a90-65f4-4dd9-b4b5-11a410840226">
 											<References>
 												<DocTemplateDefinition xsi:nil="true" href="Table_Value_0roKUmQhnB4ux7QMxo11SX" />
 											</References>
 										</DocModelRuleEntity>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyReferenceValue">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyReferenceValue" UniqueId="75330e5b-b853-4cd7-b612-7e7b16fad61f">
 											<References>
 												<DocTemplateDefinition xsi:nil="true" href="Reference_Value_Time_Series_3Y2y4MY9j6pB6JCRFYDsgE" />
 											</References>
@@ -4180,51 +4180,51 @@ Scaling is supported to correlate the size of a texture with its physical dimens
 				</DocTemplateDefinition>
 			</Templates>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition Name="Profile Properties" UniqueId="0q$u4qkDf6S9WvyaisBMxF" Status="Sample" Type="IfcProfileDef">
-			<Documentation>Profile properties may capture standard or user-defined parameters.</Documentation>
+		<DocTemplateDefinition Name="Profile Properties" UniqueId="34ff8134-b8da-4670-9839-f24b362d6ecf" Status="Sample" Type="IfcProfileDef">
+			<Documentation>&lt;p&gt;Profile properties may capture standard or user-defined parameters.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasProperties">
 					<Rules>
-						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcProfileProperties">
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcProfileProperties" UniqueId="9d943cc0-ee37-4401-a0d0-4f94b4125076">
 							<Rules>
 								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="PsetName">
 									<Rules>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="2f4f4a36-1890-46ec-ae1f-2bf561843989" />
 									</Rules>
 								</DocModelRuleAttribute>
 								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
 									<Rules>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="155d3673-a86a-41dc-9619-f95f2152a7f2" />
 									</Rules>
 								</DocModelRuleAttribute>
 								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Properties" Identification="Properties">
 									<Rules>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue" UniqueId="df7a48a3-678f-4c49-81f6-dbfba6f865ca">
 											<References>
 												<DocTemplateDefinition xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 											</References>
 										</DocModelRuleEntity>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyBoundedValue">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyBoundedValue" UniqueId="a1d489d5-88c1-4097-960b-03eb1f7e0193">
 											<References>
 												<DocTemplateDefinition xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 											</References>
 										</DocModelRuleEntity>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyEnumeratedValue">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyEnumeratedValue" UniqueId="e1ada212-595d-44f2-bbd1-f83165c88982">
 											<References>
 												<DocTemplateDefinition xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 											</References>
 										</DocModelRuleEntity>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyListValue">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyListValue" UniqueId="778d484b-9bbb-4880-a077-7be6937dd784">
 											<References>
 												<DocTemplateDefinition xsi:nil="true" href="List_Value_2E4BQ8aNbEEesoQhogfKj" />
 											</References>
 										</DocModelRuleEntity>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyTableValue">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyTableValue" UniqueId="8b65a80e-3321-43cd-a8b7-9d3e93eca94a">
 											<References>
 												<DocTemplateDefinition xsi:nil="true" href="Table_Value_0roKUmQhnB4ux7QMxo11SX" />
 											</References>
 										</DocModelRuleEntity>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyReferenceValue">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyReferenceValue" UniqueId="b10369f1-8ff0-46d8-9e92-53699f97b24c">
 											<References>
 												<DocTemplateDefinition xsi:nil="true" href="Reference_Value_Time_Series_3Y2y4MY9j6pB6JCRFYDsgE" />
 											</References>
@@ -4237,11 +4237,11 @@ Scaling is supported to correlate the size of a texture with its physical dimens
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition Name="Quantities" UniqueId="1i0_HbnTr2pfGIlhhAlIyx" Status="Sample" Type="IfcPhysicalSimpleQuantity">
+		<DocTemplateDefinition Name="Quantities" UniqueId="6c03e465-c5dd-42ce-9412-bebacabd2f3b" Status="Sample" Type="IfcPhysicalSimpleQuantity">
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="QuantityName">
 					<Rules>
-						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" UniqueId="9a1408c1-5816-4529-83dd-66ad7ee9a3f1" />
 					</Rules>
 				</DocModelRuleAttribute>
 			</Rules>
@@ -4265,17 +4265,17 @@ Scaling is supported to correlate the size of a texture with its physical dimens
 				</DocTemplateDefinition>
 			</Templates>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition Name="Values" UniqueId="28jAgf2IL4VB09$ZLxV7LE" Status="Sample" Type="IfcSimpleProperty">
-			<Documentation>Properties may contain user-defined data, where data types are open-ended.</Documentation>
+		<DocTemplateDefinition Name="Values" UniqueId="88b4aaa9-0925-447c-b009-fe357b7c754e" Status="Sample" Type="IfcSimpleProperty">
+			<Documentation>&lt;p&gt;Properties may contain user-defined data, where data types are open-ended.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="PropertyName">
 					<Rules>
-						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" />
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="30f3f546-5499-4bd4-9cfc-ee26ff6415ba" />
 					</Rules>
 				</DocModelRuleAttribute>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
 					<Rules>
-						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" />
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="c5c507f1-8f9a-40e4-895a-70451e23df0c" />
 					</Rules>
 				</DocModelRuleAttribute>
 			</Rules>

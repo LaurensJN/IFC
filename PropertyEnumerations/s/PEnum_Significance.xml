@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_Significance" UniqueId="42f75dbc-6558-472f-b41f-b14858af2c04">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="DISTURBING_3SlOdoOUTCgeGxaqp7m8Y" />
+		<DocPropertyConstant xsi:nil="true" href="SMALL_1iyyMfSn7BeOGPGqqS0M" />
+		<DocPropertyConstant xsi:nil="true" href="MEDIUM_2_k7qtZFHF9PaSk55Glc8E" />
+		<DocPropertyConstant xsi:nil="true" href="IMPORTANT_3iEdq9G3PCfehF0eA1UCX7" />
+		<DocPropertyConstant xsi:nil="true" href="SIGNIFICANT_0mKrxMMxnDXwlYszFGj6k1" />
+		<DocPropertyConstant xsi:nil="true" href="NOTDEFINED_0jPqDBAQ13AQB5eFaJZXjR" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0_n254Fb10hBW_0_XIj7Qe" />
+	</Constants>
+</DocPropertyEnumeration>
+

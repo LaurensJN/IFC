@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Association" UniqueId="1BE5HakPf2lA5weAP7eQjR" Status="Sample" Type="IfcObjectDefinition">
+<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Association" UniqueId="4b385464-b99a-42bc-a17a-a0a647a1ab5b" Status="Sample" Type="IfcObjectDefinition">
 	<Templates>
 		<DocTemplateDefinition id="Approval_Association_1ILXQGe50dQe7saXJ0YIU" Name="Approval Association" UniqueId="1ILX$QGe50dQe7saXJ0YIU" Type="IfcObjectDefinition">
 			<Documentation>The concept _Approval Association_ describes how object or object types can have associated approvals indicating who is required to approve the data, the status of whether it has been approved, and the date/time of such approval. Approvals may require multiple parties fulfilling various roles.</Documentation>
@@ -37,15 +37,27 @@
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Classification_1A8aO9PNXCTQFYl_eRbxo" Name="Classification" UniqueId="1A8aO9PNXCTQ$FYl_eRbxo" Status="Sample" Type="IfcObjectDefinition">
-			<Documentation>Objects, type objects, properties, and some resource schema entities can be further described by associating references to external sources of information. The source of information can be:
+		<DocTemplateDefinition id="Classification_1A8aO9PNXCTQFYl_eRbxo" Name="Classification" UniqueId="4a224609-6578-4c75-afcf-8affa86e5ef2" Status="Sample" Type="IfcObjectDefinition">
+			<Documentation>&lt;p&gt;Objects, type objects, properties, and some resource schema entities can be further described by associating references to external sources of information. 
+The source of information can be:
+&lt;/p&gt;
+ 
+&lt;ul&gt;
+        
+&lt;li&gt;a classification system;&lt;/li&gt;
+        
+&lt;li&gt;a dictionary server;&lt;/li&gt;
+        
+&lt;li&gt;any external catalogue that classifies the object further;&lt;/li&gt;
+        
+&lt;li&gt;a service that combine the above features.&lt;/li&gt;
+      
+&lt;/ul&gt;
 
-* a classification system;
-* a dictionary server;
-* any external catalogue that classifies the object further;
-* a service that combine the above features.
 
-An individual item within the external source of information can be selected. It then applies the inherent meaning of the item to the object or property.</Documentation>
+
+&lt;p&gt;An individual item within the external source of information can be selected. 
+It then applies the inherent meaning of the item to the object or property.&lt;/p&gt;</Documentation>
 			<Localization>
 				<DocLocalization Name="AUTOMATIC" Locale="tt">
 					<Documentation>&lt;TemplateRules operator=&quot;and&quot;&gt;
@@ -58,34 +70,34 @@ An individual item within the external source of information can be selected. It
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasAssociations">
 					<Rules>
-						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRelAssociatesClassification">
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRelAssociatesClassification" UniqueId="76ecde50-e316-45c1-a5ad-a6fe43f06cc9">
 							<Rules>
 								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="Name">
 									<Rules>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" UniqueId="626b644a-e564-466c-bc74-78a2660d9398" />
 									</Rules>
 								</DocModelRuleAttribute>
 								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RelatingClassification">
 									<Rules>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcClassificationReference" Identification="Value">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcClassificationReference" Identification="Value" UniqueId="42b7f8a6-e32b-45a6-a269-51a8360ae165">
 											<Rules>
 												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ReferencedSource">
 													<Rules>
-														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcClassification">
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcClassification" UniqueId="f84c0d67-d631-46de-9254-bfb013dec493">
 															<Rules>
 																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Source" Identification="Source">
 																	<Rules>
-																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" UniqueId="917adf22-5046-4831-bc85-cac93f9cc593" />
 																	</Rules>
 																</DocModelRuleAttribute>
 																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="ClassificationName">
 																	<Rules>
-																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" UniqueId="1d2d8dc7-df68-4c66-8201-f76818a33569" />
 																	</Rules>
 																</DocModelRuleAttribute>
 																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ReferenceTokens">
 																	<Rules>
-																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="216f0011-6c21-4075-b96f-caca6e8ec83e" />
 																	</Rules>
 																</DocModelRuleAttribute>
 															</Rules>
@@ -94,7 +106,7 @@ An individual item within the external source of information can be selected. It
 												</DocModelRuleAttribute>
 												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Identification" Identification="Tokens">
 													<Rules>
-														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" Description="*" Identification="Value" />
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" Description="*" Identification="Value" UniqueId="b25f1acb-d1be-482e-87a7-7d428c5dfa2a" />
 													</Rules>
 												</DocModelRuleAttribute>
 											</Rules>
@@ -107,33 +119,44 @@ An individual item within the external source of information can be selected. It
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Constraint_30YoPCzyP7dwzNMHS4mwe" Name="Constraint" UniqueId="30YoPCzyP7dwz$NMHS4mwe" Status="Sample" Type="IfcObjectDefinition">
-			<Documentation>{ .std}
-Any object or property may have associated constraints indicating a qualitative objective or a quantitative metric to be met.
+		<DocTemplateDefinition id="Constraint_30YoPCzyP7dwzNMHS4mwe" Name="Constraint" UniqueId="c08b264c-f7c6-479f-af7f-5d645c130ea8" Status="Sample" Type="IfcObjectDefinition">
+			<Documentation>
+      &lt;p class=&quot;std&quot;&gt;
+        Any object or property may have associated constraints
+        indicating a qualitative objective or a quantitative metric
+        to be met.
+      &lt;/p&gt;
 
-{ .std}
-Constraints based on metrics are measurable, such that the status of a metric being valid is computer-interpretable. Metric constraints are based on simple conditional logic such as greater than a particular value or included within a specified list or table. Constraints may be combine multiple metrics using boolean logic such as AND, OR, XOR, or NOT.</Documentation>
+      &lt;p class=&quot;std&quot;&gt;
+        Constraints based on metrics are measurable, such that the
+        status of a metric being valid is computer-interpretable.
+        Metric constraints are based on simple conditional logic
+        such as greater than a particular value or included within
+        a specified list or table. Constraints may be combine
+        multiple metrics using boolean logic such as AND, OR, XOR,
+        or NOT.
+      &lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasAssociations">
 					<Rules>
-						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRelAssociatesConstraint">
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRelAssociatesConstraint" UniqueId="5b5b60af-25ac-4881-83da-9adf7d094b89">
 							<Rules>
 								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
 									<Rules>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" UniqueId="07d00ab4-6beb-4355-8351-954cab73a495" />
 									</Rules>
 								</DocModelRuleAttribute>
 								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RelatingConstraint">
 									<Rules>
-										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcObjective">
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcObjective" UniqueId="27733980-3236-4294-bb67-4a6b0fcca88a">
 											<Rules>
 												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="BenchmarkValues">
 													<Rules>
-														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcMetric">
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcMetric" UniqueId="3cc0e6f2-1084-4792-8d63-d02697cba6a8">
 															<Rules>
 																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Benchmark">
 																	<Rules>
-																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcBenchmarkEnum" />
+																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcBenchmarkEnum" UniqueId="c6c392fc-4f73-4a4a-a6cc-e624599e024e" />
 																	</Rules>
 																</DocModelRuleAttribute>
 															</Rules>
@@ -150,47 +173,49 @@ Constraints based on metrics are measurable, such that the status of a metric be
 				</DocModelRuleAttribute>
 			</Rules>
 			<Templates>
-				<DocTemplateDefinition Name="External Data Constraints" UniqueId="3QztzYViDFyRx2inTVKV5B" Status="Sample" Type="IfcObjectDefinition">
-					<Documentation>The constraint model may be used to indicate mappings between data in the IFC model and external documents. This concept template may also be used by software applications to translate data to/from spreadsheets without necessarily instantiating constraint relationships within an IFC data set.</Documentation>
+				<DocTemplateDefinition Name="External Data Constraints" UniqueId="daf77f62-7ec3-4ff1-bec2-b3175f51f14b" Status="Sample" Type="IfcObjectDefinition">
+					<Documentation>&lt;p&gt;The constraint model may be used to indicate mappings between data in the IFC model and external documents.  This concept template may also be used by software applications to translate data to/from spreadsheets without necessarily instantiating constraint relationships within an IFC data set.&lt;/p&gt;
+
+</Documentation>
 					<Rules>
 						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasAssociations">
 							<Rules>
-								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRelAssociatesConstraint">
+								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRelAssociatesConstraint" UniqueId="63c6c9a9-8172-4d89-94c1-5fbb6182fbad">
 									<Rules>
 										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RelatingConstraint">
 											<Rules>
-												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcObjective">
+												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcObjective" UniqueId="2f671a19-6e21-4bc4-876e-15051728a142">
 													<Rules>
 														<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="BenchmarkValues">
 															<Rules>
-																<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcMetric">
+																<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcMetric" UniqueId="9b6e18fe-edc6-4a44-8300-731a0aefaa97">
 																	<Rules>
 																		<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="DataValue">
 																			<Rules>
-																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcTable">
+																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcTable" UniqueId="6a6351d4-b3a6-42d8-880f-d29dc1963db1">
 																					<Rules>
 																						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="Table">
 																							<Rules>
-																								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
+																								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" UniqueId="c404adb8-072f-41a2-a3f7-7782208656d6" />
 																							</Rules>
 																						</DocModelRuleAttribute>
 																						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Columns">
 																							<Rules>
-																								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcTableColumn">
+																								<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcTableColumn" UniqueId="b2368f99-8be8-4131-ab73-7b0e62d7c2d4">
 																									<Rules>
 																										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="Name">
 																											<Rules>
-																												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
+																												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" UniqueId="6c26a819-0273-40cb-ae38-062a817f85b8" />
 																											</Rules>
 																										</DocModelRuleAttribute>
 																										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ReferencePath" Identification="Reference">
 																											<Rules>
-																												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcReference" Identification="Value" />
+																												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcReference" Identification="Value" UniqueId="0cfe9acb-ef9f-431f-aac0-14770ab98232" />
 																											</Rules>
 																										</DocModelRuleAttribute>
 																										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Unit">
 																											<Rules>
-																												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcContextDependentUnit">
+																												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcContextDependentUnit" UniqueId="d2d88d47-1049-461c-b81b-e949fbdd4773">
 																													<Rules>
 																														<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" />
 																													</Rules>
@@ -199,7 +224,7 @@ Constraints based on metrics are measurable, such that the status of a metric be
 																										</DocModelRuleAttribute>
 																										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Description">
 																											<Rules>
-																												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" />
+																												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="c51674de-dcef-4bd6-aef0-cf1c62e159fc" />
 																											</Rules>
 																										</DocModelRuleAttribute>
 																									</Rules>
@@ -216,7 +241,7 @@ Constraints based on metrics are measurable, such that the status of a metric be
 														</DocModelRuleAttribute>
 														<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ObjectiveQualifier">
 															<Rules>
-																<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcObjectiveEnum">
+																<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcObjectiveEnum" UniqueId="524a9bde-1945-4d8e-b16b-5244dc80f241">
 																	<Rules>
 																		<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Value=EXTERNAL" Description="Value=EXTERNAL" />
 																	</Rules>
@@ -229,7 +254,7 @@ Constraints based on metrics are measurable, such that the status of a metric be
 										</DocModelRuleAttribute>
 										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
 											<Rules>
-												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" />
+												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" UniqueId="f74e5f61-483b-4169-9000-12d1b29296ab" />
 											</Rules>
 										</DocModelRuleAttribute>
 									</Rules>

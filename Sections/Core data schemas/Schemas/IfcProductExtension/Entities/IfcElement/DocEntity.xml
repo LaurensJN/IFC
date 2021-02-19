@@ -66,6 +66,7 @@
 		<DocAttribute Name="HasCoverings" UniqueId="e73f220c-19f9-4fbd-9302-9b407708ffdf" DefinedType="IfcRelCoversBldgElements" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="RelatingBuildingElement">
 			<Documentation>Reference to _IfcCovering_ by virtue of the objectified relationship _IfcRelCoversBldgElement_. It defines the concept of an element having coverings associated.</Documentation>
 		</DocAttribute>
+		<DocAttribute UniqueId="6aed97f8-90bf-4ee1-be50-aa0d00f818fb" DefinedType="IfCSignificance" AttributeFlags="0" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 </DocEntity>
 

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DocModelView xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Heritage View" UniqueId="ade5c4e8-8d88-4fa5-80b9-ae522ca31e77">
 	<Exchanges>
-		<DocExchangeDefinition Name="Conservation Plan Exchange" UniqueId="f0435a27-f9ba-47f7-961c-95390f4e9680" />
+		<DocExchangeDefinition id="Conservation_Plan_Exchange_3mGred_Rf7zvOSbJaFJfQ0" Name="Conservation Plan Exchange" UniqueId="f0435a27-f9ba-47f7-961c-95390f4e9680" ExchangeClass="31-20 00 00	Conceptualization Phase" />
 	</Exchanges>
 	<ConceptRoots>
 		<DocConceptRoot Name="IfcElement" UniqueId="4d787b53-025e-4d1b-a2f6-48743dbb124b">
@@ -14,15 +14,36 @@
 		</DocConceptRoot>
 		<DocConceptRoot Name="IfcProject" UniqueId="cbd428c8-c675-4ea2-9e67-388b74f506b8">
 			<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcProject" />
-			<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="6a0daa82-2ed7-4955-b3dd-2b506efb2d93" Type="IfcProject" />
+			<Concepts>
+				<DocTemplateUsage Name="Description" UniqueId="e810b99d-7055-4ded-8638-4c6d58bc9267">
+					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Occurrence_Attributes_1puqqZxGrAQXzJQBVD4Pg" />
+					<Items>
+						<DocTemplateItem UniqueId="ef41d22d-966a-4c36-b8b0-7cb5bfd7cfae" Order="0" />
+					</Items>
+					<Exchanges>
+						<DocExchangeItem Applicability="import" Requirement="mandatory">
+							<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Conservation_Plan_Exchange_3mGred_Rf7zvOSbJaFJfQ0" />
+						</DocExchangeItem>
+						<DocExchangeItem Applicability="export" Requirement="mandatory">
+							<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Conservation_Plan_Exchange_3mGred_Rf7zvOSbJaFJfQ0" />
+						</DocExchangeItem>
+					</Exchanges>
+				</DocTemplateUsage>
+			</Concepts>
+			<ApplicableTemplate xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Occurrence_Attributes_1puqqZxGrAQXzJQBVD4Pg" />
+			<ApplicableItems>
+				<DocTemplateItem UniqueId="a2cb0e3b-3674-46d6-9ff1-7a3a1325a7d8" Order="0">
+					<Documentation>Description of Cultural Heritage object</Documentation>
+				</DocTemplateItem>
+			</ApplicableItems>
 		</DocConceptRoot>
 		<DocConceptRoot Name="IfcSpace" UniqueId="5bcdc688-c6c2-430e-a119-f661d8e27ae6">
 			<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSpace" />
 			<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="91d83618-9b5d-436e-930a-eeff7773bf29" Type="IfcSpace" />
 		</DocConceptRoot>
 		<DocConceptRoot Name="IfcSpatialStructureElement" UniqueId="823b43dd-69cb-4e58-86ef-c663ce8f4a92">
-			<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSpatialStructureElement" />
-			<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="edde9359-c559-427c-806f-bc54b60a9c5f" Type="IfcSpatialStructureElement" />
+			<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcElement" />
+			<ApplicableTemplate xsi:type="DocTemplateDefinition" xsi:nil="true" href="Significance_2DEXh6asT2PxSPpWC_mA5H" />
 		</DocConceptRoot>
 		<DocConceptRoot Name="IfcSpatialZone" UniqueId="2ef9e60d-a82e-467d-ab92-fb8b408039ca">
 			<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSpatialZone" />

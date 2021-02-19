@@ -25,7 +25,7 @@
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>
-		<DocWhereRule Name="ApplicableToType" UniqueId="1899ca1c-6aab-48aa-84c9-331108dd28eb">
+		<DocWhereRule Name="ApplicableToType" UniqueId="1899ca1c-6aab-48aa-84c9-331108dd28eb" Status="Deprecated">
 			<Documentation>The _IfcDoorPanelProperties_ shall only be used in the context of an _IfcDoorType_.
 &gt; NOTE&amp;nbsp; The deprecated entity _IfcDoorStyle_ is applicable as well.</Documentation>
 			<Expression>(EXISTS(SELF\IfcPropertySetDefinition.DefinesType[1])) 

@@ -158,6 +158,13 @@
 				<DocDefinitionRef Name="IfcPile" UniqueId="ecf767f8-2182-4fe4-af66-72c57aa2b099" DiagramNumber="0" />
 			</Definitions>
 		</DocSchemaRef>
+		<DocSchemaRef Name="IFCHERITAGEDOMAIN" UniqueId="70756075-1591-49d5-b635-c427724fc178">
+			<Definitions>
+				<DocDefinitionRef Name="IfCSignificance" UniqueId="be632448-8587-48e1-8791-843eb5e37f70" DiagramNumber="1">
+					<DiagramRectangle xsi:type="DocRectangle" X="200" Y="357,333333333333" Width="400" Height="64" />
+				</DocDefinitionRef>
+			</Definitions>
+		</DocSchemaRef>
 	</SchemaRefs>
 </DocSchema>
 

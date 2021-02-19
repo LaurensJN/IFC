@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Cultural Heritage" UniqueId="0507e987-e4cf-4d5a-bf91-9c1928dd3456">
+	<Templates>
+		<DocTemplateDefinition Name="Vulnerability" UniqueId="a8a37ef7-7140-478a-9b10-b0f03ad50297" Type="IfcElement" />
+		<DocTemplateDefinition id="Significance_2DEXh6asT2PxSPpWC_mA5H" Name="Significance" UniqueId="8d3a1ac6-9367-4267-b719-ce033ec0a151">
+			<Rules>
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Significance" />
+			</Rules>
+		</DocTemplateDefinition>
+	</Templates>
+</DocTemplateDefinition>
+
