@@ -5,12 +5,6 @@
 		<DocLocalization Name="Rel Interferes Elements" Locale="en" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="RelatingElement" UniqueId="6cd188d3-336d-4017-8875-cca7cac2aaf6" DefinedType="IfcElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
-			<Documentation>Reference to a subtype of _IfcElement that is the _RelatingElement_ in the interference relationship. Depending on the value of _ImpliedOrder_ the _RelatingElement_ may carry the notion to be the element from which the interference geometry should be subtracted._</Documentation>
-		</DocAttribute>
-		<DocAttribute Name="RelatedElement" UniqueId="5f1f2c4f-4785-4ffe-ba1d-da6e119fb94b" DefinedType="IfcElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
-			<Documentation>Reference to a subtype of _IfcElement that is the _RelatedElement_ in the interference relationship. Depending on the value of _ImpliedOrder_ the _RelatedElement_ may carry the notion to be the element from which the interference geometry should not be subtracted._</Documentation>
-		</DocAttribute>
 		<DocAttribute Name="InterferenceGeometry" UniqueId="434aa7d7-1bd7-4773-a678-7ab1055f88f0" DefinedType="IfcConnectionGeometry" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The geometric shape representation of the interference geometry that is provided in the object coordinate system of the _RelatingElement_ (mandatory) and in the object coordinate system of the _RelatedElement_ (optionally).</Documentation>
 		</DocAttribute>

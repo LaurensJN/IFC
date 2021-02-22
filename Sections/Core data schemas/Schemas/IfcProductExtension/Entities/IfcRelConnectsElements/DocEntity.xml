@@ -13,12 +13,6 @@
 		<DocAttribute Name="ConnectionGeometry" UniqueId="5b2207fa-16ea-4fe2-900a-652e7e2b521e" DefinedType="IfcConnectionGeometry" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The geometric shape representation of the connection geometry that is provided in the object coordinate system of the _RelatingElement_ (mandatory) and in the object coordinate system of the _RelatedElement_ (optionally).</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="RelatingElement" UniqueId="f875bb4c-3105-4b90-a8d1-25dfc10e0f90" DefinedType="IfcElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
-			<Documentation>Reference to a subtype of _IfcElement_ that is connected by the connection relationship in the role of _RelatingElement_.</Documentation>
-		</DocAttribute>
-		<DocAttribute Name="RelatedElement" UniqueId="eb56d278-f844-4217-8731-9c4cc688940e" DefinedType="IfcElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
-			<Documentation>Reference to a subtype of _IfcElement_ that is connected by the connection relationship in the role of _RelatedElement_.</Documentation>
-		</DocAttribute>
 	</Attributes>
 	<WhereRules>
 		<DocWhereRule Name="NoSelfReference" UniqueId="dccff8a7-2b5f-499f-8be4-83327dbda92f">

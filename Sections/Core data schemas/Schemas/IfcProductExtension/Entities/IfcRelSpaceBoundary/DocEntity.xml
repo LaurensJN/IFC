@@ -12,14 +12,6 @@
 		<DocAttribute Name="RelatingSpace" UniqueId="f8599c4e-f4c7-493b-acaf-453c795e6070" DefinedType="IfcSpaceBoundarySelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Reference to one spaces that is delimited by this boundary.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="RelatedBuildingElement" UniqueId="6523e107-ea64-416e-a049-ceda315c7e48" DefinedType="IfcElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
-			<Documentation>Reference to ~~Building~~ Element, that defines the Space Boundaries.
-{ .change-ifc2x}
-&gt; IFC2x CHANGE&amp;nbsp; The data type has been changed from _IfcBuildingElement_ to _IfcElement_ with upward compatibility for file based exchange.
-
-{ .change-ifc2x4}
-&gt; IFC4 CHANGE&amp;nbsp; The attribute has been changed to be mandatory.</Documentation>
-		</DocAttribute>
 		<DocAttribute Name="ConnectionGeometry" UniqueId="1e9b8391-2d9c-4039-8d4a-922a0ee5c8c2" DefinedType="IfcConnectionGeometry" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Physical representation of the space boundary. Provided as a **curve or** surface given within the LCS of the space.
 { .change-ifc2x}

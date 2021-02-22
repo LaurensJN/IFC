@@ -1,10 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Cultural Heritage" UniqueId="0507e987-e4cf-4d5a-bf91-9c1928dd3456">
 	<Templates>
-		<DocTemplateDefinition Name="Vulnerability" UniqueId="a8a37ef7-7140-478a-9b10-b0f03ad50297" Type="IfcElement" />
-		<DocTemplateDefinition id="Significance_2DEXh6asT2PxSPpWC_mA5H" Name="Significance" UniqueId="8d3a1ac6-9367-4267-b719-ce033ec0a151">
+		<DocTemplateDefinition Name="Cultural Heritage Material" UniqueId="bdbb952e-bf1e-424c-ae8b-553e73e5d2e7" />
+		<DocTemplateDefinition id="Endangerment_1PnZQj1rP2IhmUfKbhRBGQ" Name="Endangerment" UniqueId="59c636ad-0756-424a-bc1e-a5496b6cb41a" Type="IfcElement">
 			<Rules>
-				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Significance" />
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Endangerment">
+					<Rules>
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="24c29203-cd50-42ae-a8ab-7e92997f5b74" />
+					</Rules>
+				</DocModelRuleAttribute>
+			</Rules>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition id="Significance_2DEXh6asT2PxSPpWC_mA5H" Name="Significance" UniqueId="8d3a1ac6-9367-4267-b719-ce033ec0a151" Type="IfcElement">
+			<Rules>
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Significance">
+					<Rules>
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcSignificanceEnum" UniqueId="9cc7927f-4cd4-46a5-8a94-9e1e90f17e25" />
+					</Rules>
+				</DocModelRuleAttribute>
+			</Rules>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition id="Vulnerability_2eetxtSK17YfiGiF0wrGAN" Name="Vulnerability" UniqueId="a8a37ef7-7140-478a-9b10-b0f03ad50297" Type="IfcElement">
+			<Rules>
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Vulnerability">
+					<Rules>
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcText" UniqueId="6f4eec9e-cb33-44c9-8455-2304ffbd0648" />
+					</Rules>
+				</DocModelRuleAttribute>
+			</Rules>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition id="Period_2weQFzH7978uvT08_RRghH" Name="Period" UniqueId="baa1a3fd-4472-4723-8e5d-008f9b6eaad1" Type="IfcElement">
+			<Rules>
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ConstructionPeriod">
+					<Rules>
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRegularTimeSeries" UniqueId="b3e7576e-107b-4057-b486-a79023e52650">
+							<Rules>
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="StartTime">
+									<Rules>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcDateTime" UniqueId="d39fb294-6550-4fe0-a783-05c35f6c1fb8" />
+									</Rules>
+								</DocModelRuleAttribute>
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="EndTime">
+									<Rules>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcDateTime" UniqueId="e3f3ff69-9a85-47fa-af90-05662d17bc62" />
+									</Rules>
+								</DocModelRuleAttribute>
+							</Rules>
+						</DocModelRuleEntity>
+					</Rules>
+				</DocModelRuleAttribute>
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="DemolitionPeriod">
+					<Rules>
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRegularTimeSeries" UniqueId="ab0b6735-7e11-46b3-b03d-1bcd18ef4015">
+							<Rules>
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="StartTime">
+									<Rules>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcDateTime" UniqueId="b54ac865-e593-40cf-9d79-dde0c0c619e6" />
+									</Rules>
+								</DocModelRuleAttribute>
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="EndTime">
+									<Rules>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcDateTime" UniqueId="8efa6118-7e32-41c5-a3f0-80a75c71afda" />
+									</Rules>
+								</DocModelRuleAttribute>
+							</Rules>
+						</DocModelRuleEntity>
+					</Rules>
+				</DocModelRuleAttribute>
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="IsDemolished">
+					<Rules>
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcBoolean" UniqueId="f930bb2d-a520-461f-ab03-499b6e1de903" />
+					</Rules>
+				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
 	</Templates>

@@ -5,9 +5,6 @@
 		<DocLocalization Name="Rel Projects Element" Locale="en" />
 	</Localization>
 	<Attributes>
-		<DocAttribute Name="RelatingElement" UniqueId="9ca4732c-313e-419b-91c9-d6570d18f0b8" DefinedType="IfcElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="hidden">
-			<Documentation>Element at which a projection is created by the associated _IfcProjectionElement_.</Documentation>
-		</DocAttribute>
 		<DocAttribute Name="RelatedFeatureElement" UniqueId="c95715df-11cc-4fae-8d0b-2e578e90f0ab" DefinedType="IfcFeatureElementAddition" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Reference to the _IfcFeatureElementAddition_ that defines an addition to the volume of the element, by using a Boolean addition operation. An example is a projection at the associated element.</Documentation>
 		</DocAttribute>

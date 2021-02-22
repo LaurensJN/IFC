@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProductExtension" UniqueId="31b83ccd-64ff-462d-8593-bde5af40e71e" DiagramPagesHorz="0" DiagramPagesVert="0">
+<DocSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProductExtension" UniqueId="31b83ccd-64ff-462d-8593-bde5af40e71e" DiagramPagesHorz="1" DiagramPagesVert="1">
 	<SchemaRefs>
 		<DocSchemaRef Name="IFCACTORRESOURCE" UniqueId="50c1c3d1-67af-453d-820c-a0720fbe46b7">
 			<Definitions>
@@ -7,6 +7,13 @@
 				<DocDefinitionRef Name="IfcPerson" UniqueId="74d37293-dcf5-4f06-9ba6-bbf75c712c63" DiagramNumber="0" />
 				<DocDefinitionRef Name="IfcPersonAndOrganization" UniqueId="88abbebf-470a-4d5d-a25b-a861a268041f" DiagramNumber="0" />
 				<DocDefinitionRef Name="IfcPostalAddress" UniqueId="9863ad71-da41-41f9-b11b-2d465708ace8" DiagramNumber="0" />
+			</Definitions>
+		</DocSchemaRef>
+		<DocSchemaRef Name="IFCDATETIMERESOURCE" UniqueId="5da11cff-8f65-459f-bbcb-a2c5948699e0">
+			<Definitions>
+				<DocDefinitionRef Name="IfcTimeSeries" UniqueId="23a2d98c-ea45-4f50-97d6-de47d3571cde" DiagramNumber="1">
+					<DiagramRectangle xsi:type="DocRectangle" X="221,33332824707" Y="314,666656494141" Width="400" Height="288" />
+				</DocDefinitionRef>
 			</Definitions>
 		</DocSchemaRef>
 		<DocSchemaRef Name="IFCEXTERNALREFERENCERESOURCE" UniqueId="44379ba3-ec1d-4676-acf3-9f6f2681e1f4">
@@ -38,6 +45,15 @@
 				<DocDefinitionRef Name="IfcTrimmedCurve" UniqueId="304bacd7-b281-4773-9606-23da1d88ba79" DiagramNumber="0" />
 				<DocDefinitionRef Name="IfcCompositeCurve" UniqueId="d44b9078-f9ef-4127-bbd2-83a952cf070f" DiagramNumber="0" />
 				<DocDefinitionRef Name="IfcPolyline" UniqueId="324d4b14-35b0-41bd-80c4-71132d67e8cf" DiagramNumber="0" />
+			</Definitions>
+		</DocSchemaRef>
+		<DocSchemaRef Name="IFCHERITAGEDOMAIN" UniqueId="70756075-1591-49d5-b635-c427724fc178">
+			<Definitions>
+				<DocDefinitionRef Name="IfCSignificance" UniqueId="be632448-8587-48e1-8791-843eb5e37f70" DiagramNumber="1">
+					<DiagramRectangle xsi:type="DocRectangle" X="258,666666666667" Y="903,999979654948" Width="400" Height="64" />
+				</DocDefinitionRef>
+				<DocDefinitionRef Name="IfcSignificance" UniqueId="07ba8032-c5c4-41ab-b797-14a0450e7e4d" DiagramNumber="0" />
+				<DocDefinitionRef Name="IfcSignificanceEnum" UniqueId="8ae001ea-a263-4dd7-a5b1-0126f7f8a04e" DiagramNumber="0" />
 			</Definitions>
 		</DocSchemaRef>
 		<DocSchemaRef Name="IFCKERNEL" UniqueId="143123dd-37e6-4bc1-b974-d222428426b3">
@@ -156,13 +172,6 @@
 			<Definitions>
 				<DocDefinitionRef Name="IfcFooting" UniqueId="d2ddad6c-5d29-4a93-b302-8d8162712cb0" DiagramNumber="0" />
 				<DocDefinitionRef Name="IfcPile" UniqueId="ecf767f8-2182-4fe4-af66-72c57aa2b099" DiagramNumber="0" />
-			</Definitions>
-		</DocSchemaRef>
-		<DocSchemaRef Name="IFCHERITAGEDOMAIN" UniqueId="70756075-1591-49d5-b635-c427724fc178">
-			<Definitions>
-				<DocDefinitionRef Name="IfCSignificance" UniqueId="be632448-8587-48e1-8791-843eb5e37f70" DiagramNumber="1">
-					<DiagramRectangle xsi:type="DocRectangle" X="200" Y="357,333333333333" Width="400" Height="64" />
-				</DocDefinitionRef>
 			</Definitions>
 		</DocSchemaRef>
 	</SchemaRefs>
