@@ -2,9 +2,9 @@
 <DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Cultural Heritage" UniqueId="0507e987-e4cf-4d5a-bf91-9c1928dd3456">
 	<Templates>
 		<DocTemplateDefinition Name="Cultural Heritage Material" UniqueId="bdbb952e-bf1e-424c-ae8b-553e73e5d2e7" />
-		<DocTemplateDefinition id="Endangerment_1PnZQj1rP2IhmUfKbhRBGQ" Name="Endangerment" UniqueId="59c636ad-0756-424a-bc1e-a5496b6cb41a" Type="IfcElement" />
-		<DocTemplateDefinition id="Period_2weQFzH7978uvT08_RRghH" Name="Period" UniqueId="baa1a3fd-4472-4723-8e5d-008f9b6eaad1" Type="IfcElement" />
-		<DocTemplateDefinition id="Significance_2DEXh6asT2PxSPpWC_mA5H" Name="Significance" UniqueId="8d3a1ac6-9367-4267-b719-ce033ec0a151" Type="IfcElement">
+		<DocTemplateDefinition Name="Endangerment" UniqueId="59c636ad-0756-424a-bc1e-a5496b6cb41a" Type="IfcElement" />
+		<DocTemplateDefinition Name="Period" UniqueId="baa1a3fd-4472-4723-8e5d-008f9b6eaad1" Type="IfcElement" />
+		<DocTemplateDefinition Name="Significance" UniqueId="8d3a1ac6-9367-4267-b719-ce033ec0a151" Type="IfcElement">
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Significance">
 					<Rules>
@@ -13,7 +13,7 @@
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Vulnerability_2eetxtSK17YfiGiF0wrGAN" Name="Vulnerability" UniqueId="a8a37ef7-7140-478a-9b10-b0f03ad50297" Type="IfcElement" />
+		<DocTemplateDefinition Name="Vulnerability" UniqueId="a8a37ef7-7140-478a-9b10-b0f03ad50297" Type="IfcElement" />
 	</Templates>
 </DocTemplateDefinition>
 

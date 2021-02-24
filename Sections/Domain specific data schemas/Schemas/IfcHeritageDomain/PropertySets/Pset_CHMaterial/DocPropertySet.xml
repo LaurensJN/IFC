@@ -1,3 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CHMaterial" UniqueId="f6f9c291-98d3-4537-96fb-fdac236cb321" ApplicableType="IfcMaterial" />
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CHMaterial" UniqueId="f6f9c291-98d3-4537-96fb-fdac236cb321" ApplicableType="IfcMaterial">
+	<Properties>
+		<DocProperty xsi:nil="true" href="MaterialState_3BeABPUnv6SRLv9SZ0IObS" />
+		<DocProperty xsi:nil="true" href="Region_3jTFfomULDVxfG15AvG85" />
+		<DocProperty xsi:nil="true" href="Specialisation_3BOAVzkPD4wOTMDMn6YzW" />
+		<DocProperty xsi:nil="true" href="Interventions_2QV_nUYEH7Fx1nikk3bG8D" />
+		<DocProperty xsi:nil="true" href="zzMaterialAge_0QOjvPEirFkwY6oOTqPQCy" />
+	</Properties>
+</DocPropertySet>
 

@@ -3,10 +3,11 @@
 	<Properties>
 		<DocProperty xsi:nil="true" href="Significance_3GbGUi4eD4lheV5tJXM3Ee" />
 		<DocProperty xsi:nil="true" href="Vulnerability_2UTvvppP13EhFMSrBZ2WZo" />
-		<DocProperty xsi:nil="true" href="ConstructionPeriod_0DV1vqXrH5w8M9w_5dvOlA" />
+		<DocProperty xsi:nil="true" href="zzConstructionPeriod_0DV1vqXrH5w8M9w_5dvOlA" />
 		<DocProperty xsi:nil="true" href="Demolished_3b89WPOub8681tlePUlFwn" />
-		<DocProperty xsi:nil="true" href="DemolitionPeriod_0Roh311j1fQBVL1yjup" />
+		<DocProperty xsi:nil="true" href="zzDemolitionPeriod_0Roh311j1fQBVL1yjup" />
 		<DocProperty xsi:nil="true" href="Endangerment_0nFnuvMYfFSxTz_0Sgif_V" />
+		<DocProperty xsi:nil="true" href="zzOverallSignificance_3PfAzhyU5BP9hGlWetRcdW" />
 	</Properties>
 </DocPropertySet>
 

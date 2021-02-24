@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="zzConstructionPeriod_0DV1vqXrH5w8M9w_5dvOlA" Name="ConstructionPeriod" UniqueId="0d7c1e74-8754-45e8-8589-ebe167e58bca" PropertyType="complex" SecondaryDataType="Pset_Period">
+	<Elements>
+		<DocProperty UniqueId="6986b9fc-bb0d-43b5-b376-fcb2f0ce49ad" />
+		<DocProperty UniqueId="cee0423e-1f7c-4a63-a3bf-55ead3cc3717" />
+	</Elements>
+</DocProperty>
+

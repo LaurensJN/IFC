@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="zzMaterialAge_0QOjvPEirFkwY6oOTqPQCy" Name="MaterialAge" UniqueId="1a62de59-3acd-4fbb-a886-c9877465a33c" PropertyType="complex" SecondaryDataType="Pset_Period">
+	<Elements>
+		<DocProperty UniqueId="c794947e-b1ff-4a58-b58b-49ca772e5426" />
+		<DocProperty UniqueId="7672095b-a47f-4de7-a7d7-07da6b79a0bb" />
+	</Elements>
+</DocProperty>
+

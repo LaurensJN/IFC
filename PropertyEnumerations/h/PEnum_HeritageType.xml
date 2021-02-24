@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_HeritageType" Name="PEnum_HeritageType" UniqueId="9fec7f53-8053-4cdf-8b80-aed84f0122bc">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="ARCHITECTURAL_HERITAGE_0RQnPzCl9AtfXP4GCqtxZw" />
+		<DocPropertyConstant xsi:nil="true" href="CULTURAL_LANDSCAPE_0D7RgdOsPFJOe0ybsPiKcg" />
+		<DocPropertyConstant xsi:nil="true" href="URBAN_HERITAGE_2FK7xW5hL8qBVme6IaRW2g" />
+		<DocPropertyConstant xsi:nil="true" href="GARDEN_ARCHITECTURE_2u8wfs_I107uJRYt7TyppA" />
+		<DocPropertyConstant xsi:nil="true" href="TECHNICAL_HERITAGE_2zz2KI0lTA8u9Xf8S7sTQK" />
+		<DocPropertyConstant xsi:nil="true" href="ARCHAEOLOGY_OBJECTS_1F2KGbS0P0tOacpO9jqcM" />
+		<DocPropertyConstant xsi:nil="true" href="LIVING_HERITAGE_2J1qRk6b4sg0S7fUyxBCD" />
+		<DocPropertyConstant xsi:nil="true" href="CUSTOM_1hziJJT4rDwAmYU9zlipy" />
+		<DocPropertyConstant xsi:nil="true" href="NOTDEFINED_0jPqDBAQ13AQB5eFaJZXjR" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -2,11 +2,6 @@
 <DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSignificance" UniqueId="d301f5ee-81a6-4618-bfb0-88ed38bc13f7" DiagramNumber="1">
 	<DiagramRectangle xsi:type="DocRectangle" X="200" Y="357,333333333333" Width="400" Height="100" />
 	<Constants>
-		<DocConstant xsi:nil="true" href="DISTURBING_1a80RB0nTDFeMAsk5IRpab" />
-		<DocConstant xsi:nil="true" href="SMALL_3lZP83Adj5mQ4tNrs5maU7" />
-		<DocConstant xsi:nil="true" href="MEDIUM_05Flls9D56C8Eias7TT733" />
-		<DocConstant xsi:nil="true" href="IMPORTANT_3IsjU5QNn7RQ5vk56HdV9y" />
-		<DocConstant xsi:nil="true" href="SIGNIFICANT_134RjJAIjFDx4YzNxNnj51" />
 		<DocConstant xsi:nil="true" href="NOTDEFINED_0hF15nkf79uy7wMtnpxz" />
 	</Constants>
 </DocEnumeration>

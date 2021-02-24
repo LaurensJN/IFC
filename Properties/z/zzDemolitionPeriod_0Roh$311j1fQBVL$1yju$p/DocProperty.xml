@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="zzDemolitionPeriod_0Roh311j1fQBVL1yjup" Name="DemolitionPeriod" UniqueId="1bcabfc3-041b-41a5-a2df-57f07cb78ff3" PropertyType="complex" SecondaryDataType="Pset_Period">
+	<Elements>
+		<DocProperty UniqueId="b124c83a-b48d-4487-913f-be8d775100d7" />
+		<DocProperty UniqueId="5a31f32a-28fa-4278-85ae-c3450e1bf667" />
+	</Elements>
+</DocProperty>
+
