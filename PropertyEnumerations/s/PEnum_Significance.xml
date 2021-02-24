@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_Significance" UniqueId="42f75dbc-6558-472f-b41f-b14858af2c04">
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_Significance" Name="PEnum_Significance" UniqueId="42f75dbc-6558-472f-b41f-b14858af2c04">
 	<Constants>
 		<DocPropertyConstant xsi:nil="true" href="DISTURBING_3SlOdoOUTCgeGxaqp7m8Y" />
 		<DocPropertyConstant xsi:nil="true" href="SMALL_1iyyMfSn7BeOGPGqqS0M" />

@@ -61,7 +61,7 @@ Many object occurrence and object type entities have an attribute named _Predefi
 		<DocTemplateDefinition Name="Property Sets" UniqueId="36984334-3ac8-4e59-85a6-f68d65e379c7" Status="Sample" Type="IfcRoot">
 			<Documentation>&lt;p&gt;The concept template &lt;em&gt;Property Sets&lt;/em&gt; describes how sets of properties (usually defined by a name, value, unit triple) are associated to objects or object types.&lt;/p&gt;</Documentation>
 			<Templates>
-				<DocTemplateDefinition id="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" Name="Property Sets for Objects" UniqueId="f74255a6-0c0e-4f31-84ad-24981db62461" Version="1" Status="Sample" Type="IfcObject">
+				<DocTemplateDefinition id="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" Name="Property Sets for Objects" UniqueId="f74255a6-0c0e-4f31-84ad-24981db62461" Version="1" Status="Sample">
 					<Documentation>&lt;p&gt;The concept template &lt;em&gt;Property Sets for Objects&lt;/em&gt; describes how an object occurrence can be related to a single or multiple property sets. A property set contains a single or multiple properties. The data types of  an individual property are single value, enumerated value,  bounded value, table value, reference value, list value, and combination of property occurrences.&lt;/p&gt;
 &lt;p&gt;Property sets can also be related to an object type, see concept &lt;em&gt;Property Sets for Types&lt;/em&gt;. They then define the common properties for all occurrences of the same type. If the same property (by name) is provided by the same property set (by name), then the properties directly assigned to the object occurrence override the properties assigned to the object type.&lt;/p&gt;
 </Documentation>

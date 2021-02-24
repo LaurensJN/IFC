@@ -1432,7 +1432,7 @@ The shared profile definition is defined by assigning an _IfcMaterialProfileSet_
 					<Documentation>&gt; NOTE&amp;nbsp; By using the inverse relationship _IfcBuilding.IsDecomposedBy_ it references _IfcBuilding_ || _IfcBuildingStorey_ through _IfcRelAggregates.RelatedObjects_. If it refers to another instance of&amp;nbsp;_IfcBuilding_, the referenced _IfcBuilding_ needs to have a different and lower _CompositionType_, i.e. ELEMENT (if the other _IfcBuilding_ has COMPLEX), or PARTIAL (if the other _IfcBuilding_ has ELEMENT).</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Decomposition_1cVuH3xCvAZQOan_h15FW" />
 					<Items>
-						<DocTemplateItem UniqueId="982c92b5-b487-4eb9-8073-f0887d07da7d" RuleParameters="Spatial Parts=IfcBuildingStorey;" Order="0">
+						<DocTemplateItem UniqueId="982c92b5-b487-4eb9-8073-f0887d07da7d" Order="0">
 							<Documentation>Spatial decomposition into building stories.</Documentation>
 						</DocTemplateItem>
 						<DocTemplateItem UniqueId="f4a3df94-b183-43de-99ff-3d9dd8c48bf9" RuleParameters="Spatial Parts=IfcBuilding;" Order="0">
@@ -10235,7 +10235,7 @@ Figure 1 illustrates project relationships with spatial structures, elements, an
 ![&quot;spatial decomposition relationships&quot;](../../figures/ifcproject_fig-2.png &quot;Figure 1 &amp;mdash; Project spatial structure, products and product type library&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Decomposition_1cVuH3xCvAZQOan_h15FW" />
 					<Items>
-						<DocTemplateItem UniqueId="535b1916-6e1f-4dec-a8f1-a546d4bae2e7" RuleParameters="Spatial Parts=IfcSite;" Order="0">
+						<DocTemplateItem UniqueId="535b1916-6e1f-4dec-a8f1-a546d4bae2e7" Order="0">
 							<Documentation>If referenced, the site is the root of the spatial structure.</Documentation>
 						</DocTemplateItem>
 						<DocTemplateItem UniqueId="69280ed3-7519-4f8e-b7e4-a8b1bc7c7aa0" RuleParameters="Spatial Parts=IfcBuilding;" Order="0">
