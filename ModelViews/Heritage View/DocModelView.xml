@@ -22,15 +22,7 @@
 					</Exchanges>
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Significance" UniqueId="05ecfaf1-d0d4-4fc6-a07c-ddb0d4ae192c">
-					<Definition xsi:type="DocTemplateDefinition" UniqueId="eb373999-e0fc-4bd0-9734-28fa5376ab3c" Type="IfcElement">
-						<Rules>
-							<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Significance">
-								<Rules>
-									<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcSignificance" UniqueId="2f643122-b04a-4b99-8bf8-202cff0e7143" />
-								</Rules>
-							</DocModelRuleAttribute>
-						</Rules>
-					</Definition>
+					<Definition xsi:type="DocTemplateDefinition" UniqueId="eb373999-e0fc-4bd0-9734-28fa5376ab3c" Type="IfcElement" />
 					<Exchanges>
 						<DocExchangeItem Applicability="import" Requirement="mandatory">
 							<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Conservation_Plan_Exchange_3mGred_Rf7zvOSbJaFJfQ0" />

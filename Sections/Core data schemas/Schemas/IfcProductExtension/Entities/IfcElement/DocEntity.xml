@@ -66,19 +66,6 @@
 		<DocAttribute Name="HasCoverings" UniqueId="e73f220c-19f9-4fbd-9302-9b407708ffdf" DefinedType="IfcRelCoversBldgElements" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="RelatingBuildingElement">
 			<Documentation>Reference to _IfcCovering_ by virtue of the objectified relationship _IfcRelCoversBldgElement_. It defines the concept of an element having coverings associated.</Documentation>
 		</DocAttribute>
-		<DocAttribute Name="Significance" UniqueId="6aed97f8-90bf-4ee1-be50-aa0d00f818fb" DefinedType="IfcSignificanceEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" />
-		<DocAttribute Name="Vulnerability" UniqueId="62ce605b-ae7e-4e25-816d-bc398611aa47" DefinedType="IfcText" AttributeFlags="0" AggregationType="0" AggregationFlag="0" />
-		<DocAttribute Name="Endangerment" UniqueId="ea251815-a7a9-42d8-a531-60779c7b27ea" DefinedType="IfcText" AttributeFlags="0" AggregationType="0" AggregationFlag="0" />
-		<DocAttribute Name="ConstructionPeriod" UniqueId="9ca87135-76c4-42b0-8636-93a8fbd2aeb9" DefinedType="IfcTimeSeries" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="2">
-			<DiagramLine>
-				<DocPoint X="0" Y="0" />
-				<DocPoint X="0" Y="0" />
-				<DocPoint X="0" Y="0" />
-			</DiagramLine>
-			<DiagramLabel xsi:type="DocRectangle" X="0" Y="-20" Width="0" Height="0" />
-		</DocAttribute>
-		<DocAttribute Name="DemolitionPeriod" UniqueId="403433be-a745-41b3-820b-4f4201cfec8f" DefinedType="IfcTimeSeries" AttributeFlags="0" AggregationType="0" AggregationFlag="0" />
-		<DocAttribute Name="IsDemolished" UniqueId="fe7ec232-781f-4dc1-8102-7d9677970642" DefinedType="IfcBoolean" AttributeFlags="0" AggregationType="0" AggregationFlag="0" />
 	</Attributes>
 </DocEntity>
 

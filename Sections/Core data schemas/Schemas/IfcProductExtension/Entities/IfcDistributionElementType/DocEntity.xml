@@ -9,8 +9,5 @@
 		<DocSubtype UniqueId="0480977c-334b-43cb-845c-866ce3f66d78" DefinedType="IfcDistributionControlElementType" />
 		<DocSubtype UniqueId="54033af3-5c61-44e8-80c1-d35449c74f44" DefinedType="IfcDistributionFlowElementType" />
 	</Subtypes>
-	<Attributes>
-		<DocAttribute UniqueId="729d7163-ccaa-4506-85ad-89ec5cc0b74c" DefinedType="IfcSignificance" AttributeFlags="0" AggregationType="0" AggregationFlag="0" />
-	</Attributes>
 </DocEntity>
 

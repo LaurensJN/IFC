@@ -47,15 +47,6 @@
 				<DocDefinitionRef Name="IfcPolyline" UniqueId="324d4b14-35b0-41bd-80c4-71132d67e8cf" DiagramNumber="0" />
 			</Definitions>
 		</DocSchemaRef>
-		<DocSchemaRef Name="IFCHERITAGEDOMAIN" UniqueId="70756075-1591-49d5-b635-c427724fc178">
-			<Definitions>
-				<DocDefinitionRef Name="IfCSignificance" UniqueId="be632448-8587-48e1-8791-843eb5e37f70" DiagramNumber="1">
-					<DiagramRectangle xsi:type="DocRectangle" X="258,666666666667" Y="903,999979654948" Width="400" Height="64" />
-				</DocDefinitionRef>
-				<DocDefinitionRef Name="IfcSignificance" UniqueId="07ba8032-c5c4-41ab-b797-14a0450e7e4d" DiagramNumber="0" />
-				<DocDefinitionRef Name="IfcSignificanceEnum" UniqueId="8ae001ea-a263-4dd7-a5b1-0126f7f8a04e" DiagramNumber="0" />
-			</Definitions>
-		</DocSchemaRef>
 		<DocSchemaRef Name="IFCKERNEL" UniqueId="143123dd-37e6-4bc1-b974-d222428426b3">
 			<Definitions>
 				<DocDefinitionRef Name="IfcGroup" UniqueId="2386a3f0-d53b-4e7c-b648-e2cc32b341cb" DiagramNumber="0" />
