@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="HeritageType_1dSHG61m17Jgvp5eomZIo8" Name="HeritageType" UniqueId="67711406-0700-474e-ae73-168cb08d2c88" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="HeritageType" UniqueId="67711406-0700-474e-ae73-168cb08d2c88" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
 	<Enumeration>
 		<DocPropertyEnumeration xsi:nil="true" href="PEnum_HeritageType" />
 	</Enumeration>

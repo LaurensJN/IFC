@@ -1,19 +1,442 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Cultural Heritage" UniqueId="0507e987-e4cf-4d5a-bf91-9c1928dd3456">
+<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Cultural Heritage" UniqueId="0507e987-e4cf-4d5a-bf91-9c1928dd3456" Status="Proposal">
 	<Templates>
-		<DocTemplateDefinition Name="Cultural Heritage Material" UniqueId="bdbb952e-bf1e-424c-ae8b-553e73e5d2e7" />
-		<DocTemplateDefinition Name="Endangerment" UniqueId="59c636ad-0756-424a-bc1e-a5496b6cb41a" Type="IfcElement" />
-		<DocTemplateDefinition Name="Period" UniqueId="baa1a3fd-4472-4723-8e5d-008f9b6eaad1" Type="IfcElement" />
-		<DocTemplateDefinition Name="Significance" UniqueId="8d3a1ac6-9367-4267-b719-ce033ec0a151" Type="IfcElement">
+		<DocTemplateDefinition Name="Cultural Heritage Element" UniqueId="baa1a3fd-4472-4723-8e5d-008f9b6eaad1" Type="IfcElement">
 			<Rules>
-				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Significance">
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="IsDefinedBy">
 					<Rules>
-						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcSignificanceEnum" UniqueId="9cc7927f-4cd4-46a5-8a94-9e1e90f17e25" />
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRelDefinesByProperties" UniqueId="eb67249e-e19f-41df-8019-aaf42a3c126d">
+							<Rules>
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RelatingPropertyDefinition">
+									<Rules>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySet" UniqueId="b2a7f50f-cddf-47d6-99db-785bdf9f1ab5">
+											<Rules>
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Description="*" Identification="Value">
+													<Rules>
+														<DocModelRuleEntity id="x12bdda89678e4b7aaefb3fe40bfa52a9" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" Description="*" Identification="[Value]" UniqueId="12bdda89-678e-4b7a-aefb-3fe40bfa52a9">
+															<Rules>
+																<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																	<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																		<Reference xsi:type="DocOpReference">
+																			<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="x12bdda89678e4b7aaefb3fe40bfa52a9" />
+																		</Reference>
+																		<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="CHElement " />
+																	</Expression>
+																</DocModelRuleConstraint>
+															</Rules>
+														</DocModelRuleEntity>
+													</Rules>
+												</DocModelRuleAttribute>
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasProperties">
+													<Rules>
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue" UniqueId="8333f2e6-ddbe-4f64-ab28-0bba4678b2fb">
+															<Rules>
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+																	<Rules>
+																		<DocModelRuleEntity id="x202b2de809fc4a869f824ae6491ee719" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="202b2de8-09fc-4a86-9f82-4ae6491ee719">
+																			<Rules>
+																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="x202b2de809fc4a869f824ae6491ee719" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="Endangerment" />
+																					</Expression>
+																				</DocModelRuleConstraint>
+																			</Rules>
+																		</DocModelRuleEntity>
+																	</Rules>
+																</DocModelRuleAttribute>
+															</Rules>
+														</DocModelRuleEntity>
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue" UniqueId="90fe44da-42fa-4d89-97fa-e251b15b0c54">
+															<Rules>
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+																	<Rules>
+																		<DocModelRuleEntity id="a0be574c023943c1a0a8b8bc5dc17c10" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="a0be574c-0239-43c1-a0a8-b8bc5dc17c10">
+																			<Rules>
+																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="a0be574c023943c1a0a8b8bc5dc17c10" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="Vulnerability" />
+																					</Expression>
+																				</DocModelRuleConstraint>
+																			</Rules>
+																		</DocModelRuleEntity>
+																	</Rules>
+																</DocModelRuleAttribute>
+															</Rules>
+														</DocModelRuleEntity>
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcComplexProperty" UniqueId="15cb05fb-4f0f-474d-a6f4-bc968341e282">
+															<Rules>
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+																	<Rules>
+																		<DocModelRuleEntity id="x7d52ef1405034e1aaf9cc088aa773500" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="7d52ef14-0503-4e1a-af9c-c088aa773500">
+																			<Rules>
+																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="x7d52ef1405034e1aaf9cc088aa773500" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="Significance" />
+																					</Expression>
+																				</DocModelRuleConstraint>
+																			</Rules>
+																		</DocModelRuleEntity>
+																	</Rules>
+																</DocModelRuleAttribute>
+															</Rules>
+															<References>
+																<DocTemplateDefinition id="Significance_1CcKrNvH10xciYs1hiyKl" Name="Significance" UniqueId="4c994d57-e510-40ff-b9ac-8b606bb3c52f" Type="IfcComplexProperty">
+																	<Rules>
+																		<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasProperties">
+																			<Rules>
+																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue" UniqueId="fe86b67d-61c6-4442-8578-504f262f6407">
+																					<Rules>
+																						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+																							<Rules>
+																								<DocModelRuleEntity id="eab35e871ee8402faa56b5e4db7b3c27" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="eab35e87-1ee8-402f-aa56-b5e4db7b3c27">
+																									<Rules>
+																										<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																											<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																												<Reference xsi:type="DocOpReference">
+																													<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="eab35e871ee8402faa56b5e4db7b3c27" />
+																												</Reference>
+																												<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="SignificanceType" />
+																											</Expression>
+																										</DocModelRuleConstraint>
+																									</Rules>
+																								</DocModelRuleEntity>
+																							</Rules>
+																						</DocModelRuleAttribute>
+																					</Rules>
+																				</DocModelRuleEntity>
+																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue" UniqueId="7d940149-c09a-44ee-9f20-d215d869b38c">
+																					<Rules>
+																						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+																							<Rules>
+																								<DocModelRuleEntity id="x5efe909d251a43d4ae764979dc28485b" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="5efe909d-251a-43d4-ae76-4979dc28485b">
+																									<Rules>
+																										<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																											<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																												<Reference xsi:type="DocOpReference">
+																													<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="x5efe909d251a43d4ae764979dc28485b" />
+																												</Reference>
+																												<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="SignificanceDescription" />
+																											</Expression>
+																										</DocModelRuleConstraint>
+																									</Rules>
+																								</DocModelRuleEntity>
+																							</Rules>
+																						</DocModelRuleAttribute>
+																					</Rules>
+																				</DocModelRuleEntity>
+																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyEnumeratedValue" UniqueId="1b8774d4-eb08-4644-9044-4a87e23186e5">
+																					<Rules>
+																						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+																							<Rules>
+																								<DocModelRuleEntity id="f333f9e2e7ae4717b32875ea0a8b0071" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="f333f9e2-e7ae-4717-b328-75ea0a8b0071">
+																									<Rules>
+																										<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																											<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																												<Reference xsi:type="DocOpReference">
+																													<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="f333f9e2e7ae4717b32875ea0a8b0071" />
+																												</Reference>
+																												<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="SignificanceValue" />
+																											</Expression>
+																										</DocModelRuleConstraint>
+																									</Rules>
+																								</DocModelRuleEntity>
+																							</Rules>
+																						</DocModelRuleAttribute>
+																					</Rules>
+																				</DocModelRuleEntity>
+																			</Rules>
+																		</DocModelRuleAttribute>
+																		<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+																			<Rules>
+																				<DocModelRuleEntity id="x2ba04d46b1564b95a8d545128a4af2c4" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="2ba04d46-b156-4b95-a8d5-45128a4af2c4">
+																					<Rules>
+																						<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																							<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																								<Reference xsi:type="DocOpReference">
+																									<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="x2ba04d46b1564b95a8d545128a4af2c4" />
+																								</Reference>
+																								<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="CHSignificance" />
+																							</Expression>
+																						</DocModelRuleConstraint>
+																					</Rules>
+																				</DocModelRuleEntity>
+																			</Rules>
+																		</DocModelRuleAttribute>
+																	</Rules>
+																</DocTemplateDefinition>
+															</References>
+														</DocModelRuleEntity>
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcComplexProperty" UniqueId="6b469220-ce7f-41e9-9cbe-ee5d1243ede0">
+															<Rules>
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+																	<Rules>
+																		<DocModelRuleEntity id="x94f9f0eaf75c44ecb9194b3e07e8088b" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="94f9f0ea-f75c-44ec-b919-4b3e07e8088b">
+																			<Rules>
+																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="x94f9f0eaf75c44ecb9194b3e07e8088b" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="ConstructionPeriod" />
+																					</Expression>
+																				</DocModelRuleConstraint>
+																			</Rules>
+																		</DocModelRuleEntity>
+																	</Rules>
+																</DocModelRuleAttribute>
+															</Rules>
+															<References>
+																<DocTemplateDefinition id="Period_1BNqsKslj7aPRf4rK1zrp3" Name="Period" UniqueId="4b5f4d94-dafb-4791-96e9-135501f75cc3" Type="IfcComplexProperty">
+																	<Rules>
+																		<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+																			<Rules>
+																				<DocModelRuleEntity id="x1e7569dbbdb042d0b0af15e294484181" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="1e7569db-bdb0-42d0-b0af-15e294484181">
+																					<Rules>
+																						<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																							<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																								<Reference xsi:type="DocOpReference">
+																									<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="x1e7569dbbdb042d0b0af15e294484181" />
+																								</Reference>
+																								<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="CHPeriod" />
+																							</Expression>
+																						</DocModelRuleConstraint>
+																					</Rules>
+																				</DocModelRuleEntity>
+																			</Rules>
+																		</DocModelRuleAttribute>
+																		<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasProperties">
+																			<Rules>
+																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue" UniqueId="6eca3045-d7ec-4c3c-aeea-654d9b3a4f0f">
+																					<Rules>
+																						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+																							<Rules>
+																								<DocModelRuleEntity id="x2bb70d19ba3140cb8754cc88c59249f4" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="2bb70d19-ba31-40cb-8754-cc88c59249f4">
+																									<Rules>
+																										<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																											<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																												<Reference xsi:type="DocOpReference">
+																													<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="x2bb70d19ba3140cb8754cc88c59249f4" />
+																												</Reference>
+																												<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="StartDate " />
+																											</Expression>
+																										</DocModelRuleConstraint>
+																									</Rules>
+																								</DocModelRuleEntity>
+																							</Rules>
+																						</DocModelRuleAttribute>
+																					</Rules>
+																				</DocModelRuleEntity>
+																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue" UniqueId="a8aedfe5-e1d6-4d9d-9565-614e80ffb24b">
+																					<Rules>
+																						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+																							<Rules>
+																								<DocModelRuleEntity id="x57aa04f1ecf042aeb36f190139ec9731" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="57aa04f1-ecf0-42ae-b36f-190139ec9731">
+																									<Rules>
+																										<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																											<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																												<Reference xsi:type="DocOpReference">
+																													<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="x57aa04f1ecf042aeb36f190139ec9731" />
+																												</Reference>
+																												<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="EndDate" />
+																											</Expression>
+																										</DocModelRuleConstraint>
+																									</Rules>
+																								</DocModelRuleEntity>
+																							</Rules>
+																						</DocModelRuleAttribute>
+																					</Rules>
+																				</DocModelRuleEntity>
+																			</Rules>
+																		</DocModelRuleAttribute>
+																	</Rules>
+																</DocTemplateDefinition>
+															</References>
+														</DocModelRuleEntity>
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcComplexProperty" UniqueId="452377d9-1747-4c21-98ad-ea47aada1387">
+															<Rules>
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+																	<Rules>
+																		<DocModelRuleEntity id="b3f4aceb06144c7ca3c8a5a0b9f3ae08" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="b3f4aceb-0614-4c7c-a3c8-a5a0b9f3ae08">
+																			<Rules>
+																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="b3f4aceb06144c7ca3c8a5a0b9f3ae08" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="DemolitionPeriod" />
+																					</Expression>
+																				</DocModelRuleConstraint>
+																			</Rules>
+																		</DocModelRuleEntity>
+																	</Rules>
+																</DocModelRuleAttribute>
+															</Rules>
+															<References>
+																<DocTemplateDefinition xsi:nil="true" href="Period_1BNqsKslj7aPRf4rK1zrp3" />
+															</References>
+														</DocModelRuleEntity>
+														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue" UniqueId="3909eb91-2403-4dec-a20c-35ede19caf07">
+															<Rules>
+																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+																	<Rules>
+																		<DocModelRuleEntity id="x46d003e2fca049e1915cd2634ef67f62" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="46d003e2-fca0-49e1-915c-d2634ef67f62">
+																			<Rules>
+																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="x46d003e2fca049e1915cd2634ef67f62" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="Demolished" />
+																					</Expression>
+																				</DocModelRuleConstraint>
+																			</Rules>
+																		</DocModelRuleEntity>
+																	</Rules>
+																</DocModelRuleAttribute>
+															</Rules>
+														</DocModelRuleEntity>
+													</Rules>
+												</DocModelRuleAttribute>
+											</Rules>
+										</DocModelRuleEntity>
+									</Rules>
+								</DocModelRuleAttribute>
+							</Rules>
+						</DocModelRuleEntity>
 					</Rules>
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition Name="Vulnerability" UniqueId="a8a37ef7-7140-478a-9b10-b0f03ad50297" Type="IfcElement" />
+		<DocTemplateDefinition id="Cultural_Heritage_Material_2zkvKklnv2JAwBLJvpvTBd" Name="Cultural Heritage Material" UniqueId="bdbb952e-bf1e-424c-ae8b-553e73e5d2e7" Type="IfcMaterial">
+			<Rules>
+				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasProperties">
+					<Rules>
+						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcMaterialProperties" UniqueId="c1f1acc0-41c7-4905-a063-2a61f7e6ad7a">
+							<Rules>
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Properties">
+									<Rules>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue" UniqueId="21f55cf2-aebb-4a73-9f42-bf1d19e76852">
+											<Rules>
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+													<Rules>
+														<DocModelRuleEntity id="x043c4100bbbe49a686c099685adaaeab" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="043c4100-bbbe-49a6-86c0-99685adaaeab">
+															<Rules>
+																<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																	<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																		<Reference xsi:type="DocOpReference">
+																			<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="x043c4100bbbe49a686c099685adaaeab" />
+																		</Reference>
+																		<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="MaterialState" />
+																	</Expression>
+																</DocModelRuleConstraint>
+															</Rules>
+														</DocModelRuleEntity>
+													</Rules>
+												</DocModelRuleAttribute>
+											</Rules>
+										</DocModelRuleEntity>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue" UniqueId="e9895e71-9d02-4a15-8665-3d42baa098c2">
+											<Rules>
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+													<Rules>
+														<DocModelRuleEntity id="x87341fe083b243cda9bcaf315e4adef1" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="87341fe0-83b2-43cd-a9bc-af315e4adef1">
+															<Rules>
+																<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																	<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																		<Reference xsi:type="DocOpReference">
+																			<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="x87341fe083b243cda9bcaf315e4adef1" />
+																		</Reference>
+																		<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="Region" />
+																	</Expression>
+																</DocModelRuleConstraint>
+															</Rules>
+														</DocModelRuleEntity>
+													</Rules>
+												</DocModelRuleAttribute>
+											</Rules>
+										</DocModelRuleEntity>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue" UniqueId="c34e7c87-b80e-4d51-838c-e393f46cdb4a">
+											<Rules>
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+													<Rules>
+														<DocModelRuleEntity id="c8785c7ccc774742aa0b3e9f185f2555" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="c8785c7c-cc77-4742-aa0b-3e9f185f2555">
+															<Rules>
+																<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																	<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																		<Reference xsi:type="DocOpReference">
+																			<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="c8785c7ccc774742aa0b3e9f185f2555" />
+																		</Reference>
+																		<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="Specialisation" />
+																	</Expression>
+																</DocModelRuleConstraint>
+															</Rules>
+														</DocModelRuleEntity>
+													</Rules>
+												</DocModelRuleAttribute>
+											</Rules>
+										</DocModelRuleEntity>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyListValue" UniqueId="55de6bd9-2dec-4b0e-a8a0-914f4956032e">
+											<Rules>
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+													<Rules>
+														<DocModelRuleEntity id="d628edbb6ea1458e8f89b6d21431eb71" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="d628edbb-6ea1-458e-8f89-b6d21431eb71">
+															<Rules>
+																<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																	<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																		<Reference xsi:type="DocOpReference">
+																			<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="d628edbb6ea1458e8f89b6d21431eb71" />
+																		</Reference>
+																		<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="Interventions" />
+																	</Expression>
+																</DocModelRuleConstraint>
+															</Rules>
+														</DocModelRuleEntity>
+													</Rules>
+												</DocModelRuleAttribute>
+											</Rules>
+										</DocModelRuleEntity>
+										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcComplexProperty" UniqueId="649df0f8-aaa6-4b19-a006-4620f29bd899">
+											<Rules>
+												<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
+													<Rules>
+														<DocModelRuleEntity id="ab7bab0e77924c579674d3c84c35cac8" CardinalityMin="0" CardinalityMax="0" Name="IfcIdentifier" UniqueId="ab7bab0e-7792-4c57-9674-d3c84c35cac8">
+															<Rules>
+																<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
+																	<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																		<Reference xsi:type="DocOpReference">
+																			<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="ab7bab0e77924c579674d3c84c35cac8" />
+																		</Reference>
+																		<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="MaterialAge" />
+																	</Expression>
+																</DocModelRuleConstraint>
+															</Rules>
+														</DocModelRuleEntity>
+													</Rules>
+												</DocModelRuleAttribute>
+											</Rules>
+											<References>
+												<DocTemplateDefinition xsi:nil="true" href="Period_1BNqsKslj7aPRf4rK1zrp3" />
+											</References>
+										</DocModelRuleEntity>
+									</Rules>
+								</DocModelRuleAttribute>
+							</Rules>
+						</DocModelRuleEntity>
+					</Rules>
+				</DocModelRuleAttribute>
+			</Rules>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition xsi:nil="true" href="Period_1BNqsKslj7aPRf4rK1zrp3" />
+		<DocTemplateDefinition xsi:nil="true" href="Significance_1CcKrNvH10xciYs1hiyKl" />
 	</Templates>
 </DocTemplateDefinition>
 

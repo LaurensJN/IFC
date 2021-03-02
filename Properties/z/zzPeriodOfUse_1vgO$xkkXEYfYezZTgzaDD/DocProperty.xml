@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PeriodOfUse" UniqueId="79a98ffb-bae8-4e8a-98a8-f6376af6434d" PropertyType="complex" SecondaryDataType="Pset_Period">
+	<Elements>
+		<DocProperty UniqueId="0550813c-08ea-4fd1-8c48-d7bcae1623ac" />
+		<DocProperty UniqueId="b68ac107-485c-45fd-a40c-e2b5f5d53ba2" />
+	</Elements>
+</DocProperty>
+

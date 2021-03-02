@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="zzSignificance_3uQUnCOyH6XP5FpDMJvp9" Name="Significance" UniqueId="f869ec4c-63c4-4685-914f-ccd593e7fcc9" PropertyType="complex" SecondaryDataType="Pset_Significance">
+	<Elements>
+		<DocProperty UniqueId="b0c34400-a976-4fda-9896-00ca63af5276" />
+		<DocProperty UniqueId="932f273f-8922-4010-bd7a-6b8098e82558" />
+		<DocProperty UniqueId="be63ac1e-912a-4a61-88e2-07523d99ed2d" />
+	</Elements>
+</DocProperty>
+

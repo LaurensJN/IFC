@@ -1,9 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="zzOverallSignificance_3PfAzhyU5BP9hGlWetRcdW" Name="OverallSignificance" UniqueId="d9a4af6b-f1e1-4b64-9ad0-be0a376e69e0" PropertyType="complex" SecondaryDataType="Pset_Significance">
 	<Elements>
-		<DocProperty UniqueId="0d51fdd6-bd2f-4023-b0ef-836bd0feeb9c" />
-		<DocProperty UniqueId="43a8f4bf-fd94-45d6-8811-97c68f5f640f" />
+		<DocProperty UniqueId="0d51fdd6-bd2f-4023-b0ef-836bd0feeb9c" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+			<Enumeration>
+				<DocPropertyEnumeration xsi:nil="true" href="PEnum_Significance" />
+			</Enumeration>
+		</DocProperty>
 		<DocProperty UniqueId="2fb5caae-62be-4d08-a8e5-8668f7123381" />
+		<DocProperty UniqueId="43a8f4bf-fd94-45d6-8811-97c68f5f640f" PrimaryDataType="IfcText" />
 	</Elements>
 </DocProperty>
 

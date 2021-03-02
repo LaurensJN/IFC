@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Significance_3GbGUi4eD4lheV5tJXM3Ee" Name="Significance" UniqueId="d09507ac-1283-44be-ba1f-1774e15833a8" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Significance" UniqueId="d09507ac-1283-44be-ba1f-1774e15833a8" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
 	<Enumeration>
 		<DocPropertyEnumeration xsi:nil="true" href="PEnum_Significance" />
 	</Enumeration>

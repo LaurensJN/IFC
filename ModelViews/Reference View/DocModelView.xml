@@ -9327,7 +9327,7 @@ If no _IfcTransportElementType_ is attached&amp;nbsp;(i.e. if only occurrence in
 				<DocTemplateUsage Name="Property Sets for Objects" UniqueId="4a37912b-7947-4c97-930d-676120a85b6b">
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 					<Items>
-						<DocTemplateItem UniqueId="d95a8258-bd6e-4267-a840-6fb83dc2b295" RuleParameters="PsetName=Pset_WallCommon;" Order="0">
+						<DocTemplateItem UniqueId="d95a8258-bd6e-4267-a840-6fb83dc2b295" Order="0">
 							<Concepts>
 								<DocTemplateUsage Name="Properties" UniqueId="eb8d745b-7b92-42b7-b7d6-246dc464e25f">
 									<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />

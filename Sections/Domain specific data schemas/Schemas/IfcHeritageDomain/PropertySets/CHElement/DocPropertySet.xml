@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CHElement" UniqueId="ba43afb8-1f18-4ade-9a77-bbd5b1180390" ApplicableType="IfcElement,IfcSpatialStructureElement">
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="CHElement" UniqueId="ba43afb8-1f18-4ade-9a77-bbd5b1180390" ApplicableType="IfcElement,IfcSpatialStructureElement">
 	<Properties>
 		<DocProperty xsi:nil="true" href="Vulnerability_2UTvvppP13EhFMSrBZ2WZo" />
 		<DocProperty xsi:nil="true" href="zzConstructionPeriod_0DV1vqXrH5w8M9w_5dvOlA" />

@@ -1,7 +1,3 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CHSpatialStructureElement" UniqueId="3c6250fc-03c4-41ef-b810-6331aca017a5">
-	<Properties>
-		<DocProperty xsi:nil="true" href="HeritageType_1dSHG61m17Jgvp5eomZIo8" />
-	</Properties>
-</DocPropertySet>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CHSpatialStructureElement" UniqueId="3c6250fc-03c4-41ef-b810-6331aca017a5" />
 
