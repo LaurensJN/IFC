@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="CHMaterial" UniqueId="f6f9c291-98d3-4537-96fb-fdac236cb321" ApplicableType="IfcMaterial">
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="CHMaterial" UniqueId="f6f9c291-98d3-4537-96fb-fdac236cb321" ApplicableType="IfcMaterialDefinition">
 	<Properties>
 		<DocProperty xsi:nil="true" href="MaterialState_3BeABPUnv6SRLv9SZ0IObS" />
 		<DocProperty xsi:nil="true" href="Region_3jTFfomULDVxfG15AvG85" />

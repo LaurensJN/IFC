@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMaterialDefinition" UniqueId="b31f0891-e60f-4cc1-9b3b-9bbae1fde79c" DiagramNumber="0" EntityFlags="205">
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcMaterialDefinition" Name="IfcMaterialDefinition" UniqueId="b31f0891-e60f-4cc1-9b3b-9bbae1fde79c" DiagramNumber="0" EntityFlags="205">
 	<Localization>
 		<DocLocalization Name="Materialdefinition" Locale="de" />
 		<DocLocalization Name="Material Definition" Locale="en" />

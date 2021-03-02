@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Object Assignment" UniqueId="0xZcdPA2HEkxkLvISS4Yxy" Type="IfcObjectDefinition">
+<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Object Assignment" UniqueId="0xZcdPA2HEkxkLvISS4Yxy" Status="Proposal" Type="IfcObjectDefinition">
 	<Templates>
 		<DocTemplateDefinition id="Actor_Assignment_04W7d1TDrBsRCmHveKZIEF" Name="Actor Assignment" UniqueId="04W7d1TDrBsRCmHveKZIEF" Type="IfcActor">
 			<Documentation>Actors may have assignments indicating objects for which they have responsibility. An example of such assignment is a work order assigned to an organization.</Documentation>
