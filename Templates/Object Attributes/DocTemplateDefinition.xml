@@ -408,7 +408,7 @@
 										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcLengthMeasure" />
 									</Rules>
 								</DocModelRuleAttribute>
-								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="BuildingAddress" Identification="HasAddress">
+								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="BuildingAddress" Identification="Name">
 									<Rules>
 										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPostalAddress">
 											<Rules>

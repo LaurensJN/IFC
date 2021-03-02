@@ -8,73 +8,14 @@
 			<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcElement" />
 			<Concepts>
 				<DocTemplateUsage Name="Cultural Heritage Element" UniqueId="65f5bf2d-dc65-4b76-9fe1-4d95870f07eb">
-					<Definition xsi:type="DocTemplateDefinition" UniqueId="132fae10-c528-49f9-8f56-72b62be64746" Type="IfcElement">
-						<Rules>
-							<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="IsDefinedBy">
-								<Rules>
-									<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRelDefinesByProperties" UniqueId="e987ae54-aa5a-424d-8edf-a42c8a1bcd1d">
-										<Rules>
-											<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RelatingPropertyDefinition">
-												<Rules>
-													<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySet" UniqueId="225aefb0-90a8-4727-b45d-f7bd079cb7a7">
-														<Rules>
-															<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasProperties">
-																<Rules>
-																	<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue" UniqueId="a2793697-93a0-4369-8e10-c14ae438bdec">
-																		<Rules>
-																			<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="NominalValue" />
-																			<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
-																				<Rules>
-																					<DocModelRuleEntity id="x47bfcf28f18a4a95b7f121aa766d1758" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" UniqueId="47bfcf28-f18a-4a95-b7f1-21aa766d1758">
-																						<Rules>
-																							<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
-																								<Expression xsi:type="DocOpStatement" Operation="compareequal">
-																									<Reference xsi:type="DocOpReference">
-																										<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="x47bfcf28f18a4a95b7f121aa766d1758" />
-																									</Reference>
-																									<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="Vulnerability" />
-																								</Expression>
-																							</DocModelRuleConstraint>
-																						</Rules>
-																					</DocModelRuleEntity>
-																				</Rules>
-																			</DocModelRuleAttribute>
-																		</Rules>
-																	</DocModelRuleEntity>
-																</Rules>
-															</DocModelRuleAttribute>
-															<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name">
-																<Rules>
-																	<DocModelRuleEntity id="ecc2e47eab104bd1a9e8122d6899a707" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel" UniqueId="ecc2e47e-ab10-4bd1-a9e8-122d6899a707">
-																		<Rules>
-																			<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
-																				<Expression xsi:type="DocOpStatement" Operation="compareequal">
-																					<Reference xsi:type="DocOpReference">
-																						<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="ecc2e47eab104bd1a9e8122d6899a707" />
-																					</Reference>
-																					<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="Pset_CHElement" />
-																				</Expression>
-																			</DocModelRuleConstraint>
-																		</Rules>
-																	</DocModelRuleEntity>
-																</Rules>
-															</DocModelRuleAttribute>
-														</Rules>
-													</DocModelRuleEntity>
-												</Rules>
-											</DocModelRuleAttribute>
-										</Rules>
-									</DocModelRuleEntity>
-								</Rules>
-							</DocModelRuleAttribute>
-						</Rules>
-					</Definition>
+					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Cultural_Heritage_Element_2weQFzH7978uvT08_RRghH" />
 					<Items>
 						<DocTemplateItem UniqueId="ebb7f9ad-980b-4ea6-b29a-ede4f66cd3bd" Order="0" />
 						<DocTemplateItem UniqueId="5fac5974-cf0e-48f7-aedb-cdb5c0c01fca" Order="0" />
 						<DocTemplateItem UniqueId="67628771-0f4d-49b9-b1f4-9bc3b50830e8" Order="0" />
 						<DocTemplateItem UniqueId="de133881-b4ca-4b02-b9db-761bd8040f4c" Order="0" />
 						<DocTemplateItem UniqueId="7359951a-96ee-4fe4-a32a-45aaf86ebeda" Order="0" />
+						<DocTemplateItem UniqueId="dbf88552-1bb1-49b5-80e0-2f9b5321113f" Order="0" />
 					</Items>
 					<Exchanges>
 						<DocExchangeItem Applicability="import" Requirement="optional">
@@ -91,21 +32,38 @@
 		<DocConceptRoot Name="IfcMaterial" UniqueId="883091d5-9e71-462e-b1ca-4f5bf172d60f">
 			<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcMaterial" />
 			<Concepts>
-				<DocTemplateUsage Name="Cultural Heritage Material" UniqueId="40773a3e-4219-442c-a912-96d5f412b416">
+				<DocTemplateUsage Name="Cultural Heritage Material" UniqueId="fc85262a-3527-4b36-8a17-0a8bd8527014">
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Cultural_Heritage_Material_2zkvKklnv2JAwBLJvpvTBd" />
 					<Items>
-						<DocTemplateItem UniqueId="54e4f214-e602-4650-b2df-533a38b40e53" Order="0" />
-						<DocTemplateItem UniqueId="c4e8ef1e-ffae-439b-9daa-e703a3c8e19c" Order="0" />
-						<DocTemplateItem UniqueId="0a032f2d-2a81-44d1-90dc-b2160f23e5a1" Order="0" />
-						<DocTemplateItem UniqueId="085d7a4b-03e3-4e08-9055-6add44ce74ae" Order="0" />
-						<DocTemplateItem UniqueId="35a7a504-9371-4db9-981a-42a4b15b538b" Order="0" />
-						<DocTemplateItem UniqueId="ced2e9a9-5f3e-4475-a131-e86715c0b3df" Order="0" />
-						<DocTemplateItem UniqueId="f8b25826-2fa7-4f5f-9877-c89737fa5215" Order="0" />
-						<DocTemplateItem UniqueId="68029510-b06a-4db6-a3df-a8e50f6e5dc2" Order="0" />
+						<DocTemplateItem UniqueId="75723e30-ff1a-4e51-9854-a8204557cc55" Order="0" />
 					</Items>
 				</DocTemplateUsage>
 			</Concepts>
 			<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="260261ff-6cbd-48af-91d5-0439540ee5a1" Type="IfcMaterial" />
+		</DocConceptRoot>
+		<DocConceptRoot Name="IfcSpace" UniqueId="9d7d89ad-6bde-437a-b6a9-fba4dbda9d3d" Status="Proposal">
+			<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSpace" />
+			<Concepts>
+				<DocTemplateUsage Name="Cultural Heritage Space" UniqueId="1f48feba-bf6d-4175-81d9-4916e50b4dcc" Status="Proposal">
+					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Cultural_Heritage_Space_1sWfZzOi5D8f118z7zPUq" />
+					<Items>
+						<DocTemplateItem UniqueId="3e524093-122f-4c6e-87d8-80042bc3aca3" Order="0" />
+						<DocTemplateItem UniqueId="874f60ee-c864-4c6c-86a2-75434eaf6bc6" Order="0" />
+						<DocTemplateItem UniqueId="78ee87ad-4709-49c7-ba6b-9ca8bdadac7d" Order="0" />
+						<DocTemplateItem UniqueId="d69017ba-ffad-4fc8-a268-529ad34bd724" Order="0" />
+						<DocTemplateItem UniqueId="77d2d20f-60f0-48e8-b129-857839dce8d1" Order="0" />
+					</Items>
+					<Exchanges>
+						<DocExchangeItem Applicability="import" Requirement="optional">
+							<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Conservation_Plan_Exchange_3mGred_Rf7zvOSbJaFJfQ0" />
+						</DocExchangeItem>
+						<DocExchangeItem Applicability="export" Requirement="optional">
+							<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Conservation_Plan_Exchange_3mGred_Rf7zvOSbJaFJfQ0" />
+						</DocExchangeItem>
+					</Exchanges>
+				</DocTemplateUsage>
+			</Concepts>
+			<ApplicableTemplate xsi:type="DocTemplateDefinition" xsi:nil="true" href="Cultural_Heritage_Space_1sWfZzOi5D8f118z7zPUq" />
 		</DocConceptRoot>
 	</ConceptRoots>
 </DocModelView>

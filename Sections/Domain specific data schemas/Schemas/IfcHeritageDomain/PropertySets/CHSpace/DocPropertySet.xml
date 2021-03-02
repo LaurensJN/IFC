@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="CHSpace" UniqueId="3c6250fc-03c4-41ef-b810-6331aca017a5" ApplicableType="IfcSpatialElement">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Function_0q1zFi6GDDrf6cPRsWPgk" />
+		<DocProperty xsi:nil="true" href="Usage_38zlQdb8r0qecLnQzpPPM" />
+		<DocProperty xsi:nil="true" href="zzPeriodOfUse_1LFciiAFD2n9YuoDlDNmON" />
+	</Properties>
+</DocPropertySet>
+
